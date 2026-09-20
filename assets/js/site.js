@@ -241,3 +241,21 @@ events.forEach( ( event ) => {
     };
     if (document.readyState === 'complete') { watch(); } else { window.addEventListener('load', watch); }
 })();
+
+/* Sticky header (round 31): the header is sticky in CSS; this marks the body once the page has scrolled past
+   the first 120px so it can compact and take its shadow. A sentinel element is used instead of a scroll
+   listener so the browser does the work; without IntersectionObserver the header simply stays full height. */
+(function () {
+    var header = document.querySelector('.aux-elementor-header');
+    if (!header || !('IntersectionObserver' in window)) { return; }
+    var sentinel = document.createElement('div');
+    sentinel.setAttribute('aria-hidden', 'true');
+    sentinel.style.cssText = 'position:absolute;top:0;left:0;width:1px;height:120px;pointer-events:none;visibility:hidden';
+    var host = header.parentNode;
+    if (getComputedStyle(host).position === 'static') { host.style.position = 'relative'; }
+    host.insertBefore(sentinel, host.firstChild);
+    var io = new IntersectionObserver(function (entries) {
+        document.body.classList.toggle('tfc-stuck', !entries[0].isIntersecting);
+    }, { threshold: 0 });
+    io.observe(sentinel);
+})();

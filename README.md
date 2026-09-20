@@ -114,8 +114,8 @@ the same rules serve both directions), in `assets/js/site.js`, and in the page m
 - **Homepage**: the hero "Watch the video" button opens a `<dialog>` video modal (`.tfc-video`,
   `site.js`); the YouTube player (privacy-enhanced domain) is only embedded while the modal is open and
   the video id lives in the button's `data-video-id` (currently a placeholder). On phones the
-  process section has no wave line and its number badges skip the entrance animation, and the testimonial avatars are SVG initials in the
-  brand colours (`assets/images/avatars/`, Latin for EN/TR, Arabic for AR) instead of stock photos.
+  process section has no wave line and its number badges skip the entrance animation. The testimonial
+  avatars are the licensed Pexels photos described under "Images" below (they replaced the earlier SVG monograms).
 - **About page**: the long text widget is rebuilt as an intro, a mission band, four cards, a
   "why choose us" grid and a closing block (`.tfc-about…` markup) styled in the site's own language
   (blue label, large headings, tinted borderless cards, yellow markers) at the full container width;
@@ -153,7 +153,7 @@ assets/
   images/<yyyy>/<mm>/      media library files (same path structure as wp-content/uploads)
   images/icons/            service icons (SVG) used in the portfolio grids and service pages
   images/logo/             SVG logos (EN / TR / AR), text outlined
-  images/avatars/          testimonial avatars (SVG initials)
+  images/avatars/          testimonial photos (JPG + WebP, see "Images")
   vendor/                  third-party CSS/JS kept in their original internal layout
     phlox/                 theme CSS (base, main, icons, portfolio, rtl) + theme JS (menus, off-canvas, animations)
     elementor/             frontend CSS/JS, widget CSS, lazy chunks (lightbox etc.), swiper, eicons, dialog
@@ -455,3 +455,287 @@ From a mobile responsiveness audit at 320-430px (plus 5px sweeps 320-560 and lan
 - **Team names**: "Abdulsamet Türkoğlu" overflowed its card by 4-12px in the two-column layout at 320px; team names and roles wrap instead.
 - **"Find the service you need" heading**: its widget is a flex item Elementor lets shrink past its content, so at 320px the Turkish heading sat in a 143px box and spilled out; the widget keeps its content width on phones.
 Checked: hero sweeps 320-560px in all three languages (no overflow), the language list open and closed in EN/TR/AR at 320-1024px, breadcrumb and footer targets measured, and every rule A/B-tested against the page with it switched off — geometry is identical, so nothing on the page moved. All 46 pages at 320 / 390 / 1440px with no script errors, failed requests or sideways scrolling. The theme's 1x1px screen-reader site title is a false positive and left alone. Versions: `site.css` / `rtl/site.css` `?v=20260914w` (`v` was the first cut of the tap-target rules, which moved the footer).
+
+### Round 28: design audit, round A (2026-09-20)
+From a full-site visual quality audit (all page types, shared components, 390-1920px, EN/TR/AR). This round
+carries only the findings that had one correct answer and needed no design judgement; the rest are queued.
+- **Testimonial author rows** (home, 3 pages): the third column carried `--padding-bottom:25px` on desktop where
+  the other two carried 48px, a builder slip, so its author row sat 23px below theirs from 1026px up (measured
+  3741 / 3743 / 3766 at 1440px). Tablet and phone give all three 40px, which is why they lined up there. The third
+  column now takes 48px above 1024px; the three rows are within 2px at every desktop width.
+- **About service tiles** (3 pages): the same six-tile grid carries a one-line description on the home and
+  Services pages but not on About. The About tiles now carry the same lines (same markup, same styles, matched to
+  each tile by its service link), so all three placements are identical; the tiles grow from 288 to 343px, the
+  home page's height.
+- **Yellow pills on blue** (footer banner on all 46 pages, the service pages' adviser card): they carried
+  `0 16px 32px -12px rgba(214,168,0,.45)`, a blurred yellow glow with no surface to fall on over the blue band, so
+  it read as a halo around the pill. On the blue grounds they take `rgba(8,20,32,.45)` instead; yellow pills on
+  white keep the glow.
+- **Blog post lists** (6 pages): the theme sets `list-style-position:inside`, so the marker sat inside the first
+  line box and a wrapped line began 19px to the left of the line above it (first-line text at x=317, wrap at 298).
+  The lists use outside markers now: measured spread 0px between the first and wrapped lines in EN and TR, both
+  `ol` and `ul`. The service pages were never affected (their markers are absolutely positioned).
+- **Home "About us" blurbs** (3 pages): the four feature blurbs read from the start edge on desktop and on phones
+  but the builder centred them between 768 and 1024px, where they stack full width (830px of centred running text
+  at 900px). Round 21's F16 alignment, extended to the tablet band. The override has to repeat the builder
+  selector's shape (`.elementor-element.aboutusdescription .aux-widget-inner > *`) to outrank it.
+- **Footer banner heading** (all 46 pages): the builder's steps jumped 46 -> 54px at 1280 and 54 -> 65px at 1366,
+  and at 1367 the larger type landed in a *narrower* column (537px) than the smaller type had at 1366 (640px). One
+  ramp, `clamp(46px, 3.3vw + 12px, 65px)` above 1024px, keeps both end values and removes both jumps: 46 / 48 / 52 /
+  54 / 57 / 60 / 65px at 1025 / 1100 / 1200 / 1280 / 1366 / 1440 / 1600+. Tablet and phone (40 / 30px) unchanged.
+  Pages are ~30px shorter at 1440px as a result.
+Checked: A/B geometry comparison of every element against the pre-round copy on 14 pages x 4 widths in all three
+languages, with entrance animations settled and then disabled — the only elements that moved are the six above
+(measured element by element); no page gained sideways scrolling. Blog list wraps, About tile descriptions, the
+Arabic banner and the testimonial rows also confirmed visually. Versions: `site.css` / `rtl/site.css` `?v=20260920a`.
+
+Not done in this round, and why: the hero's blue backdrop shape was on the round A list as "94% hidden", but seen
+at tablet width with the photo unloaded it is a deliberate backdrop that the photo sits on, not a stray fragment —
+changing how much of it shows is a composition decision, so it moves to the hero work. Separately, the audit's
+measurement turned up a new item for a later round: at 1025-1100px the footer banner's heading column collapses to
+331px and the heading runs to five lines (the right column is a fixed 400-440px and the side padding is 80-112px
+there); it predates this round and is unchanged by it.
+
+### Round 29: design audit, round B — the token pass (2026-09-20)
+The properties that carry the visual system rather than the layout: corner radius, colour, shadow and the
+sub-heading scale. Done in two passes so the first could be held to a zero-geometry-change standard.
+
+**Radius — three steps.** Band 32 (24 on phones) for full-width surfaces, card 20, control 12, plus the pill
+(999), the circle (50%) and the icon tile (24%). It was 32 / 28 / 24 / 20 / 16 / 15 / 14 / 13 / 12 before, with
+20 and 24 used interchangeably for the same card role. Moved: the About mission band 24 -> 32 (it is a band); the
+About card, "what's included" card, step card, adviser card, other-services card, contact form, contact map,
+related-service block and form notice 24 -> 20; the video frame 18 -> 20; the contact icon 16 -> 12, the check
+tile 15 -> 12, the map card 16/14 -> 12, the other-services row 14 -> 12, the phone team card 16 -> 20, the
+prev/next icon 22% -> 24%, the comment submit and the second Read More 30 -> 999.
+
+**Colour — one grey, one tint, one heading dark.** The four home "About us" blurbs were the only text at
+#626B7D; the service icon tile was #EEF3FC, 1.02:1 from --tfc-tint (two tints doing one job); Elementor's second
+heading dark #081420 folds into --tfc-navy, both as the global colour and as the literal the builder writes onto
+seven heading rules. The three testimonial quotes were #081420D4 and their three author names were three
+different colours (#1D2433, #081420E3, #081420); quote and name are --tfc-navy now. Contrast is unchanged or
+better everywhere (the quotes go from 9.1:1 to 14.2:1 on the tint).
+
+**Shadow — three steps**, hue chosen per surface:
+`rest 0 1px 2px rgba(8,20,32,.04)`, `raised 0 16px 32px -12px` (blue .45 | yellow .45 | neutral .3 | on-blue .45),
+`float 0 30px 60px -42px` (blue .4 | neutral .3). The theme-era offset shadows that lit the page from a second
+direction are gone: the hero play icon's yellow smear (-15px 20px 40px #FFDA2B4D), the testimonial quote marks'
+pure-black 0 10px 40px #00000033, the post lead image's lavender 0 20px 50px, and the comment submit's -15px
+20px 40px, which had survived round 21. The popover shadow (header dropdown, language list) stays its own
+thing: it sits over content rather than on the page and needs the tighter second layer. The chat widget's
+shadows are vendor and belong to the widget work still queued.
+
+**Sub-heading scale — three steps.** Below the display sizes (80/65/56/50/40, already a disciplined set) the
+site used ten sizes inside a ten-pixel range — 18, 19, 20, 21, 22, 23, 24, 25, 26, 27 — five of them (19, 20, 21,
+23, 25) on one service page. Now `lg 25 / md 21 / sm 18`, dropping to `21 / 18 / 18` below 768px. Half-pixel
+sizes are rounded at the same time (15.5 -> 15, 13.5 -> 13, 12.5 -> 13). Measured across eighteen heading roles
+in six templates, the distinct sizes are 25 / 21 / 18 on desktop and 21 / 18 on phones.
+
+**Body sizes and line-heights are deliberately not in this round.** Unlike the headings they carry the reading
+experience, the right values depend on the service-page measure fix that is still queued (102 characters a line
+at 1440px, 128 at 1920), and they deserve their own reviewed pass.
+
+Checked: the radius/colour/shadow pass was A/B-compared against the round 28 copy on 17 page/width combinations
+in all three languages with entrance animations settled and then disabled — **0 differing elements on every one**,
+which is the correct result for properties that cannot move the layout. The heading pass was compared the same
+way: pages are 0-26px shorter on desktop and 11-151px shorter on phones, and every differing element is a
+heading or a container resized by one. A clipping and overflow sweep of 17 pages x 4 widths (1440 / 768 / 390 /
+320) x 3 languages returned no real flags and no sideways scrolling; the 136 reported are all the theme's 1x1px
+screen-reader `p.site-description`, the known false positive from round 27. Two radii the first pass missed
+(the other-services row, the second Read More) were caught by re-running the token sweep and fixed.
+Versions: `site.css` / `rtl/site.css` `?v=20260920c`.
+
+### Round 30: design audit, round C — component unification (2026-09-20)
+- **One card fill.** Every content card on the site is tinted and borderless; only the service pages'
+  "what's included" cards were white with a hairline that measures 1.20:1 against the page, so they read as
+  an outline rather than a card. They are tinted now and their icon tile inverts to white, the way the
+  "how it works" step cards already worked. They also lifted 4px on hover although nothing in them is a
+  link; content cards no longer move. The hover language is now one per card role: link tiles lift 3px onto
+  the raised shadow (contact cards), media cards zoom their image (post cards, round 22), rows fill white
+  (other services), content cards do not respond.
+- **One page header.** The tinted panel with a breadcrumb, an h1 and an optional lead sentence — already
+  used by Services, Blog and the six service pages — now also carries Contact and the category and author
+  archives (9 pages, 3 languages). The archives' breadcrumbs are Home / Blog / <archive>, matching the posts'
+  Home / Blog / <title>; every crumb link was checked and returns 200. The theme paints links in that header
+  #111 through `.page-title-section .aux-dark a`, which outranks `.tfc-crumbs a`, so the archive crumbs came
+  out near-black until the override matched its specificity. Blog posts keep their in-column header
+  (breadcrumb and title inside the 900px reading column): a full-width tinted panel above a 900px column
+  would fight it. So the site has two header patterns now — the panel on section and index pages, the
+  in-column header on articles — instead of four.
+- **The chat widget wears the site's clothes.** Its greeting was shown at all times (`show_cta:"all_time"`
+  in `assets/js/config.js`), in the only system font on the site, with a 10px radius and the only
+  tooltip-grey shadow, and it sat over page content on every page at every width (over a post card's image
+  at 1440px, over the card's body at 390). It keeps its place and its text and appears on hover or keyboard
+  focus now, in Quicksand 14/600 navy on the control radius with the site's floating shadow; the channel
+  buttons take the raised shadow. Colour and font come from `config.js` (`cta_text_color`, `font_family`).
+  To bring the always-on greeting back, drop the `display:none` rule in the round 30 block.
+- **One micro-label.** 13px / 700 / .1em / uppercase, colour by context — navy in the footer, grey on the
+  contact cards, blue on the related-service block. They were 13/.12em, 12.5/.1em and 12/.1em. In Arabic the
+  tracking comes off and the size goes up one step, as elsewhere.
+- **A reading measure on the service pages.** The long-text column is the main body copy of the six pages
+  that sell the business and it ran 102 characters a line at 1440px and 128 at 1920 (45-85 is comfortable).
+  The column and the sticky aside keep their grid; the text inside is capped at 640px — about 73 characters
+  at every width from 768px up — and the section heading follows it so the block reads as one. The service
+  pages are ~300px taller as a result, which is the cost of the measure.
+Checked: A/B geometry against the round 29 copy on 20 page/width combinations in three languages — the home,
+About, Services, Blog, post and 404 pages show 0 differing elements, and the pages that do change are only
+the ones above (the service pages grow inside `.tfc-svc-more`, Contact and the archives at the header). A
+clipping and overflow sweep of 20 pages x 4 widths (1440 / 768 / 390 / 320) x 3 languages returned **0 real
+flags** and no sideways scrolling. The chat label was confirmed hidden at rest and revealed on hover.
+Versions: `site.css` / `rtl/site.css` `?v=20260920d`, `config.js` `?v=20260920a`.
+
+### Round 31: design audit, round D — the last two builds (2026-09-20)
+- **"Our process" joins the service pages' step pattern.** It was the last module on the site still in the
+  theme's original language: 81x83px blue badges (not round — 81 wide, 83 tall) with the numerals set in
+  Nunito 35px, the only Nunito on the site and its only use three characters long; a shadow thrown 10px left
+  and 15px down, the last of its kind; and a dotted wave background image that cannot track the badges,
+  masked where it meets each one by a circle carrying a 100px white spread shadow. It now uses the same
+  components as "how it works": a 64px yellow circle, DM Sans 22/700 navy, the soft yellow shadow, and a
+  straight dashed rail that runs badge-centre to badge-centre. Measured at 768 / 900 / 1024 / 1440px the
+  rail's ends land exactly on the first and last badge centres, and every badge centres on its title. The
+  home module stays card-less on white where the service module puts white cards on a tinted band: one
+  system, two densities — the home section is a three-step teaser between other sections, not a page's main
+  event. The rail is off below 768px, where the steps stack, as the wave already was.
+- **The header stays with the reader.** Pages run 1,650-9,600px and the navigation scrolled away at the top
+  of every one; below 1025px the go-to-top button is hidden too, so a phone had no way back to the menu but
+  to scroll to the top. The header is `position:sticky` now and compacts once the page has moved 120px
+  (100 -> 66px on desktop, 88 -> 62 on tablets, 82 -> 62 on phones; the logo 60 -> 44), taking a hairline and
+  a soft shadow, which also gives it the edge against white pages it never had. The theme sets
+  `overflow-x:hidden` on `#inner-body`, which makes it a scroll container and disables sticky, so that is
+  now `overflow-x:clip` site-wide — the same masking without the scroll container, as round 4.6 already did
+  for the service pages' sticky aside. `site.js` marks the body with `.tfc-stuck` from an IntersectionObserver
+  on a 120px sentinel rather than a scroll listener; without script the header is still sticky, it just does
+  not compact.
+  Checked: the class goes on when scrolled and off again at the top; header dropdowns open above the page
+  while stuck (the topmost element at the dropdown's centre is inside it); the off-canvas panel opens over
+  the header at 390 and 900px (the header drops to `relative` while the panel or the video modal is open);
+  the video modal opens at 1200x675 with the body locked; no page errors; sticky and the dropdowns verified
+  in Arabic; transitions are off under `prefers-reduced-motion`.
+- **Not done, and why.** The Services hub's emptiness (the page is 2,336px tall and its six tiles are its only
+  content block) was on the round D list. The fix that would fill it is either new content or shrinking the
+  six illustrated icons into small icons inside cards — and those icons are a distinctive brand asset, so
+  flattening them would trade a real identity for tidiness. It needs a content decision, which is where the
+  audit already placed it.
+Checked across the round: A/B geometry against the round 30 copy on 17 page/width combinations in three
+languages — **every page except the three home pages shows 0 differing elements**, including the header, which
+confirms sticky costs nothing at rest; on the home pages the only width changes are the badge and its five
+wrappers (81 -> 64px) and the numeral (21 -> 8px), and the only height changes are the badge (83 -> 64) and the
+containers that follow it, so the page is 35px shorter on desktop and 104 on phones. A clipping and overflow
+sweep of 20 pages x 4 widths x 3 languages returned **0 real flags and no sideways scrolling**, which is the
+check that matters most for the `overflow-x: hidden -> clip` change. All 45 pages plus 404 return 200; all
+5,628 local references resolve; both scripts parse. Versions: `site.css` / `rtl/site.css` `?v=20260920e`,
+`site.js` `?v=20260920a`.
+
+### Round 32: closing the plan — body sizes and line-heights (2026-09-20)
+Round 29 did the sub-heading half of the type pass and deferred body sizes and line-heights, because the
+right values depended on the service-page reading measure that round 30 had not yet settled. It has, so
+this closes it. Three body steps and two line-heights:
+
+    prose  18px / 1.75  (17px on phones)   blog posts, the service pages' long text, the About mission and
+                                           closing, the hero leads, and the lead sentences that open a
+                                           section — those were 19px, a fourth step doing no work
+    body   16px / 1.6                      card and component copy
+    small  15px / 1.6   (14px on phones)   tile descriptions, the footer brand line, "why choose us"
+
+Sweeping every text block rather than only the site's own classes turned up four the builder had kept
+outside any scale, all of them fixed here:
+- the **home hero lead** was 17px/1.47 on desktop but 18px/1.39 on phones — larger type on the smaller screen;
+- the **About hero lead** was 16px/1.56 (15px/1.67 on phones), against the home hero's 17px;
+- the **home "About us" paragraph** was 18px/1.39 on desktop and **14px/1.79 on tablets and phones**, where the
+  four blurbs beside it are 16px — the smallest body copy on the site, in the section's main paragraph;
+- the **process step captions** were 18px/1.39 on desktop, 15px at 1024 and 16px on phones, not even
+  monotonic, while the service pages' step captions are 16px/1.6 at every width.
+Also: blog post list items ran at line-height 1.9 against their own paragraphs' 1.75; `.tfc-tile-desc` was
+still 13.5px on phones, the last half-pixel size; the About checklist items and the footer contact line sat
+at 1.5. The chat widget's main button kept the vendor's `rgba(73,104,126,.16)` shadow after round 30
+normalised its channel buttons.
+
+After the pass, every running-text block on the site computes to 18/17px at 1.75, 16px at 1.6, 15/14px at
+1.6 or 13px at 1.6. The five blocks that remain off it are not running text and were left deliberately: the
+mission statement (a display line), the "why choose us" item headings, the breadcrumb, the contact card
+values and the form-notice title. Distinct box-shadows across the site are down from 18 to 10, and every one
+is either a step of the ramp or the theme's unused slider-arrow ring; typefaces in use are down to DM Sans
+and Quicksand (plus Tajawal for Arabic), since removing the process badges' Nunito left it with no users.
+
+Checked: A/B geometry against the round 31 copy on 17 page/width combinations in three languages —
+**313 elements differ and not one of them changed width**, which is what a type pass should look like: text
+reflows, boxes do not move sideways. Pages are 1-131px shorter or taller depending on which way their copy
+moved; the home page grows 130px on phones because its main paragraph went from 14px to 17px. A clipping and
+overflow sweep of 20 pages x 4 widths x 3 languages returned **0 real flags** and no sideways scrolling. All
+45 pages plus 404 return 200, all 5,628 local references resolve, both scripts parse, and the RTL mirror is
+identical from the shared block on. Versions: `site.css` / `rtl/site.css` `?v=20260920f`.
+
+### Service page text width (2026-09-20)
+Round 30's reading-measure cap on the service pages is withdrawn at your request: the 640px cap brought the
+line length down but left the rest of the column empty beside the text, which is not what the page should
+look like. The long text and its section heading fill their column again, as they did before round 30 — 100%
+of the column at every width (1,124px at 1880/1920, 894px at 1440, 954px at 1024, 698px at 768, 320px on a
+phone), which is about 121 / 96 / 102 / 75 / 36 characters a line at the round 32 prose size of 18px (17px on
+phones). The column and the sticky aside are otherwise unchanged. The single rule is kept in `site.css` as a
+comment, so a wider cap can be put back in one line if the long lines on a large monitor ever want reining in.
+Checked: all 18 service pages (6 services x 3 languages) at 1880 / 1440 / 1024 / 390px — the text matches its
+column exactly on every one, with no sideways scrolling and no overlap with the aside in either direction.
+Version: `site.css` / `rtl/site.css` `?v=20260920g`.
+
+### Sticky header alignment (2026-09-20)
+Two passes. The first kept the logo at full size and only tightened the padding, on the reasoning that
+shrinking it made the wordmark smaller than the nav labels and slid the nav sideways. That was the wrong
+call: the smaller logo was wanted, and it was not what made the bar feel off.
+
+Measuring the header as **rendered ink** rather than as CSS boxes found the real cause. The nav text, the
+logo and the language pill all centred within a pixel of the bar's middle — but the current item's underline
+is pinned to the bottom of a 36px link box, 13px below its own text, which put "Home" at an ink centre 6px
+lower than everything beside it. In a 100px bar that reads as a generous underline; in a compact one it reads
+as a link that has slipped down. Only the rule moves now (`::after { bottom:4px }` while stuck), because
+shrinking the link box instead took it 2px off the logo's centre line: the row's height is driven by the
+logo, and the menu stops centring against it once the two differ.
+
+The compact bar: **72px** on desktop with a 48px logo (from 100px / 60px), **66px** on tablets with a 44px
+logo (from 88 / 52), **62px** on phones with a 40px logo (from 82 / 46). Padding is symmetric in all three,
+because the shadow gives the bar a visible bottom edge to be centred against; the resting padding stays the
+deliberate 26/14 from round 26.
+Checked at 1880 / 1440 / 1024 / 900 / 768 / 480 / 390 / 320px in all three languages: the logo's centre, the
+link text's centre and the bar's centre agree exactly at every width, and the burger sits on the logo's centre
+line on every small one. The sticky behaviour is unchanged and re-verified — the class goes on and off, the
+dropdowns open above the page while stuck, the off-canvas panel and the video modal drop the header to
+`relative`, the header is still sticky with JavaScript off, and transitions are off under reduced motion. A
+clipping and overflow sweep of 20 pages x 4 widths x 3 languages returned 0 real flags.
+Version: `site.css` / `rtl/site.css` `?v=20260920i`.
+
+### Review of rounds 28-32 (2026-09-20)
+A read-through of the whole change set as code, plus runtime checks. Six things were wrong; all are fixed.
+
+- **A dead transition, and a comment that got the cause backwards.** The header row carried
+  `transition:--padding-top/--padding-bottom`, which cannot work: unregistered custom properties are not
+  animatable. Changing it to `transition:padding` did not help either. Measuring all three variants against a
+  no-transition control showed why — the bar's smooth resize is driven entirely by the **logo's** height
+  transition, since the row's height follows its tallest item. The row transition is removed (it did nothing
+  in any form) and the comment now says what actually does the work. Reduced motion only needs to stop the
+  logo, so it now names only the logo.
+- **A stale comment** said the stuck links take a 28px box. That approach was tried and reverted, because a
+  smaller box stopped centring against the logo; only the underline moves. Comment corrected.
+- **The round 30 header** still listed the reading measure among what it shipped, after C5 was withdrawn.
+- **A `:has()` dependency** on the rule that lifts the process badges above the dashed rail. Replaced with a
+  plain selector, so it does not depend on selector support; checked that the badges sit above the rail
+  either way, since the rail is a `::before` that precedes them in the DOM.
+- **Printing.** The theme hides its own two headers when printing but not the Elementor one, so the sticky
+  header printed as `position:sticky`, which can land in the wrong place or repeat. It prints as an ordinary
+  block now.
+- **The last off-scale radius.** The home featured card's Read More kept 30px: the builder's rule is
+  `.elementor-175 .elementor-element.elementor-element-a9cf1c6 .aux-read-more` at 0,4,0 `!important`, which
+  outranks round 29's 0,2,1 `!important`. It renders as a pill either way at 52px tall, but the value is
+  matched now. Distinct radii are down to the six the system uses plus three theme image masks and one
+  invisible wrapper that paints nothing.
+
+Checked and found correct, no change needed: the sticky sentinel's `position:relative` fallback never fires,
+because `#inner-body` is already relative — so the twelve absolutely positioned descendants outside the header
+are unaffected; the service pages' sticky aside still pins at exactly its `top:32px` (the site-wide
+`overflow-x:clip` is the same thing round 4.6 already gave those pages); and where two rounds set the same
+property, the later one wins as intended (the contact lead resolves to 18px/1.75 from round 32, not round 30's
+19px/1.7). Functionally: the contact form is still paused and inert with five disabled controls in all three
+languages, the video links still carry `CLcKDVUDWbE` and `start=16`, and the language switchers all work,
+including the Arabic floating list staying on screen at 320 and 390px.
+Re-verified after the fixes: header dropdowns, off-canvas, video modal, sticky toggle, no-JS, reduced motion,
+RTL and Turkish headers, the process module's geometry at six widths, a clipping and overflow sweep of 20
+pages x 4 widths x 3 languages (0 flags), all 45 pages plus 404 at 200, all 5,628 local references, both
+scripts parsing, and the RTL mirror identical from the shared block on.
+Version: `site.css` / `rtl/site.css` `?v=20260920k`.
