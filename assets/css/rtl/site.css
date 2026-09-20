@@ -2436,3 +2436,54 @@ ol { counter-reset:item list-item; }
   .tfc-contact-map iframe { position:relative; } /* stays above the pin (the map is 320px tall here, the card under it) */
   .tfc-contact-map::before { top:160px; }
 }
+
+/* ==================================================================================================
+   Round 27: small-screen fixes from the mobile audit (Arabic language list, Turkish hero headline,
+   tap targets, contact fields, long names, squeezed heading, chat label).
+   ================================================================================================== */
+/* F1 The floating language list opened off the left edge in Arabic (x -87 to 99 at every phone width): the rule
+   below set `left:0` and then `inset-inline-end:auto`, which in RTL maps to `left` and, coming later, won — so the
+   list anchored by its other edge and ran off the screen. The button is on the left in both directions, so the list
+   is now pinned to the left in both directions. */
+.tfc-lang-float > .tfc-lang-list { left:0; right:auto; }
+
+/* F2 Turkish hero: "Gayrimenkulünüz" did not fit at 325-350px (40px type) or 415-450px (55px type) and the page's
+   hidden overflow cut it mid-letter. The type now shrinks only when the longest word would not fit, so English and
+   Arabic, whose words fit, keep the sizes they had. The step sizes (30/40/55px) are unchanged as the upper bound. */
+@media (max-width:1366px) {
+  html[lang|="tr"] .elementor-175 .elementor-element.elementor-element-e3d356c .aux-modern-heading-secondary,
+  html[lang|="tr"] .elementor-175 .elementor-element.elementor-element-e3d356c .aux-modern-heading-secondary .aux-head-highlight {
+    font-size:min(55px, calc((100vw - 70px) / 8.2)) !important; line-height:1.18 !important;
+  }
+}
+@media (max-width:414px) {
+  html[lang|="tr"] .elementor-175 .elementor-element.elementor-element-e3d356c .aux-modern-heading-secondary,
+  html[lang|="tr"] .elementor-175 .elementor-element.elementor-element-e3d356c .aux-modern-heading-secondary .aux-head-highlight {
+    font-size:min(40px, calc((100vw - 70px) / 8.2)) !important; line-height:1.15 !important;
+  }
+}
+@media (max-width:320px) {
+  html[lang|="tr"] .elementor-175 .elementor-element.elementor-element-e3d356c .aux-modern-heading-secondary,
+  html[lang|="tr"] .elementor-175 .elementor-element.elementor-element-e3d356c .aux-modern-heading-secondary .aux-head-highlight {
+    font-size:min(30px, calc((100vw - 70px) / 8.2)) !important; line-height:1.3 !important;
+  }
+}
+@media (max-width:767px) {
+  /* F3 Tap targets: footer links were 19px tall, footer headings 17px, breadcrumbs 18px and card titles 22-25px —
+     under the 24px minimum, with six footer links a thumb apart. The links take the spacing as padding instead, so
+     the rhythm on screen is unchanged (footer: 19px link + 12px gap = 31px pitch, now a 31px link and no gap).
+     (The chat widget's label measured 5px short, but that is its arrow sticking out of the box, not clipped text.) */
+  .tfc-footer-col a, .tfc-footer .tfc-footer-h a { display:inline-block; padding-block:6px; }
+  .tfc-footer-col ul { gap:0; }
+  .tfc-footer-wa { min-height:44px; }
+  .tfc-crumbs a { display:inline-block; padding-block:5px; margin-block:-5px; }
+  .aux-widget-recent-portfolios .entry-title a, .tfc-heading-link,
+  .elementor-icon-box-title a { display:inline-block; padding-block:5px; margin-block:-5px; }
+  /* F4 iOS zooms the page when a focused field is under 16px */
+  .tfc-contact-form input[type="text"], .tfc-contact-form input[type="email"], .tfc-contact-form textarea { font-size:16px; }
+  /* F6 the heading widget is a flex item that Elementor lets shrink past its content, so at 320px the Turkish
+     "İhtiyacınıza uygun hizmeti bulun" sat in a 143px box and spilled out of it */
+  .elementor-175 .elementor-element.elementor-element-138f714 { min-width:min-content; }
+}
+/* F5 long team names ("Abdulsamet Türkoğlu") overflowed their card by 4-12px in the two-column layout at 320px */
+.aux-widget-staff .col-title, .aux-widget-staff .col-subtitle { overflow-wrap:anywhere; }
