@@ -1,0 +1,94 @@
+/* Blog page — Elementor styles for post-162 */
+.elementor-162 .elementor-element.elementor-element-9cd9deb{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:stretch;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--padding-top:20px;--padding-bottom:100px;--padding-left:35px;--padding-right:35px;}.elementor-162 .elementor-element.elementor-element-4c73d16{--display:flex;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-162 .elementor-element.elementor-element-240fcbe > .elementor-widget-container{margin:0px -5px 0px -5px;}.elementor-162 .elementor-element.elementor-element-240fcbe .entry-title a{color:var( --e-global-color-text );font-size:25px;font-weight:bold;letter-spacing:-0.75px;}.elementor-162 .elementor-element.elementor-element-240fcbe .entry-title{margin-bottom:35px;}.elementor-162 .elementor-element.elementor-element-240fcbe .entry-info a, .elementor-162 .elementor-element.elementor-element-240fcbe .entry-info{color:var( --e-global-color-72f454e );}.elementor-162 .elementor-element.elementor-element-240fcbe .entry-info, .elementor-162 .elementor-element.elementor-element-240fcbe .entry-info a{font-size:16px;font-weight:500;text-transform:capitalize;font-style:normal;}.elementor-162 .elementor-element.elementor-element-240fcbe .entry-info{margin-bottom:41px;}.elementor-162 .elementor-element.elementor-element-240fcbe .entry-content{color:var( --e-global-color-72f454e );font-size:16px;font-weight:500;line-height:25px;}.elementor-162 .elementor-element.elementor-element-240fcbe .entry-meta{padding:0px 0px 0px 0px;}.elementor-162 .elementor-element.elementor-element-240fcbe .type-post .entry-main{padding:12% 12% 30% 12%;}.elementor-162 .elementor-element.elementor-element-240fcbe{text-align:left;}.elementor-162 .elementor-element.elementor-element-240fcbe .entry-meta .aux-read-more{color:var( --e-global-color-ef7a26d );font-size:16px;font-weight:500;padding:0px 0px 0px 0px;}.elementor-162 .elementor-element.elementor-element-240fcbe .entry-meta .aux-read-more:hover{box-shadow:-15px 20px 40px 0px rgba(255, 217.99999999999986, 43.000000000000014, 0.30196078431372547);}@media(max-width:1024px){.elementor-162 .elementor-element.elementor-element-9cd9deb{--padding-top:50px;--padding-bottom:100px;--padding-left:35px;--padding-right:35px;}.elementor-162 .elementor-element.elementor-element-240fcbe .entry-title a{font-size:22px;line-height:1.2em;}.elementor-162 .elementor-element.elementor-element-240fcbe .entry-info, .elementor-162 .elementor-element.elementor-element-240fcbe .entry-info a{font-size:14px;}.elementor-162 .elementor-element.elementor-element-240fcbe .entry-content{font-size:14px;}.elementor-162 .elementor-element.elementor-element-240fcbe .entry-meta .aux-read-more{padding:0px 0px 0px 0px;}}@media(max-width:767px){.elementor-162 .elementor-element.elementor-element-240fcbe > .elementor-widget-container{padding:0px 0px 0px 0px;}}/* Start custom CSS for aux_recent_posts, class: .elementor-element-240fcbe */.elementor-162 .elementor-element.elementor-element-240fcbe img{
+    display:none;
+    
+}
+.elementor-162 .elementor-element.elementor-element-240fcbe .aux-col{
+    padding: 0px 20px;
+    margin-bottom: 10px;
+}
+.elementor-162 .elementor-element.elementor-element-240fcbe .post{
+ background: var(--e-global-color-accent) 0% 0% no-repeat padding-box;
+border-radius: 20px;
+padding-bottom: 0;
+transition: all 300ms ease-out;
+}
+
+.elementor-162 .elementor-element.elementor-element-240fcbe p:empty::before {
+    display: none;
+}
+.elementor-162 .elementor-element.elementor-element-240fcbe p:empty::after {
+    display: none;
+}
+.elementor-162 .elementor-element.elementor-element-240fcbe .post .aux-after-content{
+    bottom: 50px;
+    left: 12%;
+}
+
+.elementor-162 .elementor-element.elementor-element-240fcbe .post:hover {
+    background: var(--e-global-color-ef7a26d) !important;
+box-shadow: -15px 30px 80px #ABAFC74C !important;
+border-radius: 20px;
+
+}
+.elementor-162 .elementor-element.elementor-element-240fcbe .aux-post:hover .column-entry a{
+    color: #081420 !important;
+}
+
+.elementor-162 .elementor-element.elementor-element-240fcbe .aux-read-more::after,  .elementor-162 .elementor-element.elementor-element-240fcbe .aux-load-more svg{
+    display: none;
+}
+
+.elementor-162 .elementor-element.elementor-element-240fcbe .readmore{
+    background: var(--e-global-color-primary) 0% 0% no-repeat padding-box;
+box-shadow: -15px 20px 40px #0E47C04D;
+border-radius: 30px;
+padding: 12px 45px!important;
+transition: all 300ms ease-out;
+}
+.elementor-162 .elementor-element.elementor-element-240fcbe .column-entry a:hover {
+    text-decoration: unset !important;
+}
+
+.elementor-162 .elementor-element.elementor-element-240fcbe .post:hover .readmore{
+    background: var(--e-global-color-secondary) 0% 0% no-repeat padding-box;
+box-shadow: -15px 20px 40px #FFDA2B4D;
+border-radius: 30px;
+
+}
+.elementor-162 .elementor-element.elementor-element-240fcbe .post:hover .column-entry span{
+    color: var(--e-global-color-text) !important;
+}
+
+@media(max-width:768px){
+    .elementor-162 .elementor-element.elementor-element-240fcbe .aux-col{
+
+}
+}
+@media(max-width:414px){
+    .elementor-162 .elementor-element.elementor-element-240fcbe .post .aux-after-content{
+    bottom: 30px;
+    left: 12%;
+}
+.elementor-162 .elementor-element.elementor-element-240fcbe .readmore{
+    padding: 10px 25px!important;
+}
+}
+.elementor-162 .elementor-element.elementor-element-240fcbe .aux-load-more{
+    width: 170px;
+    height: 50px;
+    background: var(--e-global-color-primary);
+    box-shadow: -15px 20px 40px #0e47c04d;
+    border-radius: 30px;
+    transition: all 300ms ease-out;
+}
+.elementor-162 .elementor-element.elementor-element-240fcbe .aux-label-text{
+   line-height: 3em;
+   color: var(--e-global-color-ef7a26d);
+   font-size: 16px;
+}
+.elementor-162 .elementor-element.elementor-element-240fcbe .aux-load-more:hover{
+    background: var(--e-global-color-secondary) 0% 0% no-repeat padding-box;
+    box-shadow: -15px 20px 40px #ffda2b4d;
+    border-radius: 30px;
+}/* End custom CSS */

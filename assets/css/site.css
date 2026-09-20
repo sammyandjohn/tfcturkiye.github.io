@@ -1,0 +1,2425 @@
+/* Site-wide inline styles carried over from the WordPress head/body, in original cascade order. */
+
+/* -- WordPress core -- */
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+
+/* -- Elementor widget custom CSS (footer "Contact Us" button) -- */
+/* Start custom CSS for button, class: .elementor-element-e487005 */@media(max-width:414px){
+    .elementor-147 .elementor-element.elementor-element-e487005  .elementor-button .elementor-align-icon-right {
+    margin-left: 0;
+    display: none;
+}
+}
+.elementor-147 .elementor-element.elementor-element-e487005 .elementor-button:hover{
+    box-shadow: -15px 20px 40px 0px #1d24334d;
+}
+@media only screen  and  (max-width:400px) and  (min-width:768px) {
+.elementor-147 .elementor-element.elementor-element-e487005 .elementor-button-content-wrapper {
+    gap: 36px!important;
+}
+}
+@media only screen  and  (max-width:500px)  {
+.elementor-147 .elementor-element.elementor-element-e487005 {
+    width: 100%!important;
+        text-align: center;
+}
+}/* End custom CSS */
+
+/* -- Phlox "Custom CSS" option -- */
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.aux-widget-recent-portfolios .entry-media {
+	width:220px;
+	height:220px;
+	margin:0px auto;
+}
+
+
+.elementor-element-bd46819{
+	padding-bottom: 100px;
+}
+
+.aux-price-amount::before{
+	display:none;
+}
+
+.fully .aux-price-amount::after{
+	display:none;
+}
+
+.aux-widget-contact-box {
+	font-size:1.9rem;
+}
+
+span.count-box.wp_ulike_counter_up{
+	display:none;
+}
+
+.entry-header{
+	max-width:100% !important;
+}
+
+.entry-main{
+	display: grid;
+	justify-content: center;
+}
+
+.elementor-element-79aa3cb {
+	display: none;
+}
+
+#menu-item-907 a span, #menu-item-907 a span:visited, .menu-item-907 a span, .menu-item-907 a span:visited {
+	color: red;
+	font-weight: bold;
+}
+
+
+@media only screen and (min-width: 1400px) {
+	.aux-offcanvas-menu{
+		display:none;
+		visibility:hidden;
+	}
+	
+	.aux-offcanvas-menu aux-pin-right{
+		display:none;
+	}
+	
+		
+	.elementor-149 .elementor-element.elementor-element-c6b0686{
+		margin-top:6px;
+	}
+	
+	.elementor-147 .elementor-element.elementor-element-c4cb033{
+		margin-bottom:10px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.elementor-element-bd46819{
+		padding-bottom: 20px;
+	}
+	
+	.elementor-149 .elementor-element.elementor-element-59aeaa8{
+		display:flex;
+		margin-left:auto;
+		
+		width:16% !important;
+	}
+	.aux-widget-contact-box {
+		font-size:1.15rem;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.aboutusdescription h3{
+		font-size:14px !important;
+	}
+	.aboutusdescription p{
+		font-size:13px;
+	}
+
+}
+
+/* -- Widgets -- */
+.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+
+/* -- Elementor background lazy-load guard (backgrounds paint once .e-lazyloaded is added by site.js) -- */
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+
+/* -- WordPress Customizer "Additional CSS" -- */
+/*Single Blog */
+.single-post .aux-primary{
+	padding-top:30px;
+}
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal.aux-with-splitter > .aux-menu-item > .aux-item-content::after {
+	display:none;
+}
+
+.single-post .aux-media-frame.aux-media-image{
+	overflow:visible;
+}
+.single-post .meta-comment{
+	display:none;
+}
+.single-post .aux-media-frame.aux-media-image img{
+	box-shadow:0px 20px 50px #A0ABC94D;
+	border-radius:20px;
+	margin-bottom:50px
+}
+.single-post .hentry .entry-main{
+	max-width:1100px;
+	align-items:center;
+	margin:auto
+}
+.single-post .aux-primary .hentry .entry-title{
+	max-width:705px;
+	margin:auto;
+	text-align: center!important;	
+}
+.single-post .hentry .entry-info{
+	margin:auto!important;
+text-align: center;	
+	padding-bottom:40px;
+}
+.single-post .entry-tax{
+	order:1;
+}
+.single-post .entry-date{
+	order:2;
+}
+.single-post .entry-author{
+	order:3;
+}
+.single-post .entry-edit{
+	display:none !important;
+}
+
+.single-post .entry-info .wpulike.aux-wpulike-single::before{
+	display:none !important;
+}
+.wpulike.aux-wpulike .wp_ulike_general_class .wp_ulike_btn::before {
+	font-weight: bold !important;
+	margin-right:30px;
+}
+.single-post .hentry .entry-info [class^="entry-"] ~ [class^="entry-"]::before{
+	width:1px;
+	height:10px;
+	margin:0 30px;
+	background-color:#ABAFC7!important;
+}
+
+
+.single-post .meta-sep{
+	display:none;
+}
+.single-post .hentry .entry-info a{
+	color:#1A1F2F;
+	
+}
+.single-post .hentry .entry-info a:hover{
+	color:var(--e-global-color-secondary);
+	
+}
+.single-post .hentry .entry-meta{
+	border-bottom: solid 1px rgba(171, 175, 199, 0.3)!important;
+	border-top: solid 1px rgba(171, 175, 199, 0.3)!important;
+	padding:10px 0!important;
+	margin-bottom:50px;
+}
+
+.single-post .hentry footer.entry-meta .entry-tax{
+	text-align: left;
+font: normal normal bold 20px/76px Quicksand;
+letter-spacing: -0.6px;
+color: #111F3D;
+}
+
+.single-post .hentry footer.entry-meta .entry-tax a{
+	text-align: left;
+font: normal normal bold 20px/76px Quicksand;
+letter-spacing: -0.6px;
+color: #111F3D;
+	text-decoration:unset;
+}
+.single-post #comments {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.single-post #respond{
+	max-width:1100px;
+	margin:auto;
+
+}
+.single-post #commentform .aux-inline-inputs {
+	flex-basis: calc(50% - 10px);
+}
+.single-post #commentform .aux-input-group:nth-child(4) {
+    flex-basis: 100%;
+}
+.single-post input{
+	height:60px!important;
+	margin-bottom:20px!important;
+}
+.single-post input::placeholder{
+	font-style:normal!important;
+}
+.single-post input, textarea {
+	border:0;
+	background-color:var(--e-global-color-accent);
+	 border-radius:50px;
+	padding-left:40px!important;
+
+}
+#commentform input[type="text"]{
+		height:60px!important;
+
+}
+#commentform input[type="url"]{
+			height:60px!important;
+
+}
+#commentform .aux-form-cookies-consent
+{
+	display:none;
+}
+.single-post textarea{
+	border-radius:30px!important;
+	text-decoration:normal;
+}
+.single-post input[type="submit"]{
+	width: 160px;
+height: 45px!important;
+	padding:0!important;
+	background:var(--e-global-color-primary);
+box-shadow: 0px 30px 50px #0E47C04D;
+border-radius:25px;
+	font-size:16px;
+	font-family:"Questrial";
+	font-weight:400!important;
+	letter-spacing:0px!important;
+	margin-bottom:70px!important;
+
+}
+
+
+.single-post input[type="submit"]:hover{
+	background:var(--e-global-color-secondary)!important;
+	box-shadow: -15px 20px 40px #FFDA2B4D;
+	color: var(--e-global-color-text)!important;
+
+}
+
+.logged-in-as{
+	padding-bottom:10px;
+	text-align: left;
+font: normal normal medium 16px/26px Quicksand;
+letter-spacing: 0px;
+color:var(--e-global-color-72f454e);
+}
+.logged-in-as a{
+	text-align: left;
+font: normal normal medium 16px/26px Quicksand;
+letter-spacing: 0px;
+color:var(--e-global-color-72f454e);
+}
+
+.single-post .form-submit {
+    margin-right: 0;
+    margin-left: auto;
+}
+.single-post .entry-meta{
+	align-items:center!important;
+}
+.single-post .wpulike.aux-wpulike .wp_ulike_general_class .wp_ulike_btn::before,.single-post .aux-single-post-share span:before{
+	transition:all 300ms ease-out;
+}
+
+.single-post .hentry footer.entry-meta .entry-tax a:hover{
+	color:var(--e-global-color-secondary);
+}
+@media(max-width:1024px){
+	
+	.aux-text-align-center{
+		text-align:left;
+	}
+	.single-post .hentry .entry-main{
+		width:100%;
+}
+}
+
+
+@media(max-width:414px){
+	
+	.single-post .hentry .entry-info [class^="entry-"] ~ [class^="entry-"]::before{
+	width:0px;
+	height:0px;
+	margin:0px;
+}
+.single-post .aux-primary .hentry .entry-title{
+	width:250px;
+	line-height:50px!important;
+	}
+	.single-post #commentform .aux-inline-inputs {
+	flex-basis:100%;
+}
+	.single-post .form-submit{
+		width:100%;
+	}
+	.single-post input[type="submit"]{
+		width:100%;
+	}
+	.single-post .comment-body{
+		margin-left:0!important
+	}
+	.single-post .comment-reply-nav{
+		margin-left:0!important;
+	}
+}
+
+/* End Single Blog */
+
+/* Portfolio Single */
+
+
+
+.single-portfolio  .entry-media img{
+	margin:auto;
+	justify-content:center;
+box-shadow: -15px 30px 60px #514C5E1A;
+border-radius: 20px;
+}
+
+
+
+.single-portfolio main ,.single-portfolio .aux-container{
+	max-width:1200px;
+	padding-bottom:10px;
+}
+
+
+.type-portfolio.aux-side-bottom .entry-side{
+	display:none;
+}
+.aux-next-prev-posts .np-arrow img {
+    width: 180px;
+    height: 120px;
+	border-radius: 10px;
+
+}
+.aux-next-prev-posts.nav-skin-thumb-arrow.no-arrow .np-nav-text {
+	    color: #1A56FF!important;
+    letter-spacing: -0.32px;
+    font-size: 16px;
+}
+.aux-next-prev-posts .np-title {
+	
+	font-size: 20px;
+	font-weight: 400!important;
+	color: #030314;
+	letter-spacing: -0.4px;
+    padding-top: 20px;
+}
+}
+.aux-next-prev-posts.nav-skin-thumb-arrow.no-arrow .np-prev-section .np-nav-text:before {
+    content: '\2190';
+    margin-right: 10px!important;
+    background: #1A56FF!important;
+    padding: 5px 12px 10px!important;
+    border-radius: 50%!important;
+    font-size: 24px!important
+    color: var( --e-global-color-ef7a26d )!important;
+}
+@media screen and (max-width:1024px){
+	.single-portfolio .aux-territory{
+	   width: 100%;
+}
+}
+
+.aux-next-prev-posts.nav-skin-thumb-arrow.no-arrow .np-prev-section .np-nav-text::before {
+    content: '\e1ee'!important;
+	font-family: "auxin-front" !important;
+font-weight: bold !important;
+    margin-right: 10px!important;
+    padding: 13px 13px 13px 13px!important;
+    border-radius: 50%!important;
+    background: transparent;
+    font-size: 17px!important;
+	color: #1A56FF;
+	transition:all 300ms ease-out;
+}
+.aux-next-prev-posts.nav-skin-thumb-arrow.no-arrow .np-prev-section:hover .np-nav-text::before,
+.aux-next-prev-posts.nav-skin-thumb-arrow.no-arrow .np-next-section:hover .np-nav-text::after{
+	background-color: #1A56FF;
+	color: var( --e-global-color-ef7a26d );
+}
+.aux-next-prev-posts.nav-skin-thumb-arrow.no-arrow .np-next-section .np-nav-text::after {
+	 content: '\e1ef'!important;
+	font-family: "auxin-front" !important;
+font-weight: bold !important;
+    margin-right: 10px!important;
+    padding: 13px 13px 13px 13px!important;
+    border-radius: 50%!important;
+    background: transparent;
+    font-size: 17px!important;
+	color: #1A56FF;
+}
+
+
+.aux-next-prev-posts .np-prev-section a:hover .np-nav-text{
+	text-decoration:none!important;
+}
+.aux-next-prev-posts .np-next-section a:hover .np-nav-text{
+	text-decoration:none!important;
+}
+
+.aux-next-prev-posts .np-prev-section a:hover .np-title, .aux-next-prev-posts .np-next-section  a:hover .np-title, .aux-next-prev-posts{
+	text-decoration:none!important;
+}
+.single-portfolio	.aux-primary{
+		padding:0 35px;
+	}
+
+@media(max-width:1024px){
+	.single-post .aux-primary {
+    padding: 0 0px;
+}
+	.single-post .aux-primary .hentry .entry-title {
+		width: 100%;}
+}
+
+@media(max-width:414px){
+	
+	.single-portfolio .entry-media img {
+  
+	}
+	.aux-next-prev-posts.nav-skin-thumb-arrow.no-arrow .np-next-section .np-nav-text::after{
+		font-size:16px!important;
+	}
+}
+@media(max-width:320px){
+	.aux-next-prev-posts.nav-skin-thumb-arrow.no-arrow .np-prev-section .np-nav-text::before,.aux-next-prev-posts.nav-skin-thumb-arrow.no-arrow .np-next-section .np-nav-text::after {
+		display:none;
+	}}
+/* categories */
+
+.category .aux-col{
+    background: var(--e-global-color-accent) 0% 0% no-repeat padding-box;
+border-radius: 20px;
+padding-left: 60px;
+padding-right: 100px;
+margin:15px;
+width:31%;
+padding-top: 65px;
+padding-bottom: 65px!important;
+border: 0 !important;
+height: 490px!important;
+}
+.category .aux-row{
+	margin-right: -35px;
+}
+.category p:empty::before {
+    display: none;
+}
+.category p:empty::after {
+    display: none;
+}
+
+
+.category .aux-col:hover {
+    background: var(--e-global-color-ef7a26d) !important;
+box-shadow: -15px 30px 80px #ABAFC74C !important;
+border-radius: 20px;
+
+}
+.category .aux-col:hover .column-entry a{
+    color: var(--e-global-color-3d33dc2) !important;
+}
+
+.category .aux-read-more::after{
+    display: none;
+}
+
+.category .readmore{
+    background: var(--e-global-color-primary) 0% 0% no-repeat padding-box;
+box-shadow: -15px 20px 40px #0E47C04D;
+border-radius: 30px;
+padding: 12px 45px!important;
+}
+.category .column-entry a:hover {
+    text-decoration: unset !important;
+}
+
+.category .aux-col:hover .readmore{
+    background: var(--e-global-color-secondary) 0% 0% no-repeat padding-box;
+box-shadow: -15px 20px 40px #FFDA2B4D;
+border-radius: 30px;
+
+}
+.category .aux-col:hover .column-entry span{
+    color: var(--e-global-color-text) !important;
+}
+.category .aux-widget-recent-posts .post .entry-title{
+	font-size:25px;
+	letter-spacing: -0.75px;
+}
+
+.category .aux-archive .type-post .entry-info {
+    color: #65697A;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.category .count-box{
+	display:none;
+}
+
+.category .aux-widget-recent-posts .post .entry-meta .aux-read-more{
+	color: var( --e-global-color-ef7a26d );
+font-weight: 500;
+font-size: 16px;
+}
+
+.category .entry-meta-sep{
+	display:none;
+}
+
+.category .author {
+	display:none;
+}
+
+.category .pagination{
+	justify-content: center;
+display: flex;
+}
+
+.category .aux-pagination li.page a, .category .aux-pagination li.page span {
+    width: 30px;
+    color: var( --e-global-color-3d33dc2 );
+    padding: 0;
+    border-radius: 10px;
+}
+
+.category .aux-pagination li a, .aux-pagination li span {
+	line-height: 30px;
+	border:0;
+	font-size: 16px;
+}
+.category .aux-pagination li.page a:hover {
+    background-color: var(--e-global-color-primary);
+    color: var( --e-global-color-ef7a26d );
+}
+.category .aux-pagination li.page.active a, .category .aux-pagination li.page.active span {
+    background-color: var(--e-global-color-primary);
+    color: var( --e-global-color-ef7a26d );
+    border-color: var(--e-global-color-primary);
+}
+
+.category .aux-primary .content .aux-pagination {
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+.category .page-title-section .page-header{
+	display:none!important;
+}
+
+@media(max-width:2560px){
+.category .right-sidebar .aux-primary {
+    float: left;
+    padding-right: 15px!important;
+}
+	.category .aux-col{
+			width:31%;
+}
+	@media(max-width:1440px){
+.category .right-sidebar .aux-primary {
+    float: left;
+    padding-right: 25px!important;
+}
+		.category .aux-row{
+	margin-right: -25px;
+}
+}
+	
+	@media(max-width:1024px){
+		.category .aux-col{
+			width:46%;
+		}
+		.category	.aux-row{
+			margin-left: -35px;
+		}
+		.category .aux-primary {
+			padding: 0 0px 0 35px;}
+	}
+	
+		@media(max-width:768px){
+		.category .aux-col{
+			width:45%;
+			padding-top: 35px;
+			padding-left: 30px;
+padding-right: 30px;
+		}
+		.author	.aux-row{
+			margin-left: -35px;
+		}
+		
+	}
+	@media(max-width:414px){
+		.category .aux-col{
+			width:100%;
+		}
+	.category .aux-row {
+    margin-left: -45px;
+    padding-right: 45px;
+		}}
+@media(max-width:320px){
+	.category .post .aux-after-content{
+		bottom:-45px!important;
+	}
+	}
+	
+/*author*/
+	
+	
+ .author .aux-sidebar-style-border.right-sidebar .aux-sidebar-primary, .author .entry-tax, .author .meta-comment{
+    
+    display: none;
+}
+.author .right-sidebar .aux-wrapper .aux-container {
+    padding-right: 0;
+}
+.author .right-sidebar .aux-primary {
+    float: left;
+    padding-right: 0;
+}
+.author .aux-col{
+    background: var(--e-global-color-accent) 0% 0% no-repeat padding-box;
+border-radius: 20px;
+padding-left: 60px;
+padding-right: 100px;
+margin:15px;
+width:31%;
+padding-top: 65px;
+padding-bottom: 65px!important;
+border: 0 !important;
+height: 490px!important;
+}
+
+.author p:empty::before {
+    display: none;
+}
+.author  p:empty::after {
+    display: none;
+}
+
+.author .aux-col:hover {
+    background: var(--e-global-color-ef7a26d) !important;
+box-shadow: -15px 30px 80px #ABAFC74C !important;
+border-radius: 20px;
+
+}
+.author .aux-col:hover .column-entry a{
+    color: var(--e-global-color-3d33dc2) !important;
+}
+
+.author .aux-read-more::after{
+    display: none;
+}
+
+.author .readmore{
+    background: var(--e-global-color-primary) 0% 0% no-repeat padding-box;
+box-shadow: -15px 20px 40px #0E47C04D;
+border-radius: 30px;
+padding: 12px 45px!important;
+}
+.author .column-entry a:hover {
+    text-decoration: unset !important;
+}
+
+.author .aux-col:hover .readmore{
+    background: var(--e-global-color-secondary) 0% 0% no-repeat padding-box;
+box-shadow: -15px 20px 40px #FFDA2B4D;
+border-radius: 30px;
+
+}
+.author .aux-col:hover .column-entry span{
+    color: var(--e-global-color-text) !important;
+}
+.author .aux-widget-recent-posts .post .entry-title{
+	font-size:25px;
+	letter-spacing: -0.75px;
+}
+
+.author .aux-archive .type-post .entry-info {
+    color: #65697A;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.author .count-box{
+	display:none;
+}
+
+.author .aux-widget-recent-posts .post .entry-meta .aux-read-more{
+	color: var( --e-global-color-ef7a26d );
+font-weight: 500;
+font-size: 16px;
+}
+
+.author .entry-meta-sep{
+	display:none;
+}
+
+.author .author {
+	display:none;
+}
+
+.author .pagination{
+	justify-content: center;
+display: flex;
+}
+.author .aux-pagination li.page a, .author .aux-pagination li.page span {
+    width: 30px;
+    color: var( --e-global-color-3d33dc2 );
+    padding: 0;
+    border-radius: 10px;
+}
+
+.author .aux-pagination li a, .aux-pagination li span {
+	line-height: 30px;
+	border:0; 
+	font-size: 16px;
+}
+.category .aux-pagination li.page a:hover {
+    background-color: var(--e-global-color-primary);
+    color:var( --e-global-color-ef7a26d );
+}
+.author .aux-pagination li.page.active a, .author .aux-pagination li.page.active span {
+    background-color: var(--e-global-color-primary);
+    color: var( --e-global-color-ef7a26d );
+    border-color: var(--e-global-color-primary);
+}
+
+.author .aux-primary .content .aux-pagination {
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+.author .page-title-section .page-header{
+	display:none!important;
+}
+.author .entry-content{
+		display:block;
+    overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+	}
+
+@media(max-width:2560px){
+.author .right-sidebar .aux-primary {
+    float: left;
+    padding-right: 15px!important;
+}
+	}
+	@media(max-width:1440px){
+.author .right-sidebar .aux-primary {
+    float: left;
+    padding-right: 25px!important;
+	padding-left: 20px!important;
+}
+}
+	
+	@media(max-width:1024px){
+		.author .aux-col{
+			width:46%;
+		}
+		.author	.aux-row{
+			margin-left: 0px;
+		}
+		
+		.aux-next-prev-posts.nav-skin-thumb-arrow.no-arrow .np-prev-section .np-nav-text::before,
+.aux-next-prev-posts.nav-skin-thumb-arrow.no-arrow .np-next-section .np-nav-text::after{
+	background-color: #1A56FF;
+	color: var( --e-global-color-ef7a26d );
+}
+		
+		.aux-next-prev-posts.nav-skin-thumb-arrow.no-arrow .np-next-section .np-nav-text::after {
+			margin-right: 0 !important;
+		}
+		
+	}
+	
+		@media(max-width:768px){
+		.author .aux-col{
+			width:45%;
+			padding-top: 35px;
+			padding-left: 30px;
+padding-right: 30px;
+		}
+			.author .entry-content{
+				-webkit-line-clamp: 6;
+			}
+		
+		
+	}
+	@media(max-width:414px){
+		.author .aux-col{
+			width:100%;
+		}
+		.author .aux-col{
+			margin:0;
+		}
+		.author .aux-row{
+			margin:0;
+		}
+	}
+	@media(max-width:320px){
+	.author .post .aux-after-content{
+		bottom:-45px!important;
+	}
+	} 
+@media only screen  and  (max-width:500px)  {
+.single-post .aux-single-post-share .aux-tooltip-socials-wrapper{
+transform: translate3d(-77%, -100%, 0);
+}
+.single-post .aux-tooltip-socials-container .aux-tooltip-socials-wrapper:after{
+    left:84%;
+}
+}	
+@media only screen  and  (max-width:1024px) and  (min-width:768px)  {
+.single-post .aux-single-post-share .aux-tooltip-socials-wrapper{
+    transform: translate3d(-88%,-100%,0)
+}
+.single-post .aux-tooltip-socials-container .aux-tooltip-socials-wrapper:after{
+    left: 91%;
+}
+}	
+	@media only screen  and  (max-width:1600px) and  (min-width:1024px)  {
+.single-post .aux-tooltip-socials-container .aux-tooltip-socials-wrapper{
+       transform: translate3d(-66%, -100%, 0);
+}
+.single-post .aux-tooltip-socials-container .aux-tooltip-socials-wrapper:after{
+ left: 70%;
+}
+}
+.single-post .entry-meta .wpulike.aux-wpulike-single .wp_ulike_btn{
+padding: 0;
+}
+
+/* -- Static replacement for the theme's AJAX "load more" list spacing (all items are rendered in the markup) -- */
+.widget-container.aux-loadmore-static .aux-ajax-view { margin-bottom: 70px; }
+
+/* -- Menu widgets: hide the burger on desktop (was inline in the header/footer markup) -- */
+@media only screen and (min-width: 1025px) { .elementor-element-db62658 .aux-burger-box { display: none } }
+@media only screen and (min-width: 1025px) { .elementor-element-c4cb033 .aux-burger-box { display: none } }
+
+/* ==================================================================================================
+   Site polish (2026-09): header dropdowns, mobile off-canvas menu, footer navigation, floating
+   language switcher, service icons, About page text + team sections. Direction-neutral (logical
+   properties), so the same block is appended to css/site.css and css/rtl/site.css.
+   ================================================================================================== */
+:root { --tfc-blue:#0E47C0; --tfc-navy:#1D2433; --tfc-grey:#566074; --tfc-yellow:#FFDA2B; --tfc-tint:#F1F6F9; --tfc-line:rgba(29,36,51,.09); }
+
+/* -- Header dropdowns: white card centred under the parent item -- */
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal .aux-menu-depth-0 > .aux-submenu {
+  left:50% !important; right:auto !important; transform:translateX(-50%); top:100%;
+  margin:0; padding:16px 0 0; background:transparent; border:0; min-width:250px;
+}
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal .aux-menu-depth-0 > .aux-submenu::before {
+  content:""; position:absolute; inset:16px 0 0 0; z-index:-1; background:#fff; border-radius:14px;
+  border:1px solid var(--tfc-line); box-shadow:0 24px 48px -16px rgba(8,20,32,.22), 0 2px 8px rgba(8,20,32,.06);
+}
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal .aux-menu-depth-0 > .aux-submenu::after {
+  content:""; position:absolute; top:10px; left:50%; width:12px; height:12px; z-index:-1; background:#fff;
+  border-left:1px solid var(--tfc-line); border-top:1px solid var(--tfc-line); transform:translateX(-50%) rotate(45deg);
+}
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal .aux-menu-depth-0 > .aux-submenu > .aux-menu-item:first-child { margin-top:8px; }
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal .aux-menu-depth-0 > .aux-submenu > .aux-menu-item:last-child { margin-bottom:8px; }
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal.aux-skin-classic .aux-menu-depth-0 > .aux-submenu > .aux-menu-item > .aux-item-content {
+  padding:11px 16px; margin:2px 8px; min-width:0; border-radius:9px; font-size:15px; line-height:1.4;
+  color:var(--tfc-navy) !important; transition:background-color .2s, color .2s;
+}
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal.aux-skin-classic .aux-menu-depth-0 > .aux-submenu > .aux-menu-item.aux-hover > .aux-item-content,
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal.aux-skin-classic .aux-menu-depth-0 > .aux-submenu > .aux-menu-item > .aux-item-content:hover {
+  background-color:var(--tfc-tint); color:var(--tfc-blue) !important;
+}
+.aux-elementor-header-menu .aux-submenu .trp-menu-ls-label { display:inline-flex; align-items:center; gap:10px; }
+.aux-elementor-header-menu .aux-submenu .trp-flag-image { border-radius:3px; }
+
+/* -- Mobile off-canvas menu -- */
+.aux-offcanvas-menu {
+  width:min(340px, 86vw); background:#fff; visibility:hidden;
+  transition:transform .45s cubic-bezier(.22,.61,.36,1), box-shadow .45s ease, visibility 0s linear .45s;
+}
+.aux-offcanvas-menu.aux-open {
+  visibility:visible; transition:transform .45s cubic-bezier(.22,.61,.36,1), box-shadow .45s ease, visibility 0s linear 0s;
+  box-shadow:0 0 0 100vmax rgba(8,20,32,.5) !important;
+}
+body.tfc-oc-open, body.tfc-modal-open { overflow:hidden; }
+.aux-offcanvas-menu .aux-panel-close { position:absolute; top:16px; inset-inline-end:16px; z-index:2; width:40px; height:40px; border-radius:50%; background:var(--tfc-tint); display:flex; align-items:center; justify-content:center; cursor:pointer; }
+.aux-offcanvas-menu .aux-close { float:none !important; margin:0 !important; width:16px !important; height:16px !important; padding:8px 0 0 !important; box-sizing:border-box; position:relative; }
+.aux-offcanvas-menu .offcanvas-header { padding:22px 24px 6px; min-height:0; }
+.aux-offcanvas-menu .tfc-oc-logo { display:inline-block; }
+.aux-offcanvas-menu .tfc-oc-logo img { width:auto; height:40px; display:block; }
+.aux-offcanvas-menu .offcanvas-content { height:auto !important; max-height:calc(100vh - 110px); overflow-y:auto; padding:10px 14px 30px; }
+.aux-offcanvas-menu .aux-master-menu.aux-narrow > .aux-menu-item { border-bottom:1px solid var(--tfc-line); }
+.aux-offcanvas-menu .aux-master-menu.aux-narrow > .aux-menu-item:last-child { border-bottom:0; }
+.aux-offcanvas-menu .aux-master-menu.aux-narrow .aux-menu-item > .aux-item-content {
+  padding:15px 12px !important; font-size:17px !important; font-weight:500; line-height:1.3 !important;
+  color:var(--tfc-navy) !important; border-radius:10px;
+}
+.aux-offcanvas-menu .aux-master-menu.aux-narrow > .aux-menu-item.current-menu-item > .aux-item-content { color:var(--tfc-blue) !important; font-weight:700; }
+.aux-offcanvas-menu .aux-master-menu.aux-narrow .aux-submenu { background:transparent !important; padding:0 !important; }
+.aux-offcanvas-menu .aux-master-menu.aux-narrow .aux-submenu > .aux-menu-item > .aux-item-content {
+  font-size:15px !important; font-weight:500; padding:11px 14px !important; margin:0 0 4px 14px; border-inline-start:2px solid var(--tfc-tint); border-radius:0 10px 10px 0; color:var(--tfc-grey) !important;
+}
+html[dir="rtl"] .aux-offcanvas-menu .aux-master-menu.aux-narrow .aux-submenu > .aux-menu-item > .aux-item-content { margin:0 14px 4px 0; border-radius:10px 0 0 10px; }
+.aux-offcanvas-menu .aux-master-menu.aux-narrow .aux-submenu > .aux-menu-item:last-child > .aux-item-content { margin-bottom:10px; }
+.aux-offcanvas-menu .aux-master-menu.aux-narrow .aux-submenu .trp-menu-ls-label { display:inline-flex; align-items:center; gap:10px; }
+.aux-offcanvas-menu .aux-master-menu.aux-narrow .aux-submenu-indicator { inset-inline-end:8px !important; left:auto; }
+html[dir="rtl"] .aux-offcanvas-menu .aux-master-menu.aux-narrow .aux-submenu-indicator { right:auto; left:8px !important; }
+.aux-offcanvas-menu .aux-master-menu.aux-narrow .aux-submenu-indicator::before,
+.aux-offcanvas-menu .aux-master-menu.aux-narrow .aux-submenu-indicator::after { background-color:var(--tfc-blue); height:2px; border-radius:2px; }
+
+/* -- The floating switcher and chat button sit in the bottom corners: keep the footer copyright line clear of them
+      (it is left-aligned under the switcher in LTR and right-aligned under the chat button in RTL) -- */
+footer.aux-elementor-footer { padding-bottom:72px; }
+
+/* -- Service icons in the portfolio grids -- */
+.aux-widget-recent-portfolios .aux-media-frame { text-align:center; }
+.aux-widget-recent-portfolios .aux-media-frame img.tfc-service-icon { width:100%; max-width:220px; height:auto; margin:0 auto; display:block; transition:transform .3s ease; }
+/* the icon files are bare glyphs; the tinted rounded tile is drawn here so it follows the shape everywhere */
+img.tfc-service-icon { background:#EEF3FC; border-radius:24%; }
+/* on hover (or keyboard focus) the icon grows 5% in place. It used to rise 6px, and on the home page its frame clipped it, so
+   the top edge was cut flat and the bottom looked 6px short; the frame no longer clips (the icon draws its own rounded
+   corners), so the zoom shows whole */
+.aux-widget-recent-portfolios .aux-media-frame.aux-media-image { overflow:visible; }
+/* the home grid (animated layout) also clipped the icons along its edges below 1025px; its tiles never leave it, during
+   the load and resize animations included */
+.aux-widget-recent-portfolios .aux-portfolio-columns.aux-isotope-animated { overflow:visible; }
+.aux-widget-recent-portfolios .aux-iso-item:hover img.tfc-service-icon, .aux-widget-recent-portfolios .aux-iso-item:focus-within img.tfc-service-icon { transform:scale(1.05); }
+@media (prefers-reduced-motion:reduce) { .aux-widget-recent-portfolios .aux-media-frame img.tfc-service-icon { transition:none; } }
+
+/* -- About page: text section -- */
+.tfc-about { max-width:1100px; margin:0 auto; font-size:17px; line-height:1.7; color:var(--tfc-grey); text-align:start; }
+.tfc-about h2, .tfc-about h3 { color:var(--tfc-navy); margin:0 0 12px; line-height:1.2; }
+.tfc-about p { margin:0 0 12px; }
+.tfc-about p:last-child { margin-bottom:0; }
+.tfc-about strong { color:var(--tfc-navy); }
+.tfc-about .tfc-icon { width:56px; height:56px; border-radius:16px; background:var(--tfc-tint); color:var(--tfc-blue); display:flex; align-items:center; justify-content:center; margin-bottom:18px; flex:none; }
+.tfc-about .tfc-icon svg { width:28px; height:28px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+.tfc-about-intro { text-align:center; max-width:780px; margin:0 auto 56px; }
+.tfc-eyebrow { display:inline-block; font-size:13px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--tfc-blue); background:var(--tfc-tint); padding:8px 16px; border-radius:999px; margin-bottom:20px; }
+html[dir="rtl"] .tfc-eyebrow { letter-spacing:0; }
+.tfc-about-intro h2 { font-size:clamp(30px, 4vw, 44px); margin-bottom:16px; }
+.tfc-lead { font-size:19px; }
+.tfc-about-mission { display:grid; grid-template-columns:auto 1fr; gap:24px 32px; align-items:start; background:var(--tfc-blue); color:rgba(255,255,255,.86); border-radius:24px; padding:44px 48px; margin-bottom:24px; }
+.tfc-about-mission .tfc-icon { background:rgba(255,255,255,.14); color:#fff; margin:0; }
+.tfc-about-mission h3 { color:#fff; font-size:20px; opacity:.9; }
+.tfc-about-mission .tfc-statement { font-size:clamp(22px, 2.6vw, 30px); font-weight:600; line-height:1.3; color:#fff; margin-bottom:16px; }
+.tfc-about-mission strong { color:#fff; }
+.tfc-about-grid { display:grid; grid-template-columns:repeat(2, 1fr); gap:24px; margin-bottom:24px; }
+.tfc-card { background:#fff; border:1px solid var(--tfc-line); border-radius:20px; padding:34px; box-shadow:0 1px 2px rgba(8,20,32,.04); }
+.tfc-card h3 { font-size:22px; }
+.tfc-card .tfc-sub { color:var(--tfc-navy); font-weight:600; }
+.tfc-list { list-style:none; margin:0; padding:0; display:grid; gap:14px; }
+.tfc-list li { display:grid; grid-template-columns:22px 1fr; gap:12px; align-items:start; }
+.tfc-list li::before { content:""; width:22px; height:22px; margin-top:3px; border-radius:50%; background:var(--tfc-yellow) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231D2433' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5L20 7'/%3E%3C/svg%3E") center/12px no-repeat; }
+.tfc-list li > strong, .tfc-list li > span { grid-column:2; }
+.tfc-list li::before { grid-column:1; grid-row:1; }
+.tfc-list strong { display:block; }
+.tfc-about-why { background:var(--tfc-tint); border-radius:24px; padding:44px 48px; margin-bottom:24px; text-align:center; }
+.tfc-about-why .tfc-icon { margin:0 auto 18px; background:#fff; }
+.tfc-about-why > h2 { font-size:clamp(26px, 3vw, 34px); margin-bottom:28px; }
+.tfc-why-grid { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(3, 1fr); gap:16px; text-align:start; }
+.tfc-why-grid li { background:#fff; border-radius:16px; padding:22px 24px; font-size:15px; line-height:1.6; }
+.tfc-why-grid strong { display:block; font-size:17px; margin-bottom:6px; }
+.tfc-about-final { text-align:center; max-width:760px; margin:0 auto; padding-top:32px; }
+.tfc-about-final .tfc-icon { margin:0 auto 18px; background:var(--tfc-yellow); color:var(--tfc-navy); }
+.tfc-tagline { font-size:22px; font-weight:600; color:var(--tfc-blue); font-style:normal; margin-top:18px; }
+.tfc-tagline em, .tfc-tagline strong { font-style:normal; color:inherit; }
+@media (max-width:900px) {
+  .tfc-about { font-size:16px; }
+  .tfc-about-grid, .tfc-why-grid { grid-template-columns:1fr; }
+  .tfc-about-mission { grid-template-columns:1fr; padding:32px 26px; }
+  .tfc-card, .tfc-about-why { padding:26px 22px; }
+  .tfc-about-intro { margin-bottom:36px; }
+}
+
+/* -- About page: team grid on phones (photos are container backgrounds; names were hover-only) -- */
+@media (max-width:767px) {
+  .elementor-174 .elementor-element.elementor-element-741eadf > .e-con-inner { display:grid !important; grid-template-columns:1fr 1fr; gap:14px; }
+  .elementor-174 .elementor-element-741eadf .staff-box {
+    width:100% !important; max-width:none !important; margin:0 !important; min-height:0 !important; height:auto !important;
+    aspect-ratio:4 / 5; border-radius:16px; overflow:hidden; position:relative; justify-content:flex-end !important;
+    background-size:cover !important; background-position:top center !important;
+  }
+  .elementor-174 .elementor-element-741eadf .staff-box .elementor-motion-effects-layer { background-size:cover !important; background-position:top center !important; }
+  .elementor-174 .elementor-element-741eadf .staff-box .elementor-widget-spacer { display:none; }
+  .elementor-174 .elementor-element-741eadf .staff-box .elementor-widget-aux_staff { position:static !important; left:auto !important; right:auto !important; bottom:auto !important; width:100% !important; margin:0 !important; z-index:1; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff { opacity:1 !important; padding:48px 12px 12px; background:linear-gradient(180deg, rgba(8,20,32,0) 0%, rgba(8,20,32,.88) 100%); }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .col-title { color:#fff; font-size:15px; margin:0 0 2px; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .col-subtitle { color:rgba(255,255,255,.82); font-size:12px !important; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .aux-staff-footer { padding:0 !important; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .aux-social-list a { color:#fff; }
+}
+/* -- Service detail pages: the featured image is now an icon tile, keep it a modest centred block in the hero -- */
+.single-portfolio .entry-media img.tfc-service-icon { width:100%; max-width:300px; height:auto; display:block; margin:0 auto; border-radius:24%; box-shadow:0 30px 60px -24px rgba(14,71,192,.35); }
+.aux-next-prev-posts .np-arrow img.tfc-service-icon { border-radius:22%; }
+.single-portfolio .entry-media .aux-media-frame, .single-portfolio .entry-media .aux-media-image { text-align:center; }
+@media (max-width:767px) { .single-portfolio .entry-media img.tfc-service-icon { max-width:200px; } }
+/* -- Property Selling page: the live site gives this text widget a fixed 1050px width with no phone override -- */
+@media (max-width:1024px) { .elementor-159 .elementor-element.elementor-element-e5fa205 { width:100% !important; max-width:100% !important; --container-widget-width:100%; } }
+
+/* ==================================================================================================
+   Brand + navigation (2026-09): SVG wordmarks sized by height, one link style for the header and
+   footer menus, header column widths, mobile panel. Direction-neutral, mirrored to css/rtl/site.css.
+   ================================================================================================== */
+/* -- Header logo: the wordmark is an SVG now, size it by height and centre it on the menu row -- */
+.aux-logo-header .aux-logo-anchor { max-width:none; }
+.aux-logo-header .aux-logo-anchor > img { max-height:none; }
+.elementor-149 .elementor-element.elementor-element-c5cbf15 { --padding-top:26px; --padding-bottom:26px; }
+.elementor-149 .elementor-element.elementor-element-da7e8c6 > .elementor-widget-container { margin:0; }
+.elementor-149 .elementor-element.elementor-element-da7e8c6 .aux-has-logo img { width:auto; height:72px; }
+.elementor-149 .elementor-element.elementor-element-c6b0686 { max-height:none; --spacer-size:34px; --container-widget-align-self:center; align-self:center; }
+.elementor-149 .elementor-element.elementor-element-c6b0686 > .elementor-widget-container { margin:0; margin-inline:22px 8px; border-color:var(--tfc-line); border-width:0; border-inline-start-width:2px; }
+/* the second header column only holds an empty icon list: give the logo + menu the whole row (audit item 1) */
+@media (min-width:768px) {
+  .elementor-149 .elementor-element.elementor-element-2892399 { --width:100%; }
+  .elementor-149 .elementor-element.elementor-element-59aeaa8 { display:none; }
+}
+/* -- Header links (desktop menu only; the phone panel has its own styles above) -- */
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal > .aux-menu-depth-0 { margin:0; margin-inline-end:32px; }
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal > .aux-menu-depth-0:last-child { margin-inline-end:0; }
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal > .aux-menu-depth-0 > .aux-item-content {
+  position:relative; display:inline-flex; align-items:center; padding:8px 0 !important;
+  font-size:15px; font-weight:500; letter-spacing:.01em; line-height:1.3; color:var(--tfc-grey);
+  transition:color .2s ease;
+}
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal > .aux-menu-depth-0 > .aux-item-content::after {
+  content:""; position:absolute; inset-inline:0; bottom:0; height:2px; border-radius:2px; background:var(--tfc-blue);
+  transform:scaleX(0); transition:transform .25s ease;
+}
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal > .aux-menu-depth-0.aux-hover > .aux-item-content,
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal > .aux-menu-depth-0 > .aux-item-content:hover { color:var(--tfc-blue); }
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal > .aux-menu-depth-0.aux-hover > .aux-item-content::after,
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal > .aux-menu-depth-0 > .aux-item-content:hover::after { transform:scaleX(1); }
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal > .aux-menu-depth-0.current-menu-item > .aux-item-content,
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal > .aux-menu-depth-0.current-menu-ancestor > .aux-item-content { color:var(--tfc-navy); font-weight:700; }
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal > .aux-menu-depth-0.current-menu-item > .aux-item-content::after,
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal > .aux-menu-depth-0.current-menu-ancestor > .aux-item-content::after { transform:scaleX(1); }
+.aux-master-menu .aux-item-content:focus-visible { outline:2px solid var(--tfc-blue); outline-offset:4px; border-radius:4px; }
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal.aux-with-indicator > .aux-menu-item > .aux-item-content > .aux-submenu-indicator {
+  margin:0; margin-inline-start:7px; top:0; opacity:.75; transition:transform .25s ease, opacity .2s ease;
+}
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal.aux-with-indicator > .aux-menu-item.aux-hover > .aux-item-content > .aux-submenu-indicator,
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal.aux-with-indicator > .aux-menu-item > .aux-item-content:hover > .aux-submenu-indicator { transform:rotate(180deg); opacity:1; }
+/* -- Footer logo + divider: same treatment as the header -- */
+.aux-logo-footer .aux-logo-anchor img { max-height:none; }
+/* -- Tablet + phone header: logo left, burger at the far edge -- */
+@media (max-width:1024px) {
+  .elementor-149 .elementor-element.elementor-element-c5cbf15 { --padding-top:18px; --padding-bottom:18px; }
+  .elementor-149 .elementor-element.elementor-element-2892399 { --justify-content:space-between; }
+  .elementor-149 .elementor-element.elementor-element-da7e8c6 .aux-has-logo img { height:52px; } /* 58px until round 26 */
+  .elementor-149 .elementor-element.elementor-element-db62658 > .elementor-widget-container { margin:0; padding:0; }
+}
+@media (max-width:767px) {
+  /* the live footer left 80px under the menu for the tall logo image; the SVG logo needs far less */
+}
+@media (max-width:480px) {
+  .elementor-149 .elementor-element.elementor-element-da7e8c6 .aux-has-logo img { height:46px; }
+}
+
+/* ==================================================================================================
+   Homepage (2026-09): video modal, phone process lines, testimonial avatars. Mirrored to css/rtl/site.css.
+   ================================================================================================== */
+/* -- Video modal -- */
+/* up to 1200px wide (960px until round 26), 32px from the window sides on desktop, and never taller than the window
+   less 140px, which leaves room for the close button above the video */
+.tfc-video { width:min(1200px, calc(100vw - 32px), calc((100vh - 140px) * 16 / 9)); width:min(1200px, calc(100vw - 32px), calc((100dvh - 140px) * 16 / 9)); max-width:none; max-height:none; padding:0; border:0; background:transparent; overflow:visible; color:inherit; }
+@media (min-width:1025px) { .tfc-video { width:min(1200px, calc(100vw - 64px), calc((100vh - 140px) * 16 / 9)); width:min(1200px, calc(100vw - 64px), calc((100dvh - 140px) * 16 / 9)); } }
+.tfc-video::backdrop { background:rgba(8,20,32,.84); }
+.tfc-video-frame { aspect-ratio:16 / 9; width:100%; background:#000; border-radius:18px; overflow:hidden; box-shadow:0 40px 80px -30px rgba(0,0,0,.7); }
+.tfc-video-frame iframe { display:block; width:100%; height:100%; border:0; }
+.tfc-video-close { position:absolute; top:-54px; inset-inline-end:0; width:44px; height:44px; padding:0; border-radius:50%; border:0; background:#fff; color:var(--tfc-navy); cursor:pointer; transition:background-color .2s, transform .2s; }
+.tfc-video-close::before, .tfc-video-close::after { content:""; position:absolute; top:50%; left:50%; width:18px; height:2px; margin:-1px 0 0 -9px; border-radius:2px; background:currentColor; transform:rotate(45deg); }
+.tfc-video-close::after { transform:rotate(-45deg); }
+.tfc-video-close:hover { background:var(--tfc-yellow); transform:scale(1.06); }
+.tfc-video-close:focus-visible { outline:2px solid var(--tfc-yellow); outline-offset:3px; }
+@media (max-width:767px) { .tfc-video-frame { border-radius:12px; } .tfc-video-close { width:40px; height:40px; top:-50px; } }
+/* -- Phone process steps: no wave line (it only ever reached step 1); number badges skip the entrance animation so they never stall pale -- */
+@media (max-width:767px) {
+  .elementor-175 .elementor-element.elementor-element-2e1e9bd:not(.elementor-motion-effects-element-type-background) { background-image:none; }
+  .elementor-175 .elementor-element-2e1e9bd .list-box .elementor-widget-aux_icon_list.aux-appear-watch-animation { animation:none !important; opacity:1 !important; transform:none !important; }
+}
+/* -- Testimonial avatars (SVG initials) -- */
+.elementor-testimonial-image img { border-radius:50% !important; }
+
+/* ==================================================================================================
+   About + Contact pages (2026-09). Mirrored to css/rtl/site.css.
+   ================================================================================================== */
+/* -- About: full container width, the site's own visual language (blue label, big headings, tinted cards, yellow markers) -- */
+.tfc-about { max-width:none; }
+.tfc-about .tfc-icon { display:none; }
+.tfc-eyebrow, .tfc-label { display:block; background:none; padding:0; border-radius:0; font-size:14px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--tfc-blue); margin-bottom:14px; }
+html[dir="rtl"] .tfc-eyebrow, html[dir="rtl"] .tfc-label { letter-spacing:0; }
+.tfc-about-intro { max-width:820px; margin-bottom:64px; }
+.tfc-about-intro h2 { font-size:clamp(34px, 4.2vw, 52px); letter-spacing:-.02em; line-height:1.12; }
+.tfc-lead { font-size:19px; line-height:1.65; }
+.tfc-about-mission { grid-template-columns:minmax(0,5fr) minmax(0,7fr); grid-template-rows:auto auto; gap:12px 72px; align-items:center; padding:56px 64px; margin-bottom:32px; position:relative; overflow:hidden; }
+.tfc-about-mission::after { content:""; position:absolute; inset-inline-end:-140px; top:-160px; width:420px; height:420px; border-radius:50%; background:rgba(255,255,255,.07); pointer-events:none; }
+.tfc-about-mission > div { display:contents; }
+.tfc-about-mission h3 { grid-column:1; grid-row:1; align-self:end; font-size:14px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,.72); opacity:1; margin:0; }
+html[dir="rtl"] .tfc-about-mission h3 { letter-spacing:0; }
+.tfc-about-mission .tfc-statement { grid-column:1; grid-row:2; align-self:start; font-size:clamp(26px, 2.8vw, 36px); font-weight:700; letter-spacing:-.02em; line-height:1.2; margin:0; }
+.tfc-about-mission > div > p:not(.tfc-statement) { grid-column:2; grid-row:1 / 3; align-self:center; font-size:17px; line-height:1.75; margin:0; position:relative; }
+.tfc-about-grid { gap:28px; margin-bottom:32px; }
+.tfc-card { background:var(--tfc-tint); border:0; box-shadow:none; border-radius:24px; padding:44px 46px; }
+.tfc-card h3 { font-size:24px; letter-spacing:-.01em; margin-bottom:16px; padding-top:18px; position:relative; }
+.tfc-card h3::before, .tfc-why-grid strong::before { content:""; position:absolute; top:0; inset-inline-start:0; width:40px; height:4px; border-radius:2px; background:var(--tfc-yellow); }
+.tfc-card .tfc-sub { font-size:17px; }
+.tfc-list { gap:16px; }
+.tfc-about-why { background:none; border-radius:0; padding:28px 0 0; margin-bottom:64px; }
+.tfc-about-why > h2 { font-size:clamp(30px, 3.4vw, 42px); letter-spacing:-.02em; margin-bottom:36px; }
+.tfc-why-grid { gap:24px; }
+.tfc-why-grid li { background:var(--tfc-tint); border-radius:20px; padding:30px 30px 32px; font-size:15.5px; }
+.tfc-about .tfc-why-grid > li, .tfc-about .tfc-list > li { list-style:none !important; }
+.tfc-why-grid strong { position:relative; font-size:18px; margin-bottom:8px; padding-top:16px; }
+.tfc-why-grid strong::before { width:32px; }
+.tfc-about-final { max-width:820px; padding-top:0; }
+.tfc-about-final::before { content:""; display:block; width:66px; height:3px; margin:0 auto 26px; border-radius:2px; background:var(--tfc-blue); }
+.tfc-about-final > h2 { font-size:clamp(28px, 3vw, 36px); letter-spacing:-.02em; margin-bottom:18px; }
+.tfc-about-final p { font-size:18px; }
+.tfc-tagline { font-size:26px; font-weight:700; letter-spacing:-.01em; margin-top:20px; }
+@media (max-width:900px) {
+  .tfc-about-intro { margin-bottom:40px; }
+  .tfc-about-mission { grid-template-columns:1fr; grid-template-rows:auto; gap:10px; padding:36px 28px; }
+  .tfc-about-mission h3, .tfc-about-mission .tfc-statement, .tfc-about-mission > div > p:not(.tfc-statement) { grid-column:1; grid-row:auto; }
+  .tfc-about-mission > div > p:not(.tfc-statement) { margin-top:8px; }
+  .tfc-card { padding:30px 26px; border-radius:20px; }
+  .tfc-why-grid li { padding:24px 22px; }
+  .tfc-about-why { margin-bottom:44px; }
+}
+/* -- Contact page -- */
+.tfc-contact-con { --display:flex; --flex-direction:column; --padding-top:10px; --padding-bottom:100px; --padding-left:35px; --padding-right:35px; }
+.tfc-contact-con > .e-con-inner { display:block; width:100%; }
+.tfc-contact-head { max-width:760px; margin:0 auto 48px; text-align:center; }
+.tfc-contact-head h1 { font-size:clamp(34px, 4.2vw, 52px); letter-spacing:-.02em; line-height:1.12; color:var(--tfc-navy); margin:0 0 16px; }
+.tfc-contact-head p { font-size:18px; line-height:1.65; color:var(--tfc-grey); margin:0; }
+.tfc-contact-grid { display:grid; grid-template-columns:minmax(0,5fr) minmax(0,7fr); grid-template-rows:auto minmax(320px,1fr); grid-template-areas:"cards form" "map form"; gap:24px 32px; align-items:stretch; }
+.tfc-contact-cards { grid-area:cards; }
+.tfc-contact-form { grid-area:form; }
+.tfc-contact-map { grid-area:map; }
+.tfc-contact-cards { display:grid; gap:16px; align-content:start; }
+.tfc-contact-card { display:grid; grid-template-columns:56px minmax(0,1fr); gap:4px 20px; align-items:center; padding:26px 28px; border-radius:20px; background:var(--tfc-tint); color:var(--tfc-navy); text-decoration:none; transition:transform .25s ease, box-shadow .25s ease; }
+.tfc-contact-card:hover, .tfc-contact-card:focus-visible { transform:translateY(-3px); box-shadow:0 24px 40px -24px rgba(14,71,192,.4); color:var(--tfc-navy); }
+.tfc-contact-card:focus-visible { outline:2px solid var(--tfc-blue); outline-offset:3px; }
+.tfc-contact-icon { grid-row:1 / 3; width:56px; height:56px; border-radius:16px; background:#fff; color:var(--tfc-blue); display:flex; align-items:center; justify-content:center; }
+.tfc-contact-icon svg { width:26px; height:26px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+.tfc-contact-label { font-size:12.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--tfc-grey); }
+html[dir="rtl"] .tfc-contact-label { letter-spacing:0; }
+.tfc-contact-value { font-size:18px; font-weight:600; line-height:1.4; overflow-wrap:anywhere; }
+.tfc-contact-phone .tfc-contact-value, .tfc-contact-email .tfc-contact-value { direction:ltr; unicode-bidi:isolate; text-align:start; }
+.tfc-contact-form { background:#fff; border:1px solid var(--tfc-line); border-radius:24px; padding:40px 44px 44px; box-shadow:0 30px 60px -44px rgba(8,20,32,.3); }
+.tfc-contact-form h2 { font-size:26px; letter-spacing:-.01em; color:var(--tfc-navy); margin:0 0 22px; }
+.tfc-contact-form .wpcf7 p { margin:0 0 18px; }
+.tfc-contact-form .wpcf7 br { display:none; }
+.tfc-contact-form label { display:block; font-size:14px; font-weight:600; color:var(--tfc-navy); margin:0 !important; max-width:none !important; }
+.tfc-contact-form .wpcf7-form-control-wrap { display:block; margin-top:8px; }
+.tfc-contact-form input[type="text"], .tfc-contact-form input[type="email"], .tfc-contact-form textarea {
+  display:block; width:100%; box-sizing:border-box; height:52px; padding:0 16px; margin:0; border:1px solid var(--tfc-line); border-radius:12px;
+  background:var(--tfc-tint); color:var(--tfc-navy); font:inherit; font-size:15px; line-height:1.4; box-shadow:none;
+  transition:border-color .2s, box-shadow .2s, background-color .2s;
+}
+.tfc-contact-form textarea { height:auto; min-height:150px; padding:14px 16px; resize:vertical; }
+.tfc-contact-form input:focus, .tfc-contact-form textarea:focus { outline:0; border-color:var(--tfc-blue); background:#fff; box-shadow:0 0 0 4px rgba(14,71,192,.12); }
+.tfc-contact-form input:user-invalid, .tfc-contact-form textarea:user-invalid { border-color:#D64545; }
+.tfc-contact-form .wpcf7-submit {
+  display:inline-flex; align-items:center; justify-content:center; width:auto; float:none !important; margin:6px 0 0 !important; height:54px; padding:0 40px;
+  border:0; border-radius:30px; background:var(--tfc-blue); color:#fff; font:inherit; font-size:16px; font-weight:700; cursor:pointer;
+  box-shadow:0 18px 30px -14px rgba(14,71,192,.6); transition:background-color .2s, transform .2s, box-shadow .2s;
+}
+.tfc-contact-form .wpcf7-submit:hover { background:var(--tfc-navy); transform:translateY(-2px); }
+.tfc-contact-form .wpcf7-submit:focus-visible { outline:2px solid var(--tfc-blue); outline-offset:3px; }
+.tfc-contact-form .wpcf7-spinner, .tfc-contact-form .wpcf7-response-output, .tfc-contact-form .screen-reader-response { display:none; }
+.tfc-contact-map { position:relative; border-radius:24px; overflow:hidden; background:var(--tfc-tint); min-height:320px; }
+.tfc-contact-map iframe { position:absolute; inset:0; display:block; width:100%; height:100%; border:0; }
+.tfc-map-card { position:absolute; inset-inline-start:20px; bottom:20px; max-width:300px; display:grid; gap:4px; padding:18px 20px; border-radius:16px; background:#fff; color:var(--tfc-navy); text-decoration:none; box-shadow:0 20px 40px -20px rgba(8,20,32,.4); }
+.tfc-map-card:hover { color:var(--tfc-navy); }
+.tfc-map-card strong { font-size:16px; }
+.tfc-map-card span { font-size:14px; line-height:1.5; color:var(--tfc-grey); }
+.tfc-map-card .tfc-map-link { color:var(--tfc-blue); font-weight:700; margin-top:4px; }
+.tfc-map-card:hover .tfc-map-link { text-decoration:underline; }
+@media (max-width:1024px) {
+  .tfc-contact-grid { grid-template-columns:1fr; grid-template-rows:auto auto auto; grid-template-areas:"cards" "form" "map"; }
+  .tfc-contact-map { min-height:400px; }
+  .tfc-contact-cards { grid-template-columns:repeat(3, minmax(0,1fr)); }
+  .tfc-contact-card { grid-template-columns:1fr; gap:12px 0; padding:22px; align-content:start; }
+  .tfc-contact-icon { grid-row:auto; margin-bottom:4px; }
+  .tfc-contact-value { font-size:16px; }
+}
+@media (max-width:767px) {
+  .tfc-contact-con { --padding-bottom:70px; }
+  .tfc-contact-head { margin-bottom:32px; text-align:start; }
+  .tfc-contact-cards { grid-template-columns:1fr; gap:12px; }
+  .tfc-contact-card { grid-template-columns:52px minmax(0,1fr); gap:2px 16px; padding:18px 20px; }
+  .tfc-contact-icon { grid-row:1 / 3; width:52px; height:52px; margin:0; }
+  .tfc-contact-form { padding:26px 20px 28px; border-radius:20px; }
+  .tfc-contact-form .wpcf7-submit { width:100%; }
+  .tfc-contact-map { border-radius:20px; }
+  .tfc-contact-map { min-height:0; }
+  .tfc-contact-map iframe { position:static; height:320px; }
+  .tfc-map-card { position:static; max-width:none; border-radius:0; box-shadow:none; padding:16px 20px 18px; }
+}
+
+/* ==================================================================================================
+   Audit fixes (2026-09): floating widgets, services tablet overlap, archive excerpts, home post image.
+   ================================================================================================== */
+/* go-to-top arrow shared the bottom corner with the chat button */
+.aux-goto-top-btn { bottom:110px !important; }
+/* Arabic phones/tablets: the floating language switcher sat on the chat button (stylesheet beats its inline custom properties) */
+@media (max-width:1024px) { html[dir="rtl"] .trp-floating-switcher { --right:25px !important; --bottom:105px !important; } }
+/* Services page 768–1024: Elementor's tablet margin tucked the removed filter bar beside the heading and pulled the grid over it */
+@media (min-width:768px) and (max-width:1024px) { .elementor-153 .elementor-element.elementor-element-f7cc036 > .elementor-widget-container { margin-top:0; } }
+/* Category archive: cards are a fixed height with an absolutely positioned footer; clamp the excerpt like the author archive */
+.category .entry-content { display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:4; overflow:hidden; }
+.author .entry-content { -webkit-box-orient:vertical; }
+/* Home "Latest Posts": the first card forces a fixed image height; keep the photo's proportions */
+.elementor-175 .elementor-element.elementor-element-a9cf1c6 .aux-media-frame img { object-fit:cover; }
+
+/* -- Static.app hosting badge (free plan) is injected at the bottom-left corner on the live site; lift the
+      floating language switcher above it so the two never overlap (LTR pages, where the switcher is bottom-left) -- */
+html:not([dir="rtl"]) body:has(> a[href^="https://static.app/"]) .trp-floating-switcher { --bottom:74px !important; }
+
+/* ===== Polish batch 1 (2026-09-11): labels, heading scale, colours, buttons, focus, team captions ===== */
+/* 1. Custom eyebrow labels follow the theme's label (20px bold, 1px tracking, sentence case) */
+.tfc-eyebrow, .tfc-label { font-size:clamp(17px, 1.5vw, 20px); font-weight:700; letter-spacing:1px; text-transform:none; line-height:1.3; margin-bottom:14px; }
+.tfc-about-mission h3 { font-size:clamp(17px, 1.5vw, 20px); font-weight:700; letter-spacing:1px; text-transform:none; color:rgba(255,255,255,.8); }
+html[dir="rtl"] .tfc-eyebrow, html[dir="rtl"] .tfc-label, html[dir="rtl"] .tfc-about-mission h3 { letter-spacing:0; }
+/* 4. Custom section titles on the theme scale (50/700, tight tracking); one shared sub-size on About */
+.tfc-about-intro h2, .tfc-contact-head h1, .elementor-153 .elementor-element.elementor-element-bd46819 h1.elementor-heading-title { font-size:clamp(34px, 3.7vw, 50px); font-weight:700; letter-spacing:-.03em; line-height:1.1; }
+.tfc-about-why > h2, .tfc-about-final > h2 { font-size:clamp(28px, 3vw, 40px); font-weight:700; letter-spacing:-.03em; line-height:1.15; }
+.tfc-about-why::before { content:""; display:block; width:66px; height:3px; margin:0 auto 26px; border-radius:2px; background:var(--tfc-blue); }
+/* 5. One navy for titles that were still the theme's neutral grey */
+.aux-widget-recent-portfolios .entry-title, .aux-widget-recent-portfolios .entry-title a,
+.aux-widget-recent-posts article.no-media .entry-title a, .category .entry-title a, .author .entry-title a,
+.aux-next-prev-posts .np-title { color:var(--tfc-navy); }
+/* 3. Brand blue instead of the theme's default cyan on hover / prev-next links */
+.aux-widget-recent-portfolios .entry-title a:hover, .aux-widget-recent-portfolios .aux-iso-item:hover .entry-title a,
+.elementor-153 .elementor-element.elementor-element-f7cc036 .aux-iso-item:hover .entry-title a, .aux-widget-recent-posts article.no-media .entry-title a:hover,
+.category .entry-title a:hover, .author .entry-title a:hover, .aux-next-prev-posts .np-title:hover,
+.aux-next-prev-posts a, .aux-next-prev-posts a:hover, .aux-next-prev-posts a .np-arrow { color:var(--tfc-blue) !important; }
+/* 6. Submit buttons and the second Read More use the site's primary pill (Quicksand 16/700, title case) */
+.aux-widget-recent-posts .aux-read-more { font-weight:700; }
+.single-post #commentform input[type="submit"] {
+  width:auto !important; height:auto !important; padding:14px 45px !important; border-radius:30px;
+  font-family:"Quicksand", sans-serif; font-size:16px; line-height:24px; font-weight:700 !important; text-transform:none;
+  background:var(--tfc-blue); color:#fff; box-shadow:-15px 20px 40px rgba(14,71,192,.3); transition:background-color .2s, color .2s;
+}
+.single-post #commentform input[type="submit"]:hover { background:var(--tfc-yellow); color:var(--tfc-navy); }
+.tfc-contact-form .wpcf7 .wpcf7-submit { height:52px; padding:0 45px; line-height:24px; text-transform:none; box-shadow:-15px 20px 40px rgba(14,71,192,.3); }
+.tfc-contact-form .wpcf7-submit:hover { background:var(--tfc-yellow); color:var(--tfc-navy); transform:none; }
+/* 7. Keyboard focus ring on every pill button (nav links already have one); pills get a white-gap ring so it reads on the blue band too */
+.aux-read-more:focus-visible, .readmore:has(> a:focus-visible), .tfc-map-card a:focus-visible, .aux-goto-top-btn:focus-visible { outline:2px solid var(--tfc-blue); outline-offset:3px; }
+.elementor-button:focus-visible, input[type="submit"]:focus-visible { outline:none !important; box-shadow:0 0 0 3px #fff, 0 0 0 5px var(--tfc-blue) !important; }
+.tfc-contact-form .wpcf7 .wpcf7-submit:focus, .single-post #commentform input[type="submit"]:focus { background:var(--tfc-blue); color:#fff; }
+.tfc-contact-form .wpcf7 .wpcf7-submit:hover, .single-post #commentform input[type="submit"]:hover { background:var(--tfc-yellow); color:var(--tfc-navy); }
+/* 2. Team grid on desktop: captions always readable (white on a gradient over the photo), hover lift kept */
+@media (min-width:768px) {
+  .elementor-174 .elementor-element-741eadf .staff-box::after {
+    content:""; position:absolute; left:0; width:100%; top:50%; transform:translateY(-50%); aspect-ratio:1838 / 2560; pointer-events:none; z-index:0;
+    background:linear-gradient(180deg, rgba(8,20,32,0) 45%, rgba(8,20,32,.86) 100%);
+  }
+  /* caption anchored to the photo's bottom edge: the photo is centred in the box and its height is 2560/1838 of the box width, so 50% + 69.64% (margin-top % = box width) lands on that edge at any width */
+  .elementor-174 .elementor-element-741eadf .staff-box .elementor-widget-aux_staff { left:26px !important; right:auto !important; top:50% !important; bottom:auto !important; margin:calc(69.64% - 14px) 0 0 !important; transform:translateY(-100%) !important; width:calc(100% - 52px) !important; z-index:1; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff { opacity:1 !important; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .col-title { color:#fff; font-size:18px; line-height:1.25; margin:0 0 4px; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .col-subtitle { color:rgba(255,255,255,.82); font-size:14px !important; line-height:1.35; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .aux-social-list a { color:#fff; }
+}
+@media (min-width:768px) and (max-width:1024px) {
+  .elementor-174 .elementor-element-741eadf .staff-box::after { background:linear-gradient(180deg, rgba(8,20,32,0) 25%, rgba(8,20,32,.86) 100%); }
+  .elementor-174 .elementor-element-741eadf .staff-box .elementor-widget-aux_staff { left:14px !important; right:auto !important; width:calc(100% - 28px) !important; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .col-title { font-size:14px; line-height:1.2; margin:0 0 2px; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .col-subtitle { font-size:11px !important; line-height:1.3; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .aux-staff-footer { padding:0 !important; margin-top:6px; }
+}
+
+/* ===== Polish batch 2 (2026-09-11): archive cards + page titles, footer spacing, phone tweaks, dead post UI ===== */
+/* 9. Category / author archives reuse the blog page card */
+.category .aux-row, .author .aux-row { display:flex; flex-wrap:wrap; align-items:stretch; margin:0 -20px !important; padding:0 !important; }
+.category .aux-primary, .author .aux-primary { padding-left:0 !important; padding-right:0 !important; }
+.category .aux-col, .author .aux-col { display:flex; float:none; background:none !important; box-shadow:none !important; border-radius:0; padding:0 20px !important; margin:0 0 10px !important; width:33.333% !important; height:auto !important; }
+.category .post.column-entry, .author .post.column-entry { background:var(--tfc-tint); border-radius:20px; padding:0 !important; width:100%; height:auto; transition:background-color .3s ease-out, box-shadow .3s ease-out; }
+.category .post.column-entry:hover, .author .post.column-entry:hover { background:#fff; box-shadow:-15px 30px 80px rgba(171,175,199,.3); }
+.category .post .entry-main, .author .post .entry-main { padding:48px 48px 122px; }
+.category .post .entry-info, .author .post .entry-info { padding:0 !important; margin:0 0 41px !important; color:var(--tfc-grey); }
+.category .post .entry-title, .author .post .entry-title { margin:0 0 35px; line-height:1.32; }
+.category .post .entry-title a, .author .post .entry-title a { font-size:25px; font-weight:700; line-height:1.32; letter-spacing:-.03em; color:var(--tfc-navy); }
+.category .post .entry-content, .author .post .entry-content { color:var(--tfc-grey); font-weight:500; line-height:25px; }
+.category .post .aux-after-content, .author .post .aux-after-content { bottom:50px !important; left:12% !important; right:auto !important; padding:0 !important; }
+html[dir="rtl"] .category .post .aux-after-content, html[dir="rtl"] .author .post .aux-after-content { left:auto !important; right:12% !important; }
+.category .post .comments-iconic, .author .post .comments-iconic { display:none; }
+@media (max-width:1024px) { .category .aux-col, .author .aux-col { width:50% !important; } }
+@media (max-width:767px) { .category .aux-col, .author .aux-col { width:100% !important; } .category .post .entry-main, .author .post .entry-main { padding:40px 32px 110px; } .category .post .aux-after-content, .author .post .aux-after-content { left:32px !important; bottom:40px !important; } html[dir="rtl"] .category .post .aux-after-content, html[dir="rtl"] .author .post .aux-after-content { left:auto !important; right:32px !important; } }
+/* 10. Page titles on the archive templates (theme title unhidden and styled like the Services heading) and on the blog page */
+.category .page-title-section .page-header, .author .page-title-section .page-header { display:block !important; background:none !important; border:0 !important; padding:60px 0 0 !important; }
+.category .page-title-section .aux-breadcrumbs, .author .page-title-section .aux-breadcrumbs { display:none !important; }
+.category .page-title-section .aux-container, .author .page-title-section .aux-container { max-width:none !important; width:auto !important; margin:0 35px !important; padding:0 !important; }
+.category .page-title-section .aux-page-title-entry, .author .page-title-section .aux-page-title-entry, .category .page-title-section .aux-page-title-box, .author .page-title-section .aux-page-title-box { display:block !important; width:auto !important; text-align:start !important; padding:0 !important; margin:0 !important; }
+.category h1.page-title, .author h1.page-title, .tfc-page-title { display:block; font-family:"DM Sans", sans-serif; font-size:clamp(34px, 3.7vw, 50px); font-weight:700; letter-spacing:-.03em; line-height:1.1; color:var(--tfc-navy); margin:0 0 30px; }
+.category .aux-content-top-margin .aux-primary, .author .aux-content-top-margin .aux-primary { padding-top:0; padding-bottom:170px !important; }
+.tfc-page-head { --display:flex; --padding-top:40px; --padding-bottom:0; --padding-left:0; --padding-right:0; }
+@media (max-width:767px) { .category .page-title-section .aux-container, .author .page-title-section .aux-container { margin:0 35px !important; } .tfc-page-head { --padding-top:40px; } .category .page-title-section .page-header, .author .page-title-section .page-header { padding-top:40px !important; } }
+/* 13. Phone homepage: the image post card gets the same tinted card as its neighbour */
+@media (max-width:767px) {
+  .elementor-175 .elementor-element-a9cf1c6 .aux-row { margin:0 !important; }
+  .elementor-175 .elementor-element-098e9ce .aux-row { margin:0 !important; }
+  .elementor-175 .elementor-element-a9cf1c6 .aux-col { background:var(--tfc-tint); border-radius:20px; padding:0 0 30px !important; margin:0 0 30px !important; overflow:hidden; }
+  .elementor-175 .elementor-element-a9cf1c6 .aux-col .entry-media { margin:0 0 24px; }
+  .elementor-175 .elementor-element-a9cf1c6 .aux-col .aux-media-frame img { border-radius:0; display:block; width:100%; }
+  .elementor-175 .elementor-element-a9cf1c6 .aux-col .entry-main { padding:0 30px !important; }
+  .elementor-175 .elementor-element-a9cf1c6 .aux-col .aux-after-content { position:static; padding:0; margin-top:8px; }
+  .elementor-175 .elementor-element-a9cf1c6 .aux-col a.aux-read-more { position:static; display:inline-block; margin:0; }
+}
+/* 14. Single post: the like counter needs the WordPress backend, so it is hidden (share stays) */
+.single-post .aux-wpulike, .single-post .wpulike { display:none !important; }
+
+/* ===== Polish batch 3 (2026-09-12): small refinements ===== */
+/* Homepage "Find the plan" title stays on one line on desktop like every other section title */
+@media (min-width:1025px) { .elementor-175 .elementor-element.elementor-element-138f714 { max-width:none; --container-widget-width:100%; width:100%; } }
+/* Floating language switcher sits on the page gutter instead of 10vw */
+html:not([dir="rtl"]) .trp-floating-switcher { --left:35px !important; }
+html[dir="rtl"] .trp-floating-switcher { --right:35px !important; }
+@media (max-width:767px) { html:not([dir="rtl"]) .trp-floating-switcher { --left:20px !important; } html[dir="rtl"] .trp-floating-switcher { --right:20px !important; } }
+/* Service pages: the Phlox portfolio demo box (Client / Release Date / Role / Launch Project) is hidden until real data exists */
+.elementor-156 .elementor-element-e74d721, .elementor-158 .elementor-element-e91ac4e,
+.elementor-161 .elementor-element-0207fdc, .elementor-157 .elementor-element-dbefe3e, .elementor-160 .elementor-element-a654308 { display:none !important; }
+/* Service pages on phones: previous / next labels stay on one line beside their arrow */
+@media (max-width:600px) { .aux-next-prev-posts .np-nav-text { white-space:nowrap; font-size:15px; } }
+
+/* ============================================================================
+   Round 3, batch A (2026-09-12): services icon frames, About phone width, phone type scale,
+   footer copyright band, section rhythm on Home / About / Contact, contact form (markup).
+   ============================================================================ */
+/* A1 Services page: the icon frame was a 20px-radius square carrying a drop shadow around a 24%-radius
+   tile, so the corners between them read as a white card. The frame is now shadowless and clipped to the
+   tile shape; the tile itself gets a soft lift. */
+.elementor-153 .elementor-element.elementor-element-f7cc036 .aux-media-image { box-shadow:none; border-radius:24% !important; background:none; overflow:visible; }
+.elementor-153 .elementor-element.elementor-element-f7cc036 img.tfc-service-icon { box-shadow:0 22px 40px -22px rgba(14,71,192,.30); }
+
+/* A2 About page: the text widget stacked three side paddings (10 + 20 + 30) so its cards were 60px from the
+   screen edge while every other section sits at 35px. Below 1025px it now uses the shared 35px gutter. */
+@media (max-width:1024px) {
+  .elementor-174 .elementor-element.elementor-element-fc405f2 { --padding-left:35px; --padding-right:35px; }
+  .elementor-174 .elementor-element.elementor-element-2e6eeac > .elementor-widget-container { padding-left:0; padding-right:0; }
+  .elementor-174 .elementor-element-2e6eeac .aux-text-inner { padding-left:0 !important; padding-right:0 !important; }
+}
+
+/* A3 Phone type scale on the homepage: body copy 16px, secondary 15px, feature titles 17px, meta 14px */
+@media (max-width:767px) {
+  .elementor-175 .elementor-element-2e1e9bd .aux-modern-heading-description { font-size:16px !important; line-height:1.6 !important; }
+  .elementor-175 .elementor-element-60bf972 .aux-modern-heading-primary, .aboutusdescription h3 { font-size:19px !important; line-height:1.3 !important; }
+  .elementor-175 .elementor-element-60bf972 .aux-modern-heading-description, .aboutusdescription p { font-size:16px !important; line-height:1.65 !important; }
+  .elementor-175 .elementor-element-cb0617e .elementor-testimonial-content { font-size:16px !important; line-height:1.6 !important; }
+  .elementor-175 .elementor-element-cb0617e .elementor-testimonial-name { font-size:16px !important; }
+  .elementor-175 .elementor-element-cb0617e .elementor-testimonial-job { font-size:14px !important; }
+  .elementor-175 .elementor-element-2e6f07e .entry-content, .elementor-175 .elementor-element-2e6f07e .entry-content p { font-size:15px !important; line-height:1.6 !important; }
+  .elementor-175 .elementor-element-2e6f07e .entry-meta .aux-read-more { font-size:15px !important; }
+}
+
+/* A4 Footer copyright band. The TranslatePress floating switcher is retired (its replacement is the site's own
+   .tfc-lang-float further down), so the 72px clearance it needed under the footer goes with it. Line → 24px → text → 32px (desktop);
+   phones/tablets keep enough room under the text for the go-to-top button, and the menu sits 32px above the line. */
+.trp-floating-switcher { display:none !important; }
+footer.aux-elementor-footer { padding-bottom:0; }
+/* the line is centred at every width: at the start edge it ran under the chat bubble in RTL (right corner) */
+@media (max-width:767px) {
+  /* the fixed chat bubble (bottom-right, ~90px tall with its label) would sit on the centred copyright line */
+}
+
+/* A5 Section rhythm. One scale for Home / About / Contact: desktop 140px between sections and 70px from a
+   section heading to its content; phones 90px and 40px. Values are per section because each one carries a
+   different inner offset (heading padding, card shadow room, quote icon overhang). */
+@media (min-width:768px) {
+  .elementor-175 .elementor-element.elementor-element-e2fdfbd { --padding-bottom:117px; }
+  .elementor-175 .elementor-element.elementor-element-e514488 { --padding-bottom:54px; }
+  .elementor-175 .elementor-element.elementor-element-2e1e9bd { --padding-bottom:112px; }
+  .elementor-175 .elementor-element.elementor-element-09ac3fa { --padding-bottom:50px; }
+  .elementor-175 .elementor-element.elementor-element-3d2e8c8 { --padding-bottom:60px; } /* the grid keeps 50px of its own under the last row */
+  .elementor-175 .elementor-element.elementor-element-80e9e7a { --padding-bottom:95px; }
+  .elementor-175 .elementor-element.elementor-element-cb0617e { --padding-bottom:130px; }
+  .elementor-175 .elementor-element.elementor-element-6e97bc8 { --padding-bottom:60px; }
+  .elementor-174 .elementor-element.elementor-element-de8dc90 { --padding-bottom:117px; }
+  .elementor-174 .elementor-element.elementor-element-5d72836 { --padding-bottom:60px; }
+  .elementor-174 .elementor-element.elementor-element-741eadf { --padding-bottom:88px; }
+  .elementor-174 .elementor-element.elementor-element-fc405f2 { --padding-bottom:80px; }
+  .tfc-contact-con { --padding-bottom:140px; }
+}
+@media (max-width:767px) {
+  .elementor-175 .elementor-element.elementor-element-e2fdfbd { --padding-bottom:90px; }
+  .elementor-175 .elementor-element.elementor-element-e514488 { --padding-bottom:24px; }
+  .elementor-175 .elementor-element.elementor-element-2e1e9bd { --margin-bottom:0px; margin-bottom:0; --padding-bottom:66px; }
+  .elementor-175 .elementor-element.elementor-element-09ac3fa { --padding-bottom:20px; }
+  .elementor-175 .elementor-element.elementor-element-3d2e8c8 { --padding-bottom:0px; }
+  .elementor-175 .elementor-element.elementor-element-e17972c { --padding-bottom:45px; }
+  .elementor-175 .elementor-element.elementor-element-80e9e7a { --padding-bottom:60px; }
+  .elementor-175 .elementor-element.elementor-element-cb0617e { --padding-bottom:80px; }
+  .elementor-175 .elementor-element.elementor-element-6e97bc8 { --margin-top:0px; margin-top:0; --padding-bottom:30px; }
+  .elementor-175 .elementor-element.elementor-element-2e6f07e { --margin-bottom:30px; margin-bottom:30px; }
+  .elementor-174 .elementor-element.elementor-element-5d72836 { --padding-bottom:30px; }
+  .elementor-174 .elementor-element.elementor-element-741eadf { --padding-bottom:38px; }
+  .elementor-174 .elementor-element.elementor-element-fc405f2 { --padding-bottom:30px; }
+  .tfc-contact-con { --padding-bottom:90px; }
+}
+/* A5b About team grid (tablet/desktop): the box was a fixed 640px spacer with the photo centred inside it, so
+   each column carried ~130px of empty band above and below the picture. The box now takes the photo's own
+   aspect ratio; the caption/gradient maths (anchored to the photo edge) is unchanged. */
+@media (min-width:768px) {
+  .elementor-174 .elementor-element-741eadf .staff-box { height:auto !important; min-height:0 !important; aspect-ratio:1838 / 2560; padding:0 !important; }
+  .elementor-174 .elementor-element-741eadf .staff-box .elementor-widget-spacer { display:none !important; }
+}
+
+/* ============================================================================
+   Round 3, batch B (2026-09-12): header language selector + footer services/language rows.
+   ============================================================================ */
+/* -- B2 Header language selector: a flag + code pill; the list opens under it (hover on desktop, click/keyboard
+      everywhere). In the off-canvas panel the same list is shown inline as pills under a "Language" title. -- */
+.tfc-lang { position:relative; }
+.tfc-lang-title { display:none; }
+.tfc-lang-btn { appearance:none; -webkit-appearance:none; background:none; border:0; margin:0; cursor:pointer; font:inherit; display:inline-flex; align-items:center; gap:8px; }
+.aux-elementor-header-menu .aux-master-menu .tfc-lang > .tfc-lang-btn {
+  padding:7px 12px 7px 9px; border:1px solid var(--tfc-line); border-radius:999px; background:#fff;
+  font-size:13px; font-weight:700; letter-spacing:.06em; line-height:1; color:var(--tfc-navy);
+  transition:border-color .2s, background-color .2s, color .2s;
+}
+html[dir="rtl"] .aux-elementor-header-menu .aux-master-menu .tfc-lang > .tfc-lang-btn { padding:7px 9px 7px 12px; }
+.tfc-lang-flag { width:20px; height:15px; border-radius:3px; object-fit:cover; display:block; }
+.tfc-lang-caret { width:7px; height:7px; margin-top:-3px; border-right:1.5px solid currentColor; border-bottom:1.5px solid currentColor; transform:rotate(45deg); transition:transform .2s; }
+.tfc-lang > .tfc-lang-btn:hover, .tfc-lang.is-open > .tfc-lang-btn { border-color:var(--tfc-blue) !important; color:var(--tfc-blue) !important; background:var(--tfc-tint) !important; }
+.tfc-lang.is-open > .tfc-lang-btn .tfc-lang-caret { transform:rotate(225deg); margin-top:3px; }
+.tfc-lang-btn:focus-visible, .tfc-lang-opt:focus-visible { outline:2px solid var(--tfc-blue); outline-offset:3px; }
+.tfc-lang-list {
+  position:absolute; top:100%; inset-inline-end:0; z-index:60; margin:12px 0 0 !important; padding:8px !important; list-style:none; min-width:186px;
+  background:#fff; border:1px solid var(--tfc-line); border-radius:14px; box-shadow:0 24px 48px -16px rgba(8,20,32,.22), 0 2px 8px rgba(8,20,32,.06);
+  opacity:0; visibility:hidden; transform:translateY(6px); transition:opacity .2s, transform .2s, visibility 0s linear .2s;
+}
+.tfc-lang-list::before { content:""; position:absolute; left:0; right:0; top:-12px; height:12px; } /* hover bridge */
+.tfc-lang-list > li { margin:0 !important; padding:0 !important; list-style:none; float:none !important; width:auto !important; }
+.tfc-lang.is-open > .tfc-lang-list { opacity:1; visibility:visible; transform:none; transition-delay:0s; }
+@media (min-width:1025px) { .tfc-lang:hover > .tfc-lang-list { opacity:1; visibility:visible; transform:none; transition-delay:0s; } }
+.tfc-lang-opt {
+  display:flex !important; align-items:center; gap:10px; padding:10px 12px !important; margin:0 !important; border-radius:9px; white-space:nowrap;
+  font-size:15px !important; font-weight:500; line-height:1.3 !important; color:var(--tfc-navy) !important; text-decoration:none; transition:background-color .2s, color .2s;
+}
+.tfc-lang-opt img { width:20px; height:15px; border-radius:3px; object-fit:cover; flex:none; }
+.tfc-lang-opt:hover { background:var(--tfc-tint); color:var(--tfc-blue) !important; }
+.tfc-lang-opt.is-current { color:var(--tfc-blue) !important; font-weight:700; }
+.tfc-lang-opt.is-current::after { content:""; margin-inline-start:auto; width:6px; height:11px; margin-bottom:3px; border-right:2px solid currentColor; border-bottom:2px solid currentColor; transform:rotate(45deg); }
+/* the off-canvas panel: title + inline pills, no dropdown */
+.aux-offcanvas-menu .tfc-lang { padding:18px 6px 10px !important; }
+.aux-offcanvas-menu .tfc-lang > .tfc-lang-btn { display:none !important; }
+.aux-offcanvas-menu .tfc-lang .tfc-lang-title { display:block; margin:0 6px 12px; font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--tfc-grey); }
+html[dir="rtl"] .aux-offcanvas-menu .tfc-lang .tfc-lang-title { letter-spacing:0; font-size:13px; }
+.aux-offcanvas-menu .tfc-lang > .tfc-lang-list {
+  position:static; display:flex; flex-wrap:wrap; gap:8px; margin:0 !important; padding:0 !important; min-width:0;
+  background:none; border:0; box-shadow:none; opacity:1; visibility:visible; transform:none; transition:none;
+}
+.aux-offcanvas-menu .tfc-lang .tfc-lang-list::before { display:none; }
+.aux-offcanvas-menu .tfc-lang .tfc-lang-opt { padding:8px 12px 8px 9px !important; gap:8px; border:1px solid var(--tfc-line); border-radius:999px; font-size:14px !important; }
+html[dir="rtl"] .aux-offcanvas-menu .tfc-lang .tfc-lang-opt { padding:8px 9px 8px 12px !important; }
+.aux-offcanvas-menu .tfc-lang .tfc-lang-opt.is-current { border-color:var(--tfc-blue); background:var(--tfc-tint); }
+.aux-offcanvas-menu .tfc-lang .tfc-lang-opt.is-current::after { display:none; }
+
+/* -- B1 Footer: a services row and a language row under the main links, so the footer mirrors the header. -- */
+/* Just above the off-canvas switch (1025–1150px) the seven header items plus the language pill need tighter gaps,
+   otherwise the Turkish menu wraps to a second line. */
+@media (min-width:1025px) and (max-width:1150px) {
+  .aux-elementor-header-menu .aux-master-menu.aux-horizontal > .aux-menu-depth-0 { margin-inline-end:22px; }
+}
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal .tfc-lang > .tfc-lang-btn { position:relative; top:2px; } /* optical centre on the link row */
+
+/* ===================================================================================================
+   Round 4 (2026-09-13)
+   =================================================================================================== */
+/* -- 4.1 Header language list: centred under the pill with the same notch as the Services submenu -- */
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal .tfc-lang > .tfc-lang-list { inset-inline-end:auto; left:50%; margin-top:14px !important; transform:translate(-50%, 6px); }
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal .tfc-lang.is-open > .tfc-lang-list { transform:translate(-50%, 0); }
+@media (min-width:1025px) { .aux-elementor-header-menu .aux-master-menu.aux-horizontal .tfc-lang:hover > .tfc-lang-list { transform:translate(-50%, 0); } }
+.aux-elementor-header-menu .aux-master-menu.aux-horizontal .tfc-lang > .tfc-lang-list::before { top:-14px; height:14px; }
+.tfc-lang-list::after { content:""; position:absolute; top:-7px; left:50%; width:12px; height:12px; margin-left:-6px; background:#fff; border-left:1px solid var(--tfc-line); border-top:1px solid var(--tfc-line); transform:rotate(45deg); border-radius:2px 0 0 0; }
+.aux-offcanvas-menu .tfc-lang .tfc-lang-list::after { display:none; }
+.tfc-lang-opt { text-align:start; }
+
+/* -- 4.2 Floating language switcher (bottom-left on every page; the list opens upwards) -- */
+.tfc-lang-float { position:fixed; left:24px; bottom:24px; z-index:900; margin:0; padding:0; list-style:none; }
+.tfc-lang-float > .tfc-lang-btn {
+  display:inline-flex; align-items:center; gap:7px; padding:8px 13px 8px 10px; border:1px solid var(--tfc-line); border-radius:999px; background:#fff; color:var(--tfc-navy);
+  font-size:13px; font-weight:700; letter-spacing:.06em; line-height:1; cursor:pointer; box-shadow:0 12px 28px -12px rgba(8,20,32,.35), 0 1px 3px rgba(8,20,32,.08);
+  transition:border-color .2s, box-shadow .2s, color .2s;
+}
+[dir="rtl"] .tfc-lang-float > .tfc-lang-btn { padding:8px 10px 8px 13px; }
+.tfc-lang-float > .tfc-lang-btn:hover, .tfc-lang-float.is-open > .tfc-lang-btn { border-color:var(--tfc-blue); color:var(--tfc-blue); box-shadow:0 14px 30px -12px rgba(14,71,192,.35); }
+.tfc-lang-float > .tfc-lang-btn:focus-visible { outline:2px solid var(--tfc-blue); outline-offset:3px; }
+.tfc-lang-float > .tfc-lang-btn .tfc-lang-caret { transform:rotate(225deg); margin-top:3px; }
+.tfc-lang-float.is-open > .tfc-lang-btn .tfc-lang-caret { transform:rotate(45deg); margin-top:-3px; }
+.tfc-lang-float > .tfc-lang-list { top:auto; bottom:100%; left:0; inset-inline-end:auto; margin:0 0 12px !important; transform:translateY(-6px); }
+.tfc-lang-float.is-open > .tfc-lang-list { transform:none; }
+@media (min-width:1025px) { .tfc-lang-float:hover > .tfc-lang-list { transform:none; } }
+.tfc-lang-float > .tfc-lang-list::before { top:auto; bottom:-12px; }
+.tfc-lang-float > .tfc-lang-list::after { top:auto; bottom:-7px; left:26px; transform:rotate(225deg); }
+@media (max-width:767px) {
+  .tfc-lang-float { left:16px; bottom:18px; }
+  .tfc-lang-float > .tfc-lang-btn { padding:7px 11px 7px 9px; font-size:12px; }
+}
+@media print { .tfc-lang-float { display:none; } }
+body.tfc-oc-open .tfc-lang-float { display:none; } /* the off-canvas panel has its own language pills */
+
+/* -- 4.3 About page, phone: team captions on a light bottom gradient only (the caption block no longer darkens the photo) -- */
+@media (max-width:767px) {
+  .elementor-174 .elementor-element-741eadf .staff-box::after { content:""; position:absolute; left:0; right:0; bottom:0; height:56%; background:linear-gradient(180deg, rgba(8,20,32,0) 0%, rgba(8,20,32,.55) 45%, rgba(8,20,32,.82) 100%); pointer-events:none; z-index:0; }
+  .elementor-174 .elementor-element-741eadf .staff-box .elementor-widget-aux_staff { position:relative !important; z-index:1; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff { padding:10px 12px 10px; background:none; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .col-title { font-size:14px; line-height:1.2; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .col-subtitle { font-size:11px !important; line-height:1.3; }
+  .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .aux-staff-footer { margin-top:4px; }
+}
+
+
+/* -- 4.5 Section rhythm, site-wide. Visible-box distances (text glyphs, images, tinted cards, the blue footer band): 120px between sections, 56px between
+      a section label and its content, 120px from the last content to the footer band, 60px header→first content on sub-pages
+      (desktop/tablet); 72 / 32 / 72 / 32 on phones.
+      Values below were tuned by measuring rendered pages, so they include each block's own internal whitespace. -- */
+@media (min-width:768px) {
+  .elementor-175 .elementor-element.elementor-element-e2fdfbd { --padding-bottom:123px; }
+  .elementor-175 .elementor-element.elementor-element-e514488 { --padding-bottom:64px; }
+  .elementor-175 .elementor-element.elementor-element-2e1e9bd { --padding-bottom:94px; }
+  .elementor-175 .elementor-element.elementor-element-09ac3fa { --padding-bottom:35px; }
+  .elementor-175 .elementor-element.elementor-element-3d2e8c8 { --padding-bottom:10px; }
+  .elementor-175 .elementor-element.elementor-element-e17972c { --padding-bottom:113px; }
+  .elementor-175 .elementor-element.elementor-element-80e9e7a { --padding-bottom:89px; }
+  .elementor-175 .elementor-element.elementor-element-cb0617e { --padding-bottom:113px; }
+  .elementor-175 .elementor-element.elementor-element-6e97bc8 { --padding-bottom:46px; }
+  .elementor-175 .elementor-element.elementor-element-2e6f07e { --padding-bottom:120px; --margin-bottom:0px; margin-bottom:0; }
+  .elementor-174 .elementor-element.elementor-element-de8dc90 { --padding-bottom:113px; }
+  .elementor-174 .elementor-element.elementor-element-5d72836 { --padding-bottom:46px; }
+  .elementor-174 .elementor-element.elementor-element-741eadf { --padding-bottom:110px; }
+  .elementor-174 .elementor-element.elementor-element-fc405f2 { --padding-bottom:50px; --margin-bottom:0px; margin-bottom:0; }
+  .tfc-contact-con { --padding-top:60px; --padding-bottom:120px; }
+  .elementor-153 .elementor-element.elementor-element-8f7794f { --padding-top:66px; --padding-bottom:0px; --margin-bottom:73px; margin-bottom:73px; }
+  .elementor-162 .elementor-element.elementor-element-9cd9deb { --padding-top:26px; --padding-bottom:0px; --margin-bottom:110px; margin-bottom:110px; }
+  .single-post .aux-primary { padding-top:60px; padding-bottom:101px; }
+  .category main.aux-archive .aux-primary, .author main.aux-archive .aux-primary { padding-top:0 !important; padding-bottom:110px !important; }
+}
+@media (max-width:767px) {
+  .elementor-175 .elementor-element.elementor-element-e2fdfbd { --padding-bottom:75px; }
+  .elementor-175 .elementor-element.elementor-element-e514488 { --padding-bottom:36px; }
+  .elementor-175 .elementor-element.elementor-element-2e1e9bd { --padding-bottom:45px; }
+  .elementor-175 .elementor-element.elementor-element-09ac3fa { --padding-bottom:13px; }
+  .elementor-175 .elementor-element.elementor-element-3d2e8c8 { --padding-bottom:0px; --margin-bottom:-34px; margin-bottom:-34px; }
+  .elementor-175 .elementor-element.elementor-element-e17972c { --padding-bottom:25px; }
+  .elementor-175 .elementor-element.elementor-element-80e9e7a { --padding-bottom:52px; }
+  .elementor-175 .elementor-element.elementor-element-cb0617e { --padding-bottom:65px; }
+  .elementor-175 .elementor-element.elementor-element-6e97bc8 { --padding-bottom:23px; }
+  .elementor-175 .elementor-element.elementor-element-2e6f07e { --padding-bottom:72px; --margin-bottom:0px; margin-bottom:0; }
+  .elementor-175 .elementor-element-2e6f07e .aux-col:last-child { margin-bottom:0 !important; } /* margin only: each post widget holds a single card, so this matched both cards and removed their bottom padding */
+  .elementor-174 .elementor-element.elementor-element-de8dc90 { --padding-bottom:65px; }
+  .elementor-174 .elementor-element.elementor-element-5d72836 { --padding-bottom:24px; }
+  .elementor-174 .elementor-element.elementor-element-741eadf { --padding-bottom:62px; }
+  .elementor-174 .elementor-element.elementor-element-fc405f2 { --padding-bottom:2px; --margin-bottom:0px; margin-bottom:0; }
+  .tfc-contact-con { --padding-top:32px; --padding-bottom:72px; }
+  .tfc-contact-map { min-height:0 !important; }
+  .elementor-153 .elementor-element.elementor-element-8f7794f { --padding-top:36px; --padding-bottom:0px; --margin-bottom:25px; margin-bottom:25px; }
+  .elementor-162 .elementor-element.elementor-element-9cd9deb { --padding-top:0px; --padding-bottom:0px; --margin-bottom:62px; margin-bottom:62px; }
+  .single-post .aux-primary { padding-top:32px; padding-bottom:53px; }
+  .category main.aux-archive .aux-primary, .author main.aux-archive .aux-primary { padding-top:0 !important; padding-bottom:62px !important; }
+}
+/* tablets (768-1024): the home About columns stack and the testimonial slider grows, so three paddings differ from desktop */
+@media (min-width:768px) and (max-width:1024px) {
+  .elementor-175 .elementor-element.elementor-element-e17972c { --padding-bottom:73px; }
+  .elementor-175 .elementor-element.elementor-element-80e9e7a { --padding-bottom:75px; }
+  .elementor-175 .elementor-element.elementor-element-cb0617e { --padding-bottom:63px; }
+}
+/* internal whitespace the blocks above cannot reach */
+.elementor-174 .elementor-element-fc405f2 .aux-text-inner { padding-top:0 !important; }
+.elementor-174 .elementor-element-fc405f2 .widget-content { margin-top:0 !important; }
+.elementor-174 .elementor-element-fc405f2 .aux-portfolio-columns, .elementor-153 .elementor-element-8f7794f .aux-portfolio-columns { margin-bottom:0 !important; }
+.elementor-174 .elementor-element-fc405f2 .aux-widget-recent-posts, .elementor-174 .elementor-element-fc405f2 .elementor-widget-aux_recent_portfolios_grid > .elementor-widget-container { padding-bottom:0 !important; }
+.elementor-162 .elementor-element.elementor-element-4c73d16 { --padding-bottom:0px; }
+.single-post .entry-content { margin-bottom:0 !important; }
+.elementor-element-9cd9deb .aux-row, .aux-archive .aux-primary .aux-row { margin-bottom:0 !important; }
+
+/* -- 4.6 Service page template v2 (six services x three languages, generated by svc-content.py): tinted hero with breadcrumb,
+      "what's included" cards, numbered steps on a tinted band, long text beside a sticky aside (contact card + other services).
+      The page uses the same 1600px width and 35px gutters as the header and the footer band. -- */
+.single-portfolio main.aux-main { max-width:none; }
+.single-portfolio main.aux-full-container > .aux-wrapper > .aux-container { max-width:1670px; padding-inline:35px; box-sizing:border-box; }
+.single-portfolio .aux-primary { padding:0 !important; }
+.single-portfolio main, .single-portfolio .aux-container { padding-bottom:0 !important; }
+.single-portfolio .entry-side { display:none !important; }
+.tfc-svc { --svc-text:#566074; display:block; padding-bottom:96px; }
+.tfc-svc h1, .tfc-svc h2, .tfc-svc h3 { color:var(--tfc-navy); letter-spacing:-.02em; }
+/* hero */
+.tfc-svc-hero { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,360px); gap:48px 96px; align-items:center; margin-top:20px; padding:72px 96px; border-radius:32px; background:var(--tfc-tint); }
+.tfc-crumbs { display:flex; flex-wrap:wrap; align-items:center; gap:6px 10px; margin:0 0 22px; font-size:14px; font-weight:600; line-height:1.4; color:var(--tfc-grey); }
+.tfc-crumbs a { color:var(--tfc-blue); text-decoration:none; }
+.tfc-crumbs a:hover, .tfc-crumbs a:focus-visible { text-decoration:underline; }
+.tfc-crumbs [aria-current] { color:var(--tfc-navy); }
+.tfc-crumbs span[aria-hidden] { opacity:.45; }
+.tfc-svc-hero h1 { margin:0 0 20px; font-size:clamp(36px, 3.9vw, 60px); font-weight:700; line-height:1.1; }
+.tfc-svc-lead { margin:0 0 34px; max-width:600px; font-size:19px; line-height:1.7; color:var(--svc-text); }
+.tfc-svc-actions { display:flex; flex-wrap:wrap; gap:14px; }
+.tfc-svc-hero-art { position:relative; justify-self:center; width:100%; max-width:340px; aspect-ratio:1; }
+.tfc-svc-hero-art::before, .tfc-svc-hero-art::after { content:""; position:absolute; border-radius:14%; }
+.tfc-svc-hero-art::before { width:50%; height:50%; top:-7%; inset-inline-end:-7%; background:var(--tfc-blue); border-start-end-radius:100%; }
+.tfc-svc-hero-art::after { width:40%; height:40%; bottom:-7%; inset-inline-start:-7%; background:var(--tfc-yellow); border-end-start-radius:100%; }
+.tfc-svc-hero-art img.tfc-service-icon { position:relative; z-index:1; display:block; width:100%; height:100%; max-width:none; background:#fff; border-radius:24%; box-shadow:0 40px 70px -34px rgba(14,71,192,.45); }
+/* buttons */
+.tfc-btn { display:inline-flex; align-items:center; justify-content:center; gap:10px; min-height:54px; padding:14px 30px; border-radius:999px; font-size:16px; font-weight:600; line-height:1.2; text-decoration:none !important; transition:background-color .2s, color .2s, border-color .2s, box-shadow .2s, transform .2s; }
+.tfc-btn:focus-visible { outline:2px solid var(--tfc-blue); outline-offset:3px; }
+.tfc-btn svg { width:18px; height:18px; flex:none; }
+.tfc-btn-primary { background:var(--tfc-blue); color:#fff !important; box-shadow:0 18px 30px -18px rgba(14,71,192,.6); }
+.tfc-btn-primary:hover, .tfc-btn-primary:focus-visible { background:var(--tfc-navy); color:#fff !important; transform:translateY(-1px); }
+.tfc-btn-ghost { background:#fff; color:var(--tfc-navy) !important; border:1px solid var(--tfc-line); }
+.tfc-btn-ghost:hover, .tfc-btn-ghost:focus-visible { border-color:var(--tfc-blue); color:var(--tfc-blue) !important; }
+.tfc-btn-yellow { background:var(--tfc-yellow); color:var(--tfc-navy) !important; }
+.tfc-btn-yellow:hover, .tfc-btn-yellow:focus-visible { background:#fff; }
+.tfc-btn-outline { background:transparent; color:#fff !important; border:1px solid rgba(255,255,255,.45); }
+.tfc-btn-outline:hover, .tfc-btn-outline:focus-visible { background:rgba(255,255,255,.12); border-color:#fff; }
+.tfc-svc-cta .tfc-btn:focus-visible { outline-color:#fff; }
+/* sections */
+/* section rhythm: the tinted hero and steps band read as open space next to white, so the gaps between blocks stay
+   tighter than 120px (text-to-text about 150px on desktop, 90px on phones, close to the home page) */
+.tfc-svc-section { padding-top:80px; }
+.tfc-svc-section > h2 { margin:0 0 48px; font-size:clamp(30px, 2.8vw, 42px); font-weight:700; line-height:1.2; text-align:center; }
+/* what's included */
+.tfc-svc-grid { display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:24px; margin:0 !important; padding:0 !important; list-style:none; }
+.tfc-svc-grid > li { margin:0 !important; padding:36px 30px 38px !important; list-style:none; background:#fff; border:1px solid var(--tfc-line); border-radius:24px; box-shadow:0 1px 2px rgba(8,20,32,.04); transition:transform .25s, box-shadow .25s, border-color .25s; }
+.tfc-svc-grid > li:hover { transform:translateY(-4px); border-color:rgba(14,71,192,.22); box-shadow:0 30px 50px -32px rgba(14,71,192,.4); }
+.tfc-svc-check { display:flex; align-items:center; justify-content:center; width:50px; height:50px; margin-bottom:24px; border-radius:15px; background:var(--tfc-tint); color:var(--tfc-blue); }
+.tfc-svc-check svg { width:24px; height:24px; }
+.tfc-svc-grid h3 { margin:0 0 12px; font-size:20px; font-weight:700; line-height:1.3; }
+.tfc-svc-grid p { margin:0; font-size:16px; line-height:1.7; color:var(--svc-text); }
+/* how it works: white step cards on the tinted band; the yellow numbers sit on a dashed rail above the cards, each card
+   points up at its number (a vertical timeline on tablets, stacked cards with the number on the top edge on phones).
+   The number, rail and pointer are positioned with physical left/50% so the same rules serve the RTL copy. */
+.tfc-svc-how { --step-gap:32px; margin-top:80px; padding:64px 96px 72px; border-radius:32px; background:var(--tfc-tint); }
+.tfc-svc-how > h2 { margin-bottom:56px; }
+.tfc-svc-steps { position:relative; display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:var(--step-gap); margin:0 !important; padding:0 !important; list-style:none; }
+.tfc-svc-steps::before { content:""; position:absolute; top:31px; left:calc((100% - 2 * var(--step-gap)) / 6); right:calc((100% - 2 * var(--step-gap)) / 6); height:2px; background:linear-gradient(90deg, rgba(14,71,192,.4) 50%, transparent 0) 0 0 / 12px 2px repeat-x; }
+.tfc-svc-steps > li { position:relative; margin:92px 0 0 !important; padding:40px 34px 42px !important; list-style:none; text-align:center; background:#fff; border-radius:24px; box-shadow:0 1px 2px rgba(8,20,32,.04), 0 30px 60px -42px rgba(14,71,192,.4); }
+.tfc-svc-steps > li::after { content:""; position:absolute; top:-7px; left:50%; width:16px; height:16px; margin-left:-8px; border-radius:3px; background:#fff; transform:rotate(45deg); }
+.tfc-svc-step-num { position:absolute; top:-92px; left:50%; z-index:1; display:flex; align-items:center; justify-content:center; width:64px; height:64px; margin-left:-32px; border-radius:50%; background:var(--tfc-yellow); color:var(--tfc-navy); font-size:22px; font-weight:700; line-height:1; box-shadow:0 10px 20px -10px rgba(180,140,0,.5); }
+.tfc-svc-steps h3 { margin:0 0 12px; font-size:21px; font-weight:700; line-height:1.3; }
+.tfc-svc-steps p { margin:0; font-size:16px; line-height:1.7; color:var(--svc-text); }
+/* long text + aside */
+.tfc-svc-more { display:grid; grid-template-columns:minmax(0,1fr) 380px; gap:56px 96px; align-items:start; }
+.tfc-svc-text > h2 { margin:0 0 28px; font-size:clamp(28px, 2.5vw, 38px); font-weight:700; line-height:1.2; }
+.tfc-svc-text-body h3 { margin:40px 0 12px; font-size:23px; font-weight:700; line-height:1.3; }
+.tfc-svc-text-body p { margin:0 0 18px; font-size:17px; line-height:1.8; color:var(--svc-text); }
+.tfc-svc-text-body ul { margin:0 0 20px !important; padding:0 !important; list-style:none; }
+.tfc-svc-text-body li { position:relative; margin:0 0 10px !important; padding:0 !important; padding-inline-start:34px !important; font-size:17px; line-height:1.7; color:var(--svc-text); list-style:none; }
+.tfc-svc-text-body li::before { content:""; position:absolute; top:4px; inset-inline-start:0; width:22px; height:22px; border-radius:50%; background:var(--tfc-yellow) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231D2433' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5L20 7'/%3E%3C/svg%3E") center/12px no-repeat; }
+.tfc-svc-text-body > :last-child { margin-bottom:0 !important; }
+.tfc-svc-aside { position:sticky; top:32px; display:grid; gap:24px; }
+/* the theme sets overflow-x:hidden on #inner-body, which makes it a scroll container and disables sticky; clip hides the
+   same overflow without creating one */
+@supports (overflow:clip) { .single-portfolio #inner-body { overflow:visible; overflow-x:clip; } }
+@media (min-width:1025px) and (max-height:820px) { .tfc-svc-aside { position:static; } } /* taller than a short screen: let it scroll */
+.tfc-svc-cta { position:relative; overflow:hidden; padding:40px 36px; border-radius:24px; background:var(--tfc-blue); color:rgba(255,255,255,.86); }
+.tfc-svc-cta::after { content:""; position:absolute; top:-64px; inset-inline-end:-64px; width:150px; height:150px; border-radius:50%; background:var(--tfc-yellow); opacity:.95; }
+.tfc-svc .tfc-svc-cta h3 { position:relative; z-index:1; max-width:78%; margin:0 0 12px; font-size:25px; font-weight:700; line-height:1.25; color:#fff; }
+.tfc-svc-cta p { margin:0 0 26px; font-size:16px; line-height:1.65; }
+.tfc-svc-cta .tfc-btn { width:100%; }
+.tfc-svc-cta .tfc-btn + .tfc-btn { margin-top:12px; }
+.tfc-svc-others { padding:30px 24px 22px; border-radius:24px; background:var(--tfc-tint); }
+.tfc-svc-others h3 { margin:0 0 12px; padding-inline:10px; font-size:19px; font-weight:700; }
+.tfc-svc-others ul { margin:0 !important; padding:0 !important; list-style:none; }
+.tfc-svc-others li { margin:0 !important; padding:0 !important; list-style:none; }
+.tfc-svc-others a { display:flex; align-items:center; gap:14px; padding:9px 10px; border-radius:14px; color:var(--tfc-navy) !important; font-size:16px; font-weight:600; line-height:1.3; text-decoration:none !important; transition:background-color .2s, color .2s; }
+.tfc-svc-others a:hover, .tfc-svc-others a:focus-visible { background:#fff; color:var(--tfc-blue) !important; }
+.tfc-svc-others img { width:44px; height:44px; flex:none; border-radius:12px; background:#fff; }
+.tfc-svc-arrow { width:18px; height:18px; flex:none; margin-inline-start:auto; color:var(--tfc-blue); opacity:0; transition:opacity .2s, transform .2s; }
+[dir="rtl"] .tfc-svc-arrow { transform:scaleX(-1); }
+.tfc-svc-others a:hover .tfc-svc-arrow, .tfc-svc-others a:focus-visible .tfc-svc-arrow { opacity:1; }
+@media (max-width:1366px) {
+  .tfc-svc { padding-bottom:88px; }
+  .tfc-svc-section { padding-top:72px; }
+  .tfc-svc-hero { padding:56px 64px; gap:40px 64px; grid-template-columns:minmax(0,1fr) minmax(0,300px); }
+  .tfc-svc-how { --step-gap:24px; margin-top:72px; padding:56px 48px 64px; }
+  .tfc-svc-steps > li { padding:36px 26px 38px !important; }
+  .tfc-svc-grid { grid-template-columns:repeat(2, minmax(0,1fr)); }
+  .tfc-svc-more { grid-template-columns:minmax(0,1fr) 340px; gap:56px 64px; }
+}
+@media (max-width:1024px) {
+  .tfc-svc { padding-bottom:80px; }
+  .tfc-svc-section { padding-top:64px; }
+  .tfc-svc-hero { padding:48px 48px; grid-template-columns:minmax(0,1fr) 220px; }
+  .tfc-svc-how { margin-top:64px; padding:48px 40px 56px; }
+  .tfc-svc-how > h2 { margin-bottom:44px; }
+  .tfc-svc-steps { grid-template-columns:1fr; gap:20px; }
+  .tfc-svc-steps::before { display:none; }
+  .tfc-svc-steps > li { margin:0 !important; margin-inline-start:92px !important; padding:30px 34px 32px !important; text-align:start; }
+  .tfc-svc-steps > li::after { top:38px; left:auto; inset-inline-start:-7px; margin:0; }
+  .tfc-svc-step-num { top:14px; left:auto; inset-inline-start:-92px; margin:0; }
+  .tfc-svc-steps > li:not(:last-child)::before { content:""; position:absolute; top:46px; bottom:-66px; inset-inline-start:-61px; width:2px; background:linear-gradient(180deg, rgba(14,71,192,.4) 50%, transparent 0) 0 0 / 2px 12px repeat-y; }
+  .tfc-svc-more { grid-template-columns:1fr; }
+  .tfc-svc-aside { position:static; grid-template-columns:repeat(2, minmax(0,1fr)); align-items:start; }
+}
+@media (max-width:767px) {
+  .tfc-svc { padding-bottom:56px; }
+  .tfc-svc-hero { grid-template-columns:1fr; gap:36px; margin-top:4px; padding:44px 22px 40px; border-radius:24px; text-align:center; }
+  .tfc-svc-hero-art { order:-1; max-width:150px; }
+  .tfc-crumbs { justify-content:center; margin-bottom:16px; font-size:13px; }
+  .tfc-svc-hero h1 { margin-bottom:14px; font-size:32px; }
+  .tfc-svc-lead { margin:0 auto 26px; font-size:16px; }
+  .tfc-svc-actions { justify-content:center; gap:10px; }
+  .tfc-btn { min-height:48px; padding:12px 24px; font-size:15px; }
+  .tfc-svc-section { padding-top:48px; }
+  .tfc-svc-section > h2 { margin-bottom:28px; font-size:28px; }
+  .tfc-svc-grid { grid-template-columns:1fr; gap:14px; }
+  .tfc-svc-grid > li { padding:26px 22px 28px !important; }
+  .tfc-svc-grid > li:hover { transform:none; }
+  .tfc-svc-check { width:44px; height:44px; margin-bottom:18px; border-radius:13px; }
+  .tfc-svc-grid h3 { font-size:18px; }
+  .tfc-svc-grid p, .tfc-svc-steps p { font-size:15.5px; }
+  .tfc-svc-how { margin-top:48px; padding:40px 16px 44px; border-radius:24px; }
+  .tfc-svc-how > h2 { margin-bottom:52px; }
+  .tfc-svc-steps { gap:56px; }
+  .tfc-svc-steps > li { margin:0 !important; padding:42px 22px 28px !important; text-align:center; }
+  .tfc-svc-steps > li::after { display:none; }
+  .tfc-svc-step-num { top:-24px; inset-inline-start:auto; left:50%; width:48px; height:48px; margin-left:-24px; font-size:18px; }
+  .tfc-svc-steps > li:not(:last-child)::before { top:100%; bottom:auto; inset-inline-start:auto; left:50%; height:32px; margin-left:-1px; }
+  .tfc-svc-steps h3 { margin:0 0 8px; font-size:19px; }
+  .tfc-svc-more { gap:48px; }
+  .tfc-svc-text > h2 { font-size:26px; margin-bottom:20px; }
+  .tfc-svc-text-body h3 { margin-top:30px; font-size:20px; }
+  .tfc-svc-text-body p, .tfc-svc-text-body li { font-size:16px; }
+  .tfc-svc-aside { grid-template-columns:1fr; gap:16px; }
+  .tfc-svc-cta { padding:34px 24px; }
+  .tfc-svc-others { padding:26px 14px 16px; }
+}
+/* phones: the go-to-top button sits above the chat bubble in the bottom-right corner (the floating switcher has the left one) */
+@media (max-width:767px) { .aux-goto-top-btn { left:auto !important; right:42px !important; bottom:108px !important; } }
+
+/* -- 4.7 Round 5 (2026-09-13) -- */
+/* home About: the four feature blurbs beside the photo were 15-16px (13-14px below 1400px) and hard to read */
+.aboutusdescription h3 { font-size:20px !important; line-height:1.3 !important; }
+.aboutusdescription p { font-size:17px !important; line-height:1.65 !important; color:#626B7D; }
+@media (max-width:1400px) {
+  .aboutusdescription h3 { font-size:18px !important; }
+  .aboutusdescription p { font-size:16px !important; }
+}
+/* About hero: the play button on the photo carries its label ("Watch The Video"); the widget spans the photo width and
+   centres the pill (Elementor positioned it at 50% - 30px for a 60px circle) */
+.elementor-174 .elementor-element.elementor-element-e12b0a5 { left:0; right:0; top:calc(50% - 34px); width:auto; max-width:none; pointer-events:none; }
+.elementor-174 .elementor-element.elementor-element-e12b0a5 > .elementor-widget-container, .elementor-174 .elementor-element.elementor-element-e12b0a5:hover .elementor-widget-container { padding:0; background:none; border-radius:0; }
+.elementor-174 .elementor-element.elementor-element-e12b0a5 .elementor-icon-wrapper { display:flex; justify-content:center; }
+.tfc-hero-play { pointer-events:auto; display:inline-flex; align-items:center; gap:14px; white-space:nowrap; padding-block:8px; padding-inline:8px 26px; border-radius:999px; background:rgba(255,255,255,.95); box-shadow:0 20px 40px -18px rgba(8,20,32,.5); color:var(--tfc-navy) !important; font-size:16px; font-weight:700; line-height:1.2; text-decoration:none !important; transition:background-color .2s, transform .2s; }
+.tfc-hero-play-icon { position:relative; display:flex; align-items:center; justify-content:center; width:52px; height:52px; flex:none; border-radius:50%; background:var(--tfc-blue); color:#fff; transition:background-color .2s, color .2s; }
+.tfc-hero-play-icon svg { width:20px; height:20px; margin-left:3px; }
+.tfc-hero-play-icon::after { content:""; position:absolute; inset:0; border-radius:50%; border:2px solid var(--tfc-blue); animation:tfc-play-pulse 2.4s ease-out infinite; pointer-events:none; }
+@keyframes tfc-play-pulse { 0% { transform:scale(1); opacity:.9; } 70%, 100% { transform:scale(1.6); opacity:0; } }
+@media (prefers-reduced-motion:reduce) { .tfc-hero-play-icon::after { animation:none; opacity:0; } }
+.tfc-hero-play:hover, .tfc-hero-play:focus-visible { background:#fff; transform:translateY(-2px); }
+.tfc-hero-play:hover .tfc-hero-play-icon, .tfc-hero-play:focus-visible .tfc-hero-play-icon { background:var(--tfc-yellow); color:var(--tfc-navy); }
+.tfc-hero-play:focus-visible { outline:2px solid var(--tfc-blue); outline-offset:3px; }
+@media (max-width:767px) {
+  .elementor-174 .elementor-element.elementor-element-e12b0a5 { top:calc(50% - 26px); }
+  .tfc-hero-play { gap:10px; padding-block:6px; padding-inline:6px 18px; font-size:14px; }
+  .tfc-hero-play-icon { width:40px; height:40px; }
+  .tfc-hero-play-icon svg { width:16px; height:16px; margin-left:2px; }
+}
+/* footer band: equal space above and below, both columns centred on each other */
+.elementor-147 .elementor-element.elementor-element-3e58ed2 { --align-items:center; align-items:center; }
+.elementor-147 .elementor-element.elementor-element-f8b7e27 { --padding-top:110px; --padding-bottom:110px; }
+@media (max-width:1024px) { .elementor-147 .elementor-element.elementor-element-f8b7e27 { --padding-top:56px; --padding-bottom:56px; } }
+@media (max-width:767px) { .elementor-147 .elementor-element.elementor-element-f8b7e27 { --padding-top:44px; --padding-bottom:44px; } }
+
+/* -- 4.8 Footer (round 6). The blue band keeps its Elementor markup; below it, div.tfc-footer (generated by r6-footer.py)
+      replaces the old logo/menu/service/language rows and the copyright line: brand, company links, services, contact,
+      then a bottom bar with copyright and language pills. -- */
+/* band: one inner width, calmer paragraph, two brand shapes */
+.elementor-147 .elementor-element.elementor-element-f8b7e27 { position:relative; overflow:hidden; border-radius:32px; }
+.elementor-147 .elementor-element.elementor-element-f8b7e27::before { content:""; position:absolute; z-index:0; inset:-110px -70px auto auto; width:200px; height:200px; opacity:1; mix-blend-mode:normal; border-radius:50%; background:var(--tfc-yellow); pointer-events:none; }
+.elementor-147 .elementor-element.elementor-element-f8b7e27::after { content:""; position:absolute; z-index:0; inset:auto auto -250px -150px; width:420px; height:420px; opacity:1; border-radius:50%; border:64px solid rgba(255,255,255,.07); pointer-events:none; }
+[dir="rtl"] .elementor-147 .elementor-element.elementor-element-f8b7e27::before { inset:-110px auto auto -70px; }
+[dir="rtl"] .elementor-147 .elementor-element.elementor-element-f8b7e27::after { inset:auto -150px -250px auto; }
+.elementor-147 .elementor-element.elementor-element-3e58ed2 { position:relative; z-index:1; --padding-left:112px; --padding-right:112px; --gap:48px 96px; gap:48px 96px; }
+.elementor-147 .elementor-element.elementor-element-e367744 { --width:auto; width:auto; flex:1 1 0; min-width:0; }
+.elementor-147 .elementor-element.elementor-element-1832a48 { --width:440px; width:440px; flex:0 0 440px; }
+.elementor-147 .elementor-element.elementor-element-b872dcc .aux-modern-heading-primary { max-width:640px; }
+.elementor-147 .elementor-element.elementor-element-d771ace p, .elementor-147 .elementor-element.elementor-element-d771ace strong { font-size:18px; font-weight:400; line-height:1.7; color:rgba(255,255,255,.86); }
+.elementor-147 .elementor-element.elementor-element-d771ace p { margin:0 0 32px; }
+.elementor-147 .elementor-element.elementor-element-d771ace > .elementor-widget-container { margin:0; padding:0; }
+@media (max-width:1366px) {
+  .elementor-147 .elementor-element.elementor-element-3e58ed2 { --padding-left:80px; --padding-right:80px; --gap:40px 64px; gap:40px 64px; }
+  .elementor-147 .elementor-element.elementor-element-1832a48 { --width:400px; width:400px; flex-basis:400px; }
+  .elementor-147 .elementor-element.elementor-element-b872dcc .aux-modern-heading-primary { font-size:54px; line-height:1.18; }
+}
+@media (max-width:1024px) {
+  .elementor-147 .elementor-element.elementor-element-3e58ed2 { --padding-left:18px; --padding-right:18px; --gap:32px 48px; gap:32px 48px; }
+  .elementor-147 .elementor-element.elementor-element-1832a48 { --width:340px; width:340px; flex-basis:340px; }
+  .elementor-147 .elementor-element.elementor-element-b872dcc .aux-modern-heading-primary { font-size:40px; }
+  .elementor-147 .elementor-element.elementor-element-d771ace p, .elementor-147 .elementor-element.elementor-element-d771ace strong { font-size:16px; }
+  .elementor-147 .elementor-element.elementor-element-f8b7e27::before { inset:-90px -60px auto auto; width:140px; height:140px; }
+  [dir="rtl"] .elementor-147 .elementor-element.elementor-element-f8b7e27::before { inset:-90px auto auto -60px; }
+}
+@media (max-width:767px) {
+  .elementor-147 .elementor-element.elementor-element-f8b7e27 { border-radius:24px; --padding-left:24px; --padding-right:24px; }
+  .elementor-147 .elementor-element.elementor-element-f8b7e27::before { inset:-66px -50px auto auto; width:110px; height:110px; }
+  [dir="rtl"] .elementor-147 .elementor-element.elementor-element-f8b7e27::before { inset:-66px auto auto -50px; }
+  .elementor-147 .elementor-element.elementor-element-3e58ed2 { --padding-left:0px; --padding-right:0px; --gap:20px; gap:20px; }
+  .elementor-147 .elementor-element.elementor-element-e367744, .elementor-147 .elementor-element.elementor-element-1832a48 { --width:100%; width:100%; flex:0 0 auto; }
+  .elementor-147 .elementor-element.elementor-element-b872dcc .aux-modern-heading-primary { max-width:none; font-size:30px; line-height:1.2; }
+  .elementor-147 .elementor-element.elementor-element-d771ace p { margin-bottom:26px; }
+}
+/* lower footer */
+.tfc-footer { box-sizing:border-box; max-width:1670px; margin:0 auto; padding:88px 35px 0; color:var(--tfc-grey); }
+.tfc-footer-cols { display:grid; grid-template-columns:minmax(0,1.45fr) minmax(0,.8fr) minmax(0,1fr) minmax(0,1.2fr); gap:48px 64px; padding-bottom:64px; }
+.tfc-footer-logo { display:inline-block; }
+.tfc-footer-logo img { display:block; width:auto; height:58px; }
+.tfc-footer-brand p { max-width:360px; margin:24px 0 26px; font-size:15px; line-height:1.7; color:var(--tfc-grey); }
+.tfc-footer-wa { display:inline-flex; align-items:center; gap:10px; padding-block:10px; padding-inline:14px 20px; border-radius:999px; background:var(--tfc-tint); color:var(--tfc-navy) !important; font-size:15px; font-weight:600; line-height:1.2; text-decoration:none !important; transition:background-color .2s, color .2s; }
+.tfc-footer-wa svg { width:20px; height:20px; flex:none; color:#25D366; transition:color .2s; }
+.tfc-footer-wa:hover, .tfc-footer-wa:focus-visible { background:var(--tfc-blue); color:#fff !important; }
+.tfc-footer-wa:hover svg, .tfc-footer-wa:focus-visible svg { color:#fff; }
+.tfc-footer .tfc-footer-h { margin:0 0 22px; font-size:13px; font-weight:700; line-height:1.3; letter-spacing:.12em; text-transform:uppercase; color:var(--tfc-navy); }
+[dir="rtl"] .tfc-footer .tfc-footer-h { font-size:15px; letter-spacing:0; }
+.tfc-footer .tfc-footer-h a { font:inherit; letter-spacing:inherit; color:inherit !important; text-decoration:none !important; }
+.tfc-footer .tfc-footer-h a:hover, .tfc-footer .tfc-footer-h a:focus-visible { color:var(--tfc-blue) !important; }
+.tfc-footer-col ul { display:grid; gap:13px; margin:0 !important; padding:0 !important; list-style:none; }
+.tfc-footer-col li { margin:0 !important; padding:0 !important; list-style:none; }
+.tfc-footer-col a { color:var(--tfc-grey) !important; font-size:15px; font-weight:500; line-height:1.5; text-decoration:none !important; transition:color .2s; }
+.tfc-footer-col a:hover, .tfc-footer-col a:focus-visible { color:var(--tfc-blue) !important; }
+.tfc-footer-col a[aria-current="page"] { color:var(--tfc-navy) !important; font-weight:700; }
+.tfc-footer [data-col="company"] li:last-child a { color:#D10000 !important; font-weight:700; }
+.tfc-footer-contact a { display:inline-flex; align-items:flex-start; gap:12px; }
+.tfc-footer-contact svg { width:20px; height:20px; flex:none; margin-top:1px; color:var(--tfc-blue); }
+.tfc-footer-bottom { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px 32px; padding:26px 0 34px; border-top:1px solid var(--tfc-line); }
+.tfc-footer-bottom small { font-size:14px; line-height:1.5; color:var(--tfc-grey); }
+.tfc-footer-langs { display:flex; flex-wrap:wrap; gap:8px; }
+.tfc-footer-langs a { display:inline-flex; align-items:center; gap:8px; padding:7px 14px; border:1px solid var(--tfc-line); border-radius:999px; color:var(--tfc-grey) !important; font-size:14px; font-weight:500; line-height:1.2; text-decoration:none !important; transition:border-color .2s, color .2s; }
+.tfc-footer-langs a:hover, .tfc-footer-langs a:focus-visible { border-color:var(--tfc-blue); color:var(--tfc-blue) !important; }
+.tfc-footer-langs a.is-current { border-color:transparent; background:var(--tfc-tint); color:var(--tfc-navy) !important; font-weight:700; }
+.tfc-footer-langs img { width:18px; height:13px; border-radius:2px; object-fit:cover; }
+.tfc-footer a:focus-visible { outline:2px solid var(--tfc-blue); outline-offset:3px; border-radius:4px; }
+@media (min-width:1025px) and (max-width:1280px) {
+  .tfc-footer-cols { grid-template-columns:minmax(0,1.15fr) minmax(0,.7fr) minmax(0,1fr) minmax(0,1.35fr); gap:48px 40px; }
+  .elementor-147 .elementor-element.elementor-element-b872dcc .aux-modern-heading-primary { font-size:46px; }
+}
+@media (max-width:1024px) {
+  .tfc-footer { padding-top:64px; }
+  .tfc-footer-cols { grid-template-columns:repeat(3, minmax(0,1fr)); gap:40px 40px; padding-bottom:48px; }
+  .tfc-footer-brand { grid-column:1 / -1; display:flex; flex-wrap:wrap; align-items:center; gap:16px 40px; }
+  .tfc-footer-brand p { flex:1 1 320px; margin:0; }
+  .tfc-footer-bottom { padding-bottom:88px; } /* the floating switcher and chat bubble sit over this strip */
+}
+@media (max-width:767px) {
+  .tfc-footer { padding-top:56px; }
+  .tfc-footer-cols { grid-template-columns:repeat(2, minmax(0,1fr)); gap:36px 24px; padding-bottom:40px; }
+  .tfc-footer-brand { display:block; }
+  .tfc-footer-logo img { height:50px; }
+  .tfc-footer-brand p { margin:18px 0 20px; }
+  .tfc-footer-contact { grid-column:1 / -1; }
+  .tfc-footer .tfc-footer-h { margin:0 0 18px; }
+  .tfc-footer-col ul { gap:12px; }
+  .tfc-footer-bottom { flex-direction:column-reverse; justify-content:center; gap:18px; padding:24px 0 104px; text-align:center; }
+  .tfc-footer-langs { justify-content:center; }
+}
+
+/* ==================================================================================================
+   Round 8 audit fixes (2026-09-14)
+   ================================================================================================== */
+/* -- Home "Latest Posts": the small card's title box was a fixed 72px with overflow hidden (cut to two lines with no
+      ellipsis) and the featured excerpt a fixed 71px (the third 25px line was sliced). Both now size to their text;
+      the excerpt is clamped to three whole lines. Titles and buttons share one style across the two cards. -- */
+.elementor-175 .elementor-element.elementor-element-098e9ce .entry-header { height:auto; overflow:visible; }
+.elementor-175 .elementor-element.elementor-element-a9cf1c6 .entry-content { height:auto; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; overflow:hidden; }
+.elementor-175 .elementor-element.elementor-element-a9cf1c6 .entry-title, .elementor-175 .elementor-element.elementor-element-098e9ce .entry-title { line-height:1.25; }
+.elementor-175 .elementor-element.elementor-element-098e9ce .entry-meta .aux-read-more { font-weight:700; }
+@media (max-width:767px) {
+  .elementor-175 .elementor-element.elementor-element-098e9ce .aux-col { padding-bottom:30px !important; }
+  .elementor-175 .elementor-element.elementor-element-a9cf1c6 > .elementor-widget-container { padding-bottom:0 !important; margin-bottom:30px !important; }
+}
+
+/* -- About hero: the text column had no row gap; its spacing only came from stretching when the photo column was
+      taller, so at 1025–1280px the label touched the heading and the paragraph touched the buttons -- */
+.elementor-174 .elementor-element.elementor-element-575ec41 { row-gap:24px; }
+
+/* -- Hero headings: the theme adds a 5px start margin to the second span; the first span already ends in a space,
+      so the margin only widened the gap ("Our  Priority") and indented the span when it starts a new line -- */
+.aux-modern-heading-secondary .aux-head-highlight + .aux-head-after { margin-left:0; margin-right:0; }
+
+/* -- Service tiles: wrapped titles ("Short-Term / Renting") were left-aligned under the centred icon -- */
+.aux-widget-recent-portfolios .entry-title { text-align:center; }
+
+/* -- Home "Our Process": the columns were vertically centred, so the shorter first step sat ~12px lower -- */
+@media (min-width:768px) {
+  .elementor-175 .elementor-element.elementor-element-6da0b9a.e-con,
+  .elementor-175 .elementor-element.elementor-element-2ea078b.e-con,
+  .elementor-175 .elementor-element.elementor-element-09fe506.e-con { --align-self:flex-start; }
+}
+
+/* -- Home hero: the blue shape is anchored 210px from the bottom of the hero, which gets shorter as the window
+      narrows; at 1025–1439px it climbed into the header behind the language pill. Pin it to the photo's top edge. -- */
+@media (min-width:1025px) and (max-width:1439px) {
+  .elementor-175 .elementor-element.elementor-element-840598f { top:0; bottom:auto; }
+}
+
+/* -- Blog posts: the theme's 1.8 heading line-height split two-line headings apart on phones -- */
+.single-post .entry-content h2, .single-post .entry-content h3, .single-post .entry-content h4 { line-height:1.3; }
+
+/* -- Home on tablets: Elementor's tablet sizes left body copy at 14px (12px job titles), smaller than on phones -- */
+@media (min-width:768px) and (max-width:1024px) {
+  .elementor-175 .elementor-element-2e1e9bd .aux-modern-heading-description { font-size:15px !important; line-height:1.6 !important; }
+  .elementor-175 .elementor-element-60bf972 .aux-modern-heading-description, .elementor-175 .elementor-element-60bf972 .aux-modern-heading-description p { font-size:16px !important; line-height:1.65 !important; }
+  .elementor-175 .elementor-element-cb0617e .elementor-testimonial-content { font-size:15px !important; line-height:1.6 !important; }
+  .elementor-175 .elementor-element-cb0617e .elementor-testimonial-name { font-size:16px !important; }
+  .elementor-175 .elementor-element-cb0617e .elementor-testimonial-job { font-size:14px !important; }
+}
+
+/* -- Archives: the blog page's post cards now use the category/author card type (25px titles, 16px excerpts), and
+      stacked category/author cards get the blog's 40px gap on phones instead of 10px -- */
+.elementor-162 .elementor-element.elementor-element-240fcbe .entry-title a { font-size:25px; line-height:1.32; letter-spacing:-.03em; }
+.elementor-162 .elementor-element.elementor-element-240fcbe .entry-content { font-size:16px; }
+@media (max-width:767px) {
+  .category .aux-col:not(:last-child), .author .aux-col:not(:last-child) { margin-bottom:40px !important; }
+}
+
+/* -- Header logo: keyboard focus was invisible -- */
+.aux-logo-anchor:focus-visible { outline:2px solid var(--tfc-blue); outline-offset:4px; border-radius:4px; }
+
+/* -- Round 9 (2026-09-14): contact form paused until it has a backend. The form stays visible behind a blur and a notice
+      card with a caution stripe floats over it, pointing to WhatsApp and the phone; the form is inert and its controls are
+      disabled. To bring it back remove .tfc-form-notice, the inert attribute / .tfc-form-paused class and the disabled
+      attributes on the five controls (contact page, EN/TR/AR). -- */
+.tfc-contact-form { position:relative; }
+.tfc-form-paused { opacity:.5; filter:blur(3px) grayscale(1); user-select:none; pointer-events:none; }
+.tfc-form-paused input, .tfc-form-paused textarea, .tfc-contact-form .tfc-form-paused .wpcf7-submit { resize:none; box-shadow:none !important; }
+.tfc-form-notice { position:absolute; z-index:2; top:50%; left:50%; width:min(460px, calc(100% - 40px)); transform:translate(-50%, -50%); display:flex; flex-direction:column; align-items:center; gap:18px; padding:46px 36px 36px; overflow:hidden; text-align:center; background:#fff; border-radius:24px; box-shadow:0 40px 80px -30px rgba(14,71,192,.45), 0 0 0 1px rgba(29,36,51,.06); }
+.tfc-form-notice::before { content:""; position:absolute; top:0; left:0; right:0; height:10px; background:repeating-linear-gradient(-45deg, var(--tfc-yellow) 0 14px, var(--tfc-navy) 14px 28px); }
+.tfc-form-notice-icon { display:flex; align-items:center; justify-content:center; flex:none; width:68px; height:68px; border-radius:50%; background:var(--tfc-yellow); color:var(--tfc-navy); }
+.tfc-form-notice-icon svg { width:32px; height:32px; }
+.tfc-form-notice-body { min-width:0; }
+.tfc-contact-form .tfc-form-notice p { margin:0 auto; max-width:340px; font-size:16px; line-height:1.6; color:#566074; }
+.tfc-contact-form .tfc-form-notice .tfc-form-notice-title { margin:0 auto 8px; font-size:22px; font-weight:700; line-height:1.3; letter-spacing:-.01em; color:var(--tfc-navy); }
+.tfc-form-notice-actions { display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin-top:24px; }
+.tfc-form-notice-actions .tfc-btn { flex:1 1 150px; }
+@media (max-width:767px) {
+  .tfc-form-notice { width:calc(100% - 24px); gap:14px; padding:38px 20px 24px; }
+  .tfc-form-notice-icon { width:58px; height:58px; }
+  .tfc-form-notice-icon svg { width:28px; height:28px; }
+  .tfc-contact-form .tfc-form-notice .tfc-form-notice-title { font-size:19px; }
+  .tfc-contact-form .tfc-form-notice p { font-size:15px; }
+}
+
+/* -- Round 14 review (2026-09-14): home "Latest Posts" on narrow desktops (1025-1365px). The featured card's excerpt keeps
+      45% of its width free for the Read More button pinned bottom-right, which is too little below ~1366px, so the button
+      sat on the second and third excerpt lines; the button moves under the excerpt there. The one-post column is only
+      150-200px wide there, so its button (45px side padding) wrapped "Read More" onto two lines and touched the excerpt. -- */
+/* (round 14 excerpt clamp and 1025-1365px card fixes retired in round 24: the shared post card of round 22 replaces them) */
+
+/* -- Round 18 SEO (2026-09-14): the theme printed an empty <h1 class="aux-modern-heading-primary"> above the real hero
+      heading on the home and About pages (two h1s per page). It is now a <div>; these are the empty h1's computed margins
+      (0.2em / 0.4em of its 53px size) so the hero keeps its exact position. -- */
+div.aux-modern-heading-primary:empty { display:block; margin:10.6px 0 21.2px; }
+/* the About closing line is a call to action, so it links to the contact page */
+.tfc-tagline a { color:inherit !important; text-decoration:none; }
+.tfc-tagline a:hover strong, .tfc-tagline a:focus-visible strong { text-decoration:underline; text-underline-offset:4px; }
+.tfc-tagline a:focus-visible { outline:2px solid var(--tfc-blue); outline-offset:4px; border-radius:4px; }
+
+/* ==================================================================================================
+   Round 20: design audit, phase 1 (contrast, sentence-case headings, keyboard focus, reading measure,
+   menu button hit area, Turrist red).
+   ================================================================================================== */
+/* F1 One secondary grey. The Elementor pages used #70798B (4.38:1 on white, 4.02:1 on the tint cards, below AA);
+   the service pages' #566074 now drives the Elementor global colour and --tfc-grey (set at the top of this block). */
+.elementor-kit-176 { --e-global-color-72f454e:#566074; }
+@media (max-width:414px) { .elementor-175 .elementor-element.elementor-element-a9cf1c6 .entry-content { color:var(--tfc-grey) !important; } }
+.elementor-173 .elementor-element.elementor-element-902f9ab label { color:var(--tfc-grey); }
+/* F6 Headings keep the case they are written in (sentence case). The theme capitalised every word ("Become A Citizen",
+   Turkish "Yatırımı Ve Yönetimi"). Nothing on the site is meant to be uppercased by these classes. */
+.elementor-heading-title, .aux-modern-heading-primary, .aux-modern-heading-secondary, .aux-staff-content .col-subtitle { text-transform:none !important; }
+/* F5 Every link shows the site's focus ring; the theme removed the outline on content links (service tiles, post cards,
+   the hero video link). Components with their own ring (buttons, footer, menu) keep theirs. */
+a:focus-visible { outline:2px solid var(--tfc-blue); outline-offset:3px; border-radius:4px; }
+.aux-staff-content a:focus-visible { outline-color:#fff; }
+/* (F12's 68-character cap on the service page text was removed in round 25: the text fills its column) */
+/* F15 The menu button was a 20x20px target, the only way into the navigation below 1025px: 44x44 hit area, same icon */
+.aux-burger-box { box-sizing:content-box !important; padding:12px !important; margin:-12px !important; }
+/* F19 Turrist keeps its red highlight at a shade that passes AA on white (#D10000, 5.7:1; pure red was 4.0:1) */
+#menu-item-907 a span, #menu-item-907 a span:visited, .menu-item-907 a span, .menu-item-907 a span:visited { color:#D10000; }
+
+/* ==================================================================================================
+   Round 21: design audit, phase 2 (service tiles, one button, two heading sizes, floating controls,
+   service sidebar on tablets/phones, linked feature headings, phone text alignment).
+   ================================================================================================== */
+/* F3 + F9 Service tiles: one style on Home, About and Services (flat tile, DM Sans 600 label; the Services page had a
+   shadow and a 20px/700 label) and two per row on phones instead of one 220px icon per screen. The isotope grid positions
+   tiles absolutely; below 768px a CSS grid takes over. */
+.elementor-153 .elementor-element.elementor-element-f7cc036 img.tfc-service-icon { box-shadow:none; }
+.elementor-153 .elementor-element.elementor-element-f7cc036 .entry-title a { transition:color .3s ease-out; } /* was `all`, which also animated the focus ring in */
+.aux-widget-recent-portfolios .entry-title a { font-size:25px !important; font-weight:600 !important; line-height:1.25 !important; }
+@media (max-width:1024px) { .aux-widget-recent-portfolios .entry-title a { font-size:21px !important; } }
+@media (max-width:767px) {
+  .aux-widget-recent-portfolios .aux-portfolio-columns { display:grid !important; grid-template-columns:repeat(2, minmax(0,1fr)); gap:28px 14px; height:auto !important; margin:0 !important; }
+  .aux-widget-recent-portfolios .entry-media { width:auto; height:auto; margin:0 0 14px; }
+  .aux-widget-recent-portfolios .aux-portfolio-columns > .aux-iso-item, .elementor-153 .elementor-element.elementor-element-f7cc036 .aux-portfolio-columns > .aux-iso-item { position:static !important; left:auto !important; top:auto !important; transform:none !important; width:auto !important; height:auto !important; margin:0 !important; padding:0 !important; }
+  .aux-widget-recent-portfolios .aux-media-frame img.tfc-service-icon { max-width:140px; }
+  .aux-widget-recent-portfolios .entry-title a { font-size:17px !important; line-height:1.3 !important; }
+}
+
+/* F7 One button. Every filled pill (Elementor buttons, Read more, .tfc-btn, the form submit) is 52px tall (48px on
+   phones), Quicksand 600 16px, 28px sides, with one centred glow in its own colour. Hover keeps the brand swap:
+   blue turns yellow, yellow turns navy. Read more links fill their pill, so the whole pill is clickable. */
+a.elementor-button, .tfc-btn, a.aux-read-more, .wpcf7-submit {
+  display:inline-flex !important; align-items:center; justify-content:center; gap:12px; min-height:52px; padding:0 28px !important;
+  border-radius:999px !important; font-family:"Quicksand", sans-serif; font-size:16px !important; font-weight:600 !important; line-height:1.2 !important;
+  letter-spacing:normal; text-transform:none !important; transition:background-color .2s, color .2s, border-color .2s, box-shadow .2s, transform .2s;
+}
+/* Read more comes in two builds: a pill wrapper around a bare link (home second card, blog, author, category) and a pill
+   link (home featured card); both get the page CSS's !important padding and offset glow, hence the longer selectors */
+.elementor-175 .elementor-element.elementor-element-098e9ce .aux-col .readmore, .elementor-162 .elementor-element.elementor-element-240fcbe .aux-col .readmore,
+.category .aux-col .readmore, .author .aux-col .readmore {
+  display:inline-flex !important; padding:0 !important; border-radius:999px !important; box-shadow:0 16px 32px -12px rgba(14,71,192,.45) !important; transition:background-color .2s, box-shadow .2s, transform .2s;
+}
+.elementor-175 .elementor-element.elementor-element-098e9ce .aux-col .readmore > a.aux-read-more, .elementor-162 .elementor-element.elementor-element-240fcbe .aux-col .readmore > a.aux-read-more,
+.category .aux-col .readmore > a.aux-read-more, .author .aux-col .readmore > a.aux-read-more { background:none; box-shadow:none !important; font-size:16px !important; }
+.elementor-175 .elementor-element.elementor-element-a9cf1c6 .aux-col a.aux-read-more { padding:0 28px !important; font-size:16px !important; box-shadow:0 16px 32px -12px rgba(14,71,192,.45) !important; }
+.elementor-175 .elementor-element.elementor-element-098e9ce .aux-col:hover .readmore, .elementor-162 .elementor-element.elementor-element-240fcbe .aux-col:hover .readmore,
+.category .aux-col:hover .readmore, .author .aux-col:hover .readmore, .elementor-175 .elementor-element.elementor-element-a9cf1c6 .aux-col a.aux-read-more:hover {
+  background:var(--tfc-yellow) !important; box-shadow:0 16px 32px -12px rgba(214,168,0,.45) !important; transform:translateY(-1px);
+}
+.aux-col:hover .readmore > a.aux-read-more, .elementor-175 .elementor-element.elementor-element-a9cf1c6 .aux-col a.aux-read-more:hover { color:var(--tfc-navy) !important; }
+a.elementor-button .elementor-button-content-wrapper { gap:12px !important; }
+a.elementor-button .elementor-button-icon { margin:0 !important; }
+a.elementor-button .elementor-button-icon svg, a.elementor-button .elementor-button-icon i { width:16px; height:16px; font-size:16px; }
+/* colours: blue pills (Learn more, About "Contact us", Read more, submit, .tfc-btn-primary) and yellow pills (About "Our services", the banner button, .tfc-btn-yellow) */
+.elementor-175 .elementor-element-35947dd a.elementor-button, .elementor-175 .elementor-element-f2c8c17 a.elementor-button, .elementor-174 .elementor-element-834b5d3 a.elementor-button,
+.wpcf7-submit, .tfc-btn-primary { box-shadow:0 16px 32px -12px rgba(14,71,192,.45) !important; }
+.elementor-174 .elementor-element-43d9508 a.elementor-button, .elementor-147 .elementor-element-e487005 a.elementor-button, .tfc-btn-yellow { box-shadow:0 16px 32px -12px rgba(214,168,0,.45) !important; }
+.elementor-175 .elementor-element-35947dd a.elementor-button:hover, .elementor-175 .elementor-element-f2c8c17 a.elementor-button:hover, .elementor-174 .elementor-element-834b5d3 a.elementor-button:hover,
+.tfc-btn-primary:hover {
+  background:var(--tfc-yellow) !important; color:var(--tfc-navy) !important; fill:var(--tfc-navy) !important; box-shadow:0 16px 32px -12px rgba(214,168,0,.45) !important; transform:translateY(-1px);
+}
+.elementor-174 .elementor-element-43d9508 a.elementor-button:hover, .elementor-147 .elementor-element-e487005 a.elementor-button:hover, .tfc-btn-yellow:hover {
+  background:var(--tfc-navy) !important; color:#fff !important; fill:#fff !important; box-shadow:0 16px 32px -12px rgba(29,36,51,.45) !important; transform:translateY(-1px);
+}
+a.elementor-button:hover svg, a.elementor-button:hover .elementor-button-icon i { fill:currentColor !important; color:currentColor !important; }
+.tfc-btn-primary:focus-visible { background:var(--tfc-yellow); color:var(--tfc-navy) !important; }
+.tfc-btn-yellow:focus-visible { background:var(--tfc-navy); color:#fff !important; }
+@media (max-width:767px) { a.elementor-button, .tfc-btn, a.aux-read-more, .wpcf7-submit { min-height:48px; } }
+@media (prefers-reduced-motion:reduce) { a.elementor-button:hover, .tfc-btn:hover, .aux-col:hover .readmore, a.aux-read-more:hover { transform:none !important; } }
+
+/* F8 Two section-heading sizes, DM Sans only. Display: the centred section titles of Home and About and the page titles
+   of the index pages (50 / ~42 / 32px). Section: the side and sub-section titles of Home, About and the service pages
+   (40 / ~33 / 27px). "Find the service you need" and the mission statement were set in Quicksand. */
+.elementor-175 .elementor-element-96d3344 .elementor-heading-title, .elementor-175 .elementor-element-138f714 .elementor-heading-title,
+.elementor-175 .elementor-element-b718d0e .elementor-heading-title, .elementor-175 .elementor-element-e81bdae .elementor-heading-title,
+.elementor-174 .elementor-element-796440a .elementor-heading-title, .tfc-about-intro h2,
+.elementor-153 .elementor-element-bd46819 h1.elementor-heading-title, .tfc-contact-head h1, h1.tfc-page-title, .archive h1.page-title {
+  font-family:"DM Sans", sans-serif !important; font-weight:700 !important; font-size:clamp(32px, 2.2vw + 20px, 50px) !important; line-height:1.12 !important; letter-spacing:-.03em !important;
+}
+.elementor-175 .elementor-element-bfe82b8 .aux-modern-heading-primary, .tfc-about-why > h2, .tfc-about-final > h2,
+.tfc-svc-section > h2, .tfc-svc-how > h2, .tfc-svc-text > h2 {
+  font-family:"DM Sans", sans-serif !important; font-weight:700 !important; font-size:clamp(27px, 1.6vw + 17px, 40px) !important; line-height:1.18 !important; letter-spacing:-.025em !important;
+}
+.tfc-about-mission .tfc-statement { font-family:"DM Sans", sans-serif; letter-spacing:-.02em; }
+
+/* F4 Two floating controls at any width: desktop keeps chat + back-to-top (the header has the language picker), tablets
+   and phones keep chat + the language pill (the header picker sits inside the menu there). */
+@media (min-width:1025px) { .tfc-lang-float { display:none !important; } }
+@media (max-width:1024px) { .aux-goto-top-btn { display:none !important; } }
+
+/* F12 Service pages below 1025px: the blue "Talk to an adviser" panel sat right above the site-wide blue banner, two calls
+   to action in a row; the hero buttons and the banner cover it, so it is hidden there and "Other services" takes the row. */
+@media (max-width:1024px) {
+  .tfc-svc-aside .tfc-svc-cta { display:none; }
+  .tfc-svc-aside { grid-template-columns:1fr !important; }
+}
+@media (min-width:768px) and (max-width:1024px) {
+  .tfc-svc-others ul { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); column-gap:12px; }
+}
+
+/* F13 The four blue feature titles on the home page link to their service pages */
+a.tfc-heading-link { color:inherit !important; text-decoration:none !important; }
+a.tfc-heading-link:hover { text-decoration:underline !important; text-underline-offset:4px; text-decoration-thickness:2px; }
+
+/* F16 Phones: running text blocks longer than three lines read from the start edge instead of centred (home About section,
+   About intro and closing, the footer banner). Short step captions and hero intros stay centred. */
+@media (max-width:767px) {
+  .elementor-175 .elementor-element-e17972c, .elementor-175 .elementor-element-e17972c .elementor-heading-title,
+  .elementor-175 .elementor-element-e17972c .aux-modern-heading, .elementor-175 .elementor-element-e17972c .aux-widget-inner, .elementor-175 .elementor-element-e17972c .aux-widget-inner > *,
+  .elementor-175 .elementor-element-e17972c .aux-modern-heading-description, .elementor-175 .elementor-element-e17972c .elementor-widget-container,
+  .tfc-about-intro, .tfc-about-intro *, .tfc-about-final, .tfc-about-final > *,
+  .elementor-147 .elementor-element-579476a, .elementor-147 .elementor-element-579476a .elementor-heading-title,
+  .elementor-147 .elementor-element-579476a .aux-modern-heading, .elementor-147 .elementor-element-579476a .aux-widget-inner, .elementor-147 .elementor-element-579476a .aux-widget-inner > *,
+  .elementor-147 .elementor-element-579476a .aux-modern-heading-description, .elementor-147 .elementor-element-579476a .elementor-widget-container { text-align:start !important; }
+  .elementor-175 .elementor-element-e17972c .elementor-widget-button, .elementor-147 .elementor-element-579476a .elementor-widget-button { align-self:flex-start; }
+  .elementor-175 .elementor-element-e17972c .elementor-button-wrapper, .elementor-147 .elementor-element-579476a .elementor-button-wrapper { text-align:start !important; }
+  .tfc-about-final::before, .tfc-about-intro::before { margin-inline:0 auto !important; }
+}
+
+/* ==================================================================================================
+   Round 22: design audit, phase 3 (blog post layout, one post card, intro panels on Services and Blog).
+   ================================================================================================== */
+/* F2 Blog posts: breadcrumb and title first, then a 16:9 image and the text, in one centred 900px column (~85 characters a
+   line; 760px until round 25, which ran it across the page width, round 26 brought the column back a little wider). Section
+   headings are h2s under the title; lists take brand markers; the separator is a hairline; a related-service block and a
+   link back to the blog close the article. */
+.single-post .aux-primary .hentry { max-width:900px; margin-inline:auto; }
+.single-post .hentry .entry-main { display:block; max-width:none; margin:0; }
+.single-post .tfc-post-head { margin:0 0 32px; text-align:start; }
+.single-post .tfc-post-head .tfc-crumbs { justify-content:flex-start; margin:0 0 16px; }
+.single-post .aux-primary .hentry .tfc-post-head .entry-title { max-width:none; margin:0; padding:0; text-align:start !important; font-family:"DM Sans", sans-serif; font-size:clamp(30px, 1.8vw + 18px, 44px); font-weight:700; line-height:1.15 !important; letter-spacing:-.025em; color:var(--tfc-navy); } /* an older phone rule sets 50px !important */
+.single-post .hentry > .entry-media { margin:0 0 40px; }
+.single-post .hentry > .entry-media .aux-media-frame.aux-media-image { display:block; aspect-ratio:16 / 9; overflow:hidden; border-radius:20px; box-shadow:0 20px 50px rgba(160,171,201,.3); }
+.single-post .hentry > .entry-media .aux-media-frame a { display:block; height:100%; }
+.single-post .hentry > .entry-media .aux-media-frame.aux-media-image img { display:block; width:100%; height:100%; object-fit:cover; margin:0 !important; border-radius:0; box-shadow:none; }
+.single-post .hentry .entry-content { font-size:18px; line-height:1.75; color:var(--tfc-grey); }
+.single-post .hentry .entry-content p { margin:0 0 20px; font-size:inherit; line-height:inherit; color:inherit; }
+.single-post .hentry .entry-content strong { color:var(--tfc-navy); }
+.single-post .hentry .entry-content h2 { margin:44px 0 14px; font-family:"DM Sans", sans-serif; font-size:clamp(22px, .8vw + 16px, 27px); font-weight:700; line-height:1.3; letter-spacing:-.015em; color:var(--tfc-navy); }
+.single-post .hentry .entry-content ul, .single-post .hentry .entry-content ol { margin:0 0 24px; padding-inline-start:24px; }
+.single-post .hentry .entry-content li { margin:0 0 8px; padding-inline-start:4px; }
+.single-post .hentry .entry-content li > ul, .single-post .hentry .entry-content li > ol { margin:8px 0 12px; }
+.single-post .hentry .entry-content li::marker { color:var(--tfc-blue); font-weight:700; }
+.single-post .hentry .entry-content hr, .single-post .hentry .entry-content .wp-block-separator { height:0; margin:44px 0; border:0 !important; border-top:1px solid var(--tfc-line) !important; background:none; opacity:1; }
+.tfc-post-related { display:grid; grid-template-columns:96px minmax(0,1fr); gap:28px; align-items:start; margin:56px 0 0; padding:36px; border-radius:24px; background:var(--tfc-tint); }
+.tfc-post-related img.tfc-service-icon { display:block; width:96px; height:96px; border-radius:24%; background:#fff; box-shadow:0 18px 30px -18px rgba(14,71,192,.35); }
+.tfc-post-related-eyebrow { margin:0 0 8px; font-size:12.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--tfc-blue); }
+[dir="rtl"] .tfc-post-related-eyebrow { letter-spacing:0; font-size:14px; }
+.tfc-post-related-title { margin:0 0 10px; font-family:"DM Sans", sans-serif; font-size:26px; font-weight:700; line-height:1.2; letter-spacing:-.015em; color:var(--tfc-navy); }
+.tfc-post-related-text { margin:0 0 22px; font-size:16px; line-height:1.7; color:var(--tfc-grey); }
+.tfc-post-related-actions { display:flex; flex-wrap:wrap; gap:12px; }
+.tfc-post-back { margin:28px 0 0; font-size:16px; font-weight:600; }
+.tfc-post-back a { display:inline-flex; align-items:center; gap:8px; color:var(--tfc-blue) !important; text-decoration:none; }
+.tfc-post-back a::before { content:"←"; }
+[dir="rtl"] .tfc-post-back a::before { content:"→"; }
+.tfc-post-back a:hover { text-decoration:underline; text-underline-offset:4px; }
+@media (max-width:767px) {
+  .single-post .hentry > .entry-media { margin-bottom:28px; }
+  .single-post .hentry .entry-content { font-size:17px; }
+  .single-post .hentry .entry-content h2 { margin-top:36px; }
+  .tfc-post-related { grid-template-columns:1fr; gap:18px; margin-top:44px; padding:28px 22px; }
+  .tfc-post-related img.tfc-service-icon { width:72px; height:72px; }
+  .tfc-post-related-actions .tfc-btn { flex:1 1 auto; }
+}
+
+/* F11 One post card for every listing (home, blog, author, category): 16:9 image on top, title, three-line excerpt and
+   Read more at the foot of the card. Two posts sit in two equal columns above 767px. The home page used an image card with
+   the text over the photo next to a text-only card; the archives showed no images. */
+.elementor-175 .elementor-element-2e6f07e > .e-con-inner { flex-direction:row !important; flex-wrap:nowrap !important; align-items:stretch !important; gap:30px !important; }
+.elementor-175 .elementor-element-b63b5ce, .elementor-175 .elementor-element-d50e919 { flex:1 1 0 !important; width:auto !important; max-width:none !important; min-width:0; }
+.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce { flex:1 1 auto; width:100% !important; }
+.elementor-175 .elementor-element-a9cf1c6 > .elementor-widget-container, .elementor-175 .elementor-element-098e9ce > .elementor-widget-container { height:100%; margin:0 !important; padding:0 !important; }
+.elementor-175 .elementor-element-a9cf1c6 .aux-widget-recent-posts, .elementor-175 .elementor-element-098e9ce .aux-widget-recent-posts,
+.elementor-175 .elementor-element-a9cf1c6 .aux-row, .elementor-175 .elementor-element-098e9ce .aux-row { height:100%; display:flex !important; margin:0 !important; }
+.elementor-175 .elementor-element-a9cf1c6 .aux-row > .aux-col, .elementor-175 .elementor-element-098e9ce .aux-row > .aux-col { display:flex !important; width:100% !important; float:none !important; height:auto !important; margin:0 !important; padding:0 !important; }
+.elementor-175 .elementor-element-b63b5ce, .elementor-175 .elementor-element-d50e919 { --margin-block-start:0px; --margin-top:0px; margin-top:0 !important; }
+@media (max-width:767px) {
+  .elementor-175 .elementor-element-2e6f07e > .e-con-inner { flex-direction:column !important; }
+  .elementor-175 .elementor-element-a9cf1c6 > .elementor-widget-container, .elementor-175 .elementor-element-098e9ce > .elementor-widget-container,
+  .elementor-175 .elementor-element-a9cf1c6 .aux-widget-recent-posts, .elementor-175 .elementor-element-098e9ce .aux-widget-recent-posts,
+  .elementor-175 .elementor-element-a9cf1c6 .aux-row, .elementor-175 .elementor-element-098e9ce .aux-row { height:auto !important; }
+}
+.elementor-162 .elementor-element-240fcbe .aux-row, .author .aux-widget-recent-posts .aux-row, .category .aux-widget-recent-posts .aux-row { display:flex !important; flex-wrap:wrap; }
+.elementor-162 .elementor-element-240fcbe .aux-row > .aux-col, .author .aux-widget-recent-posts .aux-row > .aux-col, .category .aux-widget-recent-posts .aux-row > .aux-col { display:flex !important; float:none !important; height:auto !important; }
+@media (min-width:768px) {
+  .elementor-162 .elementor-element-240fcbe .aux-row.aux-total-2, .author .aux-widget-recent-posts .aux-row.aux-total-2, .category .aux-widget-recent-posts .aux-row.aux-total-2 { display:grid !important; grid-template-columns:repeat(2, minmax(0,1fr)); }
+  .elementor-162 .elementor-element-240fcbe .aux-total-2 > .aux-col, .author .aux-widget-recent-posts .aux-total-2 > .aux-col, .category .aux-widget-recent-posts .aux-total-2 > .aux-col { width:auto !important; }
+}
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) article.column-entry {
+  display:flex !important; flex-direction:column; width:100%; height:auto !important; margin:0 !important; padding:0 !important; position:relative;
+  background:var(--tfc-tint) !important; border-radius:20px !important; overflow:hidden; box-shadow:none !important; transform:none !important;
+}
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry .entry-media {
+  display:block !important; position:relative; width:auto !important; height:auto !important; margin:0 !important; aspect-ratio:16 / 9; overflow:hidden; border-radius:0 !important;
+}
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry .entry-media :is(.aux-media-frame, a) {
+  display:block !important; width:100% !important; height:100% !important; margin:0 !important; border-radius:0 !important; box-shadow:none !important;
+}
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry .entry-media img {
+  display:block; width:100% !important; height:100% !important; max-width:none !important; object-fit:cover; margin:0 !important; border-radius:0 !important; box-shadow:none !important; transition:transform .5s ease;
+}
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry:hover .entry-media img { transform:scale(1.03); }
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry .entry-main {
+  position:static !important; inset:auto !important; display:flex !important; flex-direction:column; flex:1 1 auto; width:auto !important; height:auto !important; max-width:none !important;
+  margin:0 !important; padding:26px 30px 30px !important; background:none !important; transform:none !important;
+}
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry .entry-header { margin:0 0 10px !important; padding:0 !important; }
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry .entry-format { display:none !important; }
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry :is(.entry-title, .entry-title a) {
+  margin:0 !important; padding:0 !important; font-family:"DM Sans", sans-serif !important; font-size:22px !important; font-weight:700 !important; line-height:1.3 !important; letter-spacing:-.01em !important;
+  color:var(--tfc-navy) !important; text-shadow:none !important; text-align:start !important;
+}
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry .entry-title a:hover { color:var(--tfc-blue) !important; }
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry .entry-content {
+  display:block !important; position:static !important; width:auto !important; height:auto !important; max-height:none !important; margin:0 0 24px !important; padding:0 !important;
+  font-size:16px !important; line-height:1.65 !important; color:var(--tfc-grey) !important; text-align:start !important; -webkit-line-clamp:none;
+}
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry .entry-content p {
+  display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; overflow:hidden; margin:0 !important; font-size:inherit !important; line-height:inherit !important; color:inherit !important;
+}
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry :is(.entry-meta, .aux-after-content) {
+  position:static !important; inset:auto !important; display:block !important; width:auto !important; height:auto !important; margin:auto 0 0 !important; padding:0 !important; text-align:start !important;
+}
+:is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry :is(.readmore, a.aux-read-more) { position:static !important; inset:auto !important; margin:0 !important; float:none !important; }
+@media (max-width:767px) {
+  :is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry .entry-main { padding:22px 22px 26px !important; }
+  :is(.elementor-175 .elementor-element-a9cf1c6, .elementor-175 .elementor-element-098e9ce, .elementor-162 .elementor-element-240fcbe, .author .aux-widget-recent-posts, .category .aux-widget-recent-posts) .column-entry :is(.entry-title, .entry-title a) { font-size:20px !important; }
+}
+@media (prefers-reduced-motion:reduce) { .column-entry .entry-media img { transition:none !important; transform:none !important; } }
+
+/* F10 Services and Blog open with the service pages' tinted intro panel (breadcrumb, title, one sentence); each service
+   tile on the Services page carries one line on what the service covers. */
+.tfc-page-intro { padding:56px 64px; border-radius:32px; background:var(--tfc-tint); text-align:start; }
+.tfc-page-intro .tfc-crumbs { justify-content:flex-start; margin:0 0 16px; }
+.tfc-page-intro h1 { margin:0 !important; padding:0 !important; }
+.tfc-page-head .tfc-page-intro { width:100%; margin-bottom:48px; }
+.elementor-153 .elementor-element-bd46819 .tfc-page-intro { margin-bottom:12px; } /* the tile grid adds its own 36px */
+.tfc-page-intro-text { max-width:640px; margin:16px 0 0; font-size:19px; line-height:1.7; color:var(--tfc-grey); }
+.tfc-tile-desc { max-width:280px; margin:8px auto 0; font-size:15px; line-height:1.55; color:var(--tfc-grey); text-align:center; }
+@media (max-width:1024px) { .tfc-page-intro { padding:44px 40px; border-radius:28px; } }
+@media (max-width:767px) {
+  .tfc-page-intro { padding:36px 22px 34px; border-radius:24px; text-align:center; }
+  .tfc-page-intro .tfc-crumbs { justify-content:center; }
+  .tfc-page-intro-text { margin-inline:auto; font-size:16px; }
+  .tfc-tile-desc { font-size:13.5px; line-height:1.5; }
+}
+
+/* ==================================================================================================
+   Round 23: design audit, phase 4 (About edges, Contact on phones, testimonial authors, footer banner on
+   tablets, team roles, chat button colour (assets/js/config.js), 404 page).
+   ================================================================================================== */
+/* F14 About: the text section and the team row share the 35px page edge at every width (they sat at 60px and 65px
+   on desktop; the text widget's stacked side paddings were only removed below 1025px). */
+@media (min-width:1025px) {
+  .elementor-174 .elementor-element.elementor-element-2e6eeac > .elementor-widget-container { padding-left:clamp(0px, calc(835px - 50vw), 25px) !important; padding-right:clamp(0px, calc(835px - 50vw), 25px) !important; } /* up to 1620px the section starts 10px from the screen edge (25px more = the 35px page edge); from 1670px it is boxed at the footer edge */
+  .elementor-174 .elementor-element-2e6eeac .aux-text-inner { padding-left:0 !important; padding-right:0 !important; }
+}
+@media (min-width:768px) {
+  .elementor-174 .elementor-element-741eadf { padding-left:35px !important; padding-right:35px !important; }
+  .elementor-174 .elementor-element-741eadf > .e-con-inner { gap:30px !important; }
+  .elementor-174 .elementor-element-741eadf > .e-con-inner > .staff-box { flex:1 1 0 !important; width:auto !important; max-width:none !important; margin:0 !important; }
+}
+@media (min-width:768px) and (max-width:1024px) { .elementor-174 .elementor-element-741eadf > .e-con-inner { gap:20px !important; } }
+/* team roles on the photo cards were 11px on phones and tablets */
+@media (max-width:1024px) { .elementor-174 .elementor-element-741eadf .staff-box .aux-widget-staff .col-subtitle { font-size:12.5px !important; line-height:1.35 !important; } }
+
+/* F17 Contact on phones: the notice and the blurred form share one grid cell, so the card is as tall as the notice
+   (in any language) instead of the whole 640px ghost form; the form behind is clipped and fades out. */
+@media (max-width:767px) {
+  .tfc-contact-form { display:grid; grid-template-columns:minmax(0,1fr); align-items:start; }
+  .tfc-contact-form > .tfc-form-notice { grid-area:2 / 1; position:relative; top:auto; left:auto; transform:none; width:auto; margin:0 4px; align-self:center; }
+  .tfc-contact-form > .tfc-form-paused { grid-area:2 / 1; max-height:300px; overflow:hidden; -webkit-mask-image:linear-gradient(#000 50%, transparent); mask-image:linear-gradient(#000 50%, transparent); }
+}
+
+/* F18 Testimonials: the author row sits at the foot of every card, so the three line up whatever the quote length */
+.elementor-175 .testimonial-box .elementor-widget-testimonial { display:flex; flex:1 1 auto; }
+.elementor-175 .testimonial-box .elementor-widget-testimonial > .elementor-widget-container { display:flex; flex-direction:column; flex:1 1 auto; }
+.elementor-175 .testimonial-box .elementor-testimonial-wrapper { display:flex; flex-direction:column; flex:1 1 auto; }
+.elementor-175 .testimonial-box .elementor-testimonial-meta { margin-top:auto; }
+
+/* Footer banner on small tablets: the heading had a 214px column at 768px and broke into six lines; below 881px the
+   banner stacks (heading, then text and button) as it already does on phones. */
+@media (min-width:768px) and (max-width:880px) {
+  .elementor-147 .elementor-element-3e58ed2 { flex-direction:column !important; align-items:flex-start !important; }
+  .elementor-147 .elementor-element-e367744, .elementor-147 .elementor-element-1832a48 { flex:0 0 auto !important; width:100% !important; max-width:600px; --width:100%; }
+}
+
+/* F21 404 page (/404.html) */
+.tfc-404 { box-sizing:border-box; max-width:1670px; margin-inline:auto; padding-inline:35px; padding-block:24px 96px; } /* the page edge the footer uses: 35px, boxed at 1600px */
+.tfc-404-code { margin:0 0 6px; font-family:"DM Sans", sans-serif; font-size:clamp(64px, 5vw + 32px, 112px); font-weight:700; line-height:1; letter-spacing:-.04em; color:var(--tfc-blue); }
+.tfc-404-actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:30px; }
+.tfc-404-langs { display:flex; flex-wrap:wrap; align-items:center; gap:6px 14px; margin:28px 0 0; font-size:15px; font-weight:600; color:var(--tfc-grey); }
+.tfc-404-langs a { color:var(--tfc-blue) !important; text-decoration:none; }
+.tfc-404-langs a:hover { text-decoration:underline; text-underline-offset:4px; }
+@media (max-width:767px) {
+  .tfc-404 { padding-bottom:64px; }
+  .tfc-404-actions { justify-content:center; }
+  .tfc-404-actions .tfc-btn { flex:1 1 100%; }
+  .tfc-404-langs { justify-content:center; flex-direction:column; }
+  .tfc-404-langs span[aria-hidden] { display:none; }
+}
+
+/* ==================================================================================================
+   Round 25: review follow-ups (home About spacing, hero buttons and service tiles on phones, About buttons on phones and
+   tablets, full-width service text and blog posts, list numbering).
+   ================================================================================================== */
+/* Home: the About section sat ~102px under the service tiles from 768px up; the other sections are ~126px apart */
+@media (min-width:768px) { .elementor-175 .elementor-element.elementor-element-3d2e8c8 { --padding-bottom:34px; } }
+/* Home service tiles: the grid kept the section's 10px edge, so long names ran to the screen edge (11px on phones, 10px for
+   "Türkiye Oturum Danışmanlığı" at 1025-1100px); it takes the 35px page edge (as on Services) and long names wrap. From
+   1670px the section is boxed at 1600px and nothing changes. */
+.elementor-175 .elementor-element.elementor-element-3d2e8c8 { --padding-left:35px; --padding-right:35px; }
+/* Home hero on phones: "Watch the video" kept the 20px top margin meant for its stacked layout when it fitted beside
+   the button, so it sat lower, and it touched the button. Both centre on one line when they fit, else stack 16px apart. */
+@media (max-width:767px) {
+  .elementor-175 .elementor-element.elementor-element-bd16315 { --align-items:center; --column-gap:12px; --row-gap:16px; --gap:16px 12px; }
+  .elementor-175 .elementor-element.elementor-element-01bde3a > .elementor-widget-container { margin:0 !important; }
+  /* the play icon sits beside its text, centred with it, 15px apart: the builder's phone setting put it above the text
+     from 415px, and the page's own rule for 414px and below left it 6px above the text's centre (icon bottom margin) */
+  .elementor-175 .elementor-element.elementor-element-01bde3a .elementor-icon-box-wrapper { display:flex; align-items:center; text-align:start; }
+  .elementor-175 .elementor-element.elementor-element-01bde3a .elementor-icon-box-icon { display:inline-flex; flex:0 0 auto; width:auto; margin:0; margin-inline-end:15px; }
+  .elementor-175 .elementor-element.elementor-element-01bde3a .elementor-icon-box-content { padding:0 !important; }
+}
+/* About intro: the buttons sit 32px under the text at every width. They sat 74px under it below 1025px (a 50px builder
+   margin), and 22-57px on desktop, where the column stretches to the photo's height and spread the spare room between its
+   rows; the rows now stay together, centred on the photo. */
+.elementor-174 .elementor-element.elementor-element-575ec41 { align-content:center; }
+.elementor-174 .elementor-element.elementor-element-5e7145b > .elementor-widget-container { margin-bottom:8px; } /* + the row's 24px gap = 32px */
+.elementor-174 .elementor-element-5e7145b .aux-modern-heading-description p:last-child { margin-bottom:0; } /* its 15-16px collapsed into the margin above */
+@media (max-width:767px) { .elementor-174 .elementor-element.elementor-element-575ec41 { --justify-content:flex-start; --column-gap:16px; --gap:24px 16px; } } /* "Contact us" loses its 20px side padding on phones */
+/* Numbered lists restart at 1. Under the theme's `ol { counter-reset:item }`, which replaces the browser's own list-item
+   reset, Firefox continued the citizenship post's second list from the first (8, 9, ...); Chrome was not affected.
+   `start` and `reversed` keep working in Chrome; Firefox ignores them under the theme rule with or without this one (no
+   list on the site uses them). */
+ol { counter-reset:item list-item; }
+
+/* ==================================================================================================
+   Round 26: header logo, contact map, blog post column (the 900px column itself is in the round 22 F2 rule).
+   ================================================================================================== */
+/* Header: the logo was 72px tall, 26px under the top of the page and 52px over the content, 3px above the links' centre
+   line, and 72px from the first link (an empty divider spacer with 22 + 8px margins, plus the menu's 40px padding). It is
+   60px tall now (52px on tablets, set in the tablet block above), 26px under the top and 34px over the content, on the
+   links' centre line, and 48px before the first link (the links are 32px apart). */
+.elementor-149 .elementor-element.elementor-element-c6b0686 { display:none; }
+.elementor-149 .elementor-element.elementor-element-da7e8c6 .aux-widget-logo, .elementor-149 .elementor-element.elementor-element-da7e8c6 .aux-has-logo img { display:block; }
+/* (inline, the two left a 6px text gap under the logo, which lowered the links and the burger by 3px) */
+@media (min-width:1025px) {
+  .elementor-149 .elementor-element.elementor-element-c5cbf15 { --padding-top:26px; --padding-bottom:14px; }
+  .elementor-149 .elementor-element.elementor-element-da7e8c6 .aux-has-logo img { height:60px; }
+  .elementor-149 .elementor-element.elementor-element-db62658 > .elementor-widget-container { margin:0; padding:0; padding-inline-start:48px; }
+}
+/* Contact map: Google matched the address to another business at the same number ("7th House Ceramics" on the pin, with
+   its place card in the top corner), so the map now points at the address's coordinates and shows a plain pin. The TFC
+   card moves to the top corner, clear of Google's map-type and full-screen buttons along the bottom. Until the map has
+   drawn, a pin on the tinted box marks the spot where Google's pin appears. */
+@media (min-width:768px) {
+  /* compact, so it stays clear of the pin in the 385px-wide map at 1025px (the card was 300 x 135px) */
+  .tfc-map-card { top:16px; bottom:auto; inset-inline-start:16px; max-width:250px; gap:2px; padding:14px 16px 15px; border-radius:14px; }
+  .tfc-map-card strong { font-size:15px; }
+  .tfc-map-card span { font-size:13px; line-height:1.45; }
+  .tfc-map-card .tfc-map-link { font-size:13.5px; }
+}
+.tfc-contact-map::before {
+  content:""; position:absolute; left:50%; top:50%; width:28px; height:40px; margin:-40px 0 0 -14px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 40'%3E%3Cpath fill='%230E47C0' d='M14 0C6.3 0 0 6.2 0 13.9 0 24.3 14 40 14 40s14-15.7 14-26.1C28 6.2 21.7 0 14 0z'/%3E%3Ccircle cx='14' cy='14' r='5' fill='%23fff'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+@media (max-width:767px) {
+  .tfc-contact-map iframe { position:relative; } /* stays above the pin (the map is 320px tall here, the card under it) */
+  .tfc-contact-map::before { top:160px; }
+}

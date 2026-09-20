@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-56 -53 1346 1346" width="400" height="400" role="img" aria-label="property-management">
+<defs><mask id="m-property-management" maskUnits="userSpaceOnUse" x="-56" y="-53" width="1346" height="1346"><rect x="-56" y="-53" width="1346" height="1346" fill="#fff"/>
+<rect x="620" y="531.5" width="453" height="518.5" rx="52" stroke="#000" stroke-width="97"/>
+<path d="M755 486h182a22 22 0 0 1 22 22v64a22 22 0 0 1-22 22H755a22 22 0 0 1-22-22v-64a22 22 0 0 1 22-22zM800 448h91a22 22 0 0 1 22 22v40H778v-40a22 22 0 0 1 22-22z" stroke="#000" stroke-width="40" stroke-linejoin="round"/></mask></defs>
+<g fill="none" stroke="#0E47C0" stroke-width="55" stroke-linecap="round" stroke-linejoin="round">
+<g mask="url(#m-property-management)"><path d="M160 516 590 190 918.5 439V255h-99v109"/></g>
+<path d="M260.5 450V946H541"/>
+<rect x="620" y="531.5" width="453" height="518.5" rx="52" stroke-width="55"/>
+<path d="m733 795 67 67 168-157" stroke-width="55"/>
+</g>
+<path d="M755 486h182a22 22 0 0 1 22 22v64a22 22 0 0 1-22 22H755a22 22 0 0 1-22-22v-64a22 22 0 0 1 22-22zM800 448h91a22 22 0 0 1 22 22v40H778v-40a22 22 0 0 1 22-22z" fill="#FFDA2B"/>
+</svg>

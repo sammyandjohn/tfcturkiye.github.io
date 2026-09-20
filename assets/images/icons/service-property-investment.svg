@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-99 -99 1451 1451" width="400" height="400" role="img" aria-label="property-investment">
+<defs><mask id="m-property-investment" maskUnits="userSpaceOnUse" x="-99" y="-99" width="1451" height="1451"><rect x="-99" y="-99" width="1451" height="1451" fill="#fff"/><path d="M467 1065V550a45 45 0 0 1 45-45h230a45 45 0 0 1 45 45v515" stroke="#000" stroke-width="92"/></mask></defs>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M175 566 482 354 684 446 1040 225M899 195H1066V357" stroke="#FFDA2B" stroke-width="72" mask="url(#m-property-investment)"/>
+<path d="M564.5 1060V946a22 22 0 0 1 22-22h81a22 22 0 0 1 22 22v114" fill="#FFDA2B" stroke="#0E47C0" stroke-width="35"/>
+<g stroke="#0E47C0" stroke-width="56">
+<path d="M197 1065V752a35 35 0 0 1 35-35h235"/>
+<path d="M787 687.5h256a35 35 0 0 1 35 35V1065"/>
+<path d="M467 1065V550a45 45 0 0 1 45-45h230a45 45 0 0 1 45 45v515"/>
+<path d="M132 1065.5H1121" stroke-width="56"/>
+</g>
+</g>
+<g fill="#4A94F5">
+<rect x="537" y="585" width="72" height="71" rx="10"/><rect x="645" y="585" width="72" height="71" rx="10"/>
+<rect x="537" y="690" width="72" height="71" rx="10"/><rect x="645" y="690" width="72" height="71" rx="10"/>
+<rect x="537" y="795" width="72" height="71" rx="10"/><rect x="645" y="795" width="72" height="71" rx="10"/>
+<rect x="260" y="795" width="58" height="60" rx="9"/><rect x="348" y="795" width="58" height="60" rx="9"/>
+<rect x="260" y="887" width="58" height="60" rx="9"/><rect x="348" y="887" width="58" height="60" rx="9"/>
+<rect x="853" y="763" width="65" height="72" rx="10"/><rect x="950" y="763" width="65" height="72" rx="10"/>
+<rect x="853" y="870" width="65" height="72" rx="10"/><rect x="950" y="870" width="65" height="72" rx="10"/>
+</g>
+</svg>

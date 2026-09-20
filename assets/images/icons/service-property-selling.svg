@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-92 -92 1450 1450" width="400" height="400" role="img" aria-label="property-selling">
+<defs><mask id="m-property-selling" maskUnits="userSpaceOnUse" x="-92" y="-92" width="1450" height="1450"><rect x="-92" y="-92" width="1450" height="1450" fill="#fff"/>
+<rect x="602" y="554.5" width="533" height="264" rx="40" stroke="#000" stroke-width="80"/>
+</mask></defs>
+<g fill="none" stroke="#0E47C0" stroke-linecap="round" stroke-linejoin="round">
+<g stroke-width="58" mask="url(#m-property-selling)"><path d="M140 542 560 225 880 467"/></g><path d="M755.5 372V265.5h89V440" stroke-width="50" mask="url(#m-property-selling)"/>
+<path d="M223.5 490V950H735" stroke-width="58"/>
+<path d="M865 818V1043M745 1043.5H989" stroke-width="52"/>
+<rect x="602" y="554.5" width="533" height="264" rx="40" fill="#FFDA2B" stroke-width="40"/>
+<g stroke-width="25"><path d="M728 660C722 648 710 643 699 643C683 643 671 651 671 664C671 692 729 684 729 713C729 727 717 735 699 735C684 735 673 728 667 718"/><ellipse cx="817" cy="688.5" rx="45" ry="46"/><path d="M906.5 643V735H955"/><path d="M1001.5 643V735H1028C1056 735 1073 715 1073 689C1073 662 1056 643 1028 643Z"/></g>
+</g>
+</svg>
