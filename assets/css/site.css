@@ -2426,7 +2426,7 @@ ol { counter-reset:item list-item; }
 
 /* ==================================================================================================
    Round 27: small-screen fixes from the mobile audit (Arabic language list, Turkish hero headline,
-   tap targets, contact fields, long names, squeezed heading, chat label).
+   tap targets, contact fields, long names, squeezed heading).
    ================================================================================================== */
 /* F1 The floating language list opened off the left edge in Arabic (x -87 to 99 at every phone width): the rule
    below set `left:0` and then `inset-inline-end:auto`, which in RTL maps to `left` and, coming later, won — so the
@@ -2456,16 +2456,16 @@ ol { counter-reset:item list-item; }
   }
 }
 @media (max-width:767px) {
-  /* F3 Tap targets: footer links were 19px tall, footer headings 17px, breadcrumbs 18px and card titles 22-25px —
-     under the 24px minimum, with six footer links a thumb apart. The links take the spacing as padding instead, so
-     the rhythm on screen is unchanged (footer: 19px link + 12px gap = 31px pitch, now a 31px link and no gap).
-     (The chat widget's label measured 5px short, but that is its arrow sticking out of the box, not clipped text.) */
-  .tfc-footer-col a, .tfc-footer .tfc-footer-h a { display:inline-block; padding-block:6px; }
-  .tfc-footer-col ul { gap:0; }
-  .tfc-footer-wa { min-height:44px; }
+  /* F3 Tap targets: the breadcrumb links' tappable box was 18px tall with nothing else near them, so they take their
+     spacing as padding (cancelled by an equal negative margin, so the row keeps its place) and are 28px now.
+     Three other cases the audit raised are left alone deliberately:
+       - footer links and column headings: the box is 19px/17px, but they sit on a 36.5px pitch, which satisfies the
+         minimum-target rule through spacing (a 24px circle on one never reaches its neighbour). Every layout-neutral
+         way of padding them shifted the footer by 4-26px, which is not worth it for a case that already passes.
+       - card titles and the hero "Watch the video" text: each sits with a large image or play-icon link to the same
+         page (48-59px tappable) — the equivalent-target case.
+       - the chat widget's label measures 5px short, but that is its arrow outside the box, not clipped text. */
   .tfc-crumbs a { display:inline-block; padding-block:5px; margin-block:-5px; }
-  .aux-widget-recent-portfolios .entry-title a, .tfc-heading-link,
-  .elementor-icon-box-title a { display:inline-block; padding-block:5px; margin-block:-5px; }
   /* F4 iOS zooms the page when a focused field is under 16px */
   .tfc-contact-form input[type="text"], .tfc-contact-form input[type="email"], .tfc-contact-form textarea { font-size:16px; }
   /* F6 the heading widget is a flex item that Elementor lets shrink past its content, so at 320px the Turkish
