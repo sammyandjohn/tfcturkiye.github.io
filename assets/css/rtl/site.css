@@ -2890,3 +2890,12 @@ html[dir="rtl"] .aux-offcanvas-menu .tfc-lang .tfc-lang-title { font-size:14px; 
 .single-post .hentry .entry-content li { line-height:var(--tfc-lh-prose); }
 .tfc-about .tfc-list li, .tfc-about .tfc-list li > span, .tfc-about .tfc-list li > strong { line-height:var(--tfc-lh-ui); }
 .tfc-footer-contact a span { line-height:var(--tfc-lh-ui); }
+
+/* -- Go-to-top button (desktop; it is hidden below 1025px): centred on the chat button above it. The chat
+      button is 70px wide with its centre 64px in from the right edge of the window in every language, so the
+      35px arrow sits 64 - 17.5 = 46.5px in from the right. It was 50px (3.5px left of the chat button's
+      centre), and in Arabic the theme's RTL stylesheet moved it to the bottom-left corner while the chat
+      button stays bottom-right, so the two sat on opposite sides of the screen. -- */
+@media (min-width:1025px) {
+  .aux-goto-top-btn, html[dir="rtl"] .aux-goto-top-btn { left:auto !important; right:46.5px !important; }
+}

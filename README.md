@@ -749,3 +749,12 @@ Checked against the pre-rebuild snapshot: every element in the section — posit
 shadow, and the wave background — is identical in all three languages at 1440, 1024 and 390px, with no
 sideways scrolling. Everything else from rounds 28-32 is unchanged. Version: `site.css` / `rtl/site.css`
 `?v=20260921a`.
+
+### Go-to-top button centred on the chat button (2026-09-21)
+On desktop (the arrow is hidden below 1025px) the go-to-top button now sits exactly on the chat button's
+centre line: 46.5px from the right edge, since the 70px chat button's centre is 64px in and the arrow is
+35px wide. It was 3.5px off in English and Turkish, and in Arabic the theme's RTL stylesheet had moved it to
+the bottom-left corner while the chat button stays bottom-right. Measured 0.0px offset at 1025-1920px in all
+three languages; the 15px gap above the chat button is unchanged. When the chat menu is open its three
+channel buttons stack over the arrow and stay on top and clickable, as they already did in English.
+Version: `site.css` / `rtl/site.css` `?v=20260921b`.
