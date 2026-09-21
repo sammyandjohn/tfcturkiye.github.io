@@ -2756,49 +2756,13 @@ html[dir="rtl"] .aux-offcanvas-menu .tfc-lang .tfc-lang-title { font-size:14px; 
       .tfc-svc-text > h2, .tfc-svc-text-body { max-width:<value>; } -- */
 
 /* ==================================================================================================
-   Round 31 (design audit, round D): the home page's process module joins the service pages' step
-   pattern, and the header stays with the reader.
+   Round 31 (design audit, round D): the header stays with the reader. (D1, the process-module rebuild,
+   was withdrawn — see the note below.)
    ================================================================================================== */
-/* -- D1 "Our process" was the last module on the site still in the theme's original language: 81x83px
-      blue badges (not round — the box is 81 wide and 83 tall) with the numerals set in Nunito 35px, the
-      only Nunito on the site and its only use three characters long; a shadow thrown 10px to the left and
-      15px down, the only one of its kind left; and a dotted wave background image that cannot track the
-      badges, masked where it meets each one by a circle carrying a 100px white spread shadow. The service
-      pages' "how it works" does the same job with a 64px yellow circle, DM Sans, a soft yellow shadow and
-      a straight dashed rail. The home module takes those components. It stays card-less on white, where
-      the service module puts white cards on a tinted band: one system, two densities — the home section
-      is a three-step teaser between other sections, not a page's main event. -- */
-.elementor-175 .elementor-element.elementor-element-2e1e9bd:not(.elementor-motion-effects-element-type-background) { background-image:none; }
-.elementor-175 .elementor-element-2e1e9bd .aux-shpe-type-circle { display:none; }   /* the wave's white masks */
-/* the rail is an absolutely positioned ::before, so the badges are lifted above it explicitly rather than
-   relying on paint order (no :has() needed — the shape widgets beside them are display:none) */
-.elementor-175 .elementor-element-2e1e9bd .list-box > .elementor-widget { position:relative; z-index:1; }
-.elementor-175 .elementor-element-2e1e9bd .aux-widget-icon-list .aux-icon-list-item {
-  box-sizing:border-box; width:64px; height:64px; min-height:0; padding:0; border-radius:50%;
-  background-color:var(--tfc-yellow) !important; box-shadow:0 10px 20px -10px rgba(180,140,0,.5) !important;
-  display:flex; align-items:center; justify-content:center;
-}
-.elementor-175 .elementor-element-2e1e9bd .aux-widget-icon-list .aux-icon-list-text {
-  font-family:"DM Sans", sans-serif !important; font-size:22px !important; font-weight:700 !important;
-  line-height:1 !important; color:var(--tfc-navy) !important; margin:0 !important; padding:0 !important;
-}
-.elementor-175 .elementor-element-2e1e9bd .aux-widget-icon-list,
-.elementor-175 .elementor-element-2e1e9bd .aux-widget-icon-list .aux-icon-list-items { margin:0 !important; padding:0 !important; }
-/* the dashed rail runs between the first and last badge, on their centre line (the three columns are equal
-   and sit flush, so each badge centre is a sixth of the row in from its end) */
-@media (min-width:768px) {
-  /* the three columns are equal, so each badge centre sits (row - 2 gaps) / 6 in from its end. The columns
-     are flush above 1024px and 30px apart below it (an Elementor tablet margin, not a container gap). */
-  .elementor-175 .elementor-element-2e1e9bd > .e-con-inner { position:relative; --tfc-proc-gap:0px; }
-  .elementor-175 .elementor-element-2e1e9bd > .e-con-inner::before {
-    content:""; position:absolute; top:31px; height:2px; z-index:0;
-    left:calc((100% - 2 * var(--tfc-proc-gap)) / 6); right:calc((100% - 2 * var(--tfc-proc-gap)) / 6);
-    background:linear-gradient(90deg, rgba(14,71,192,.4) 50%, transparent 0) 0 0 / 12px 2px repeat-x;
-  }
-}
-@media (min-width:768px) and (max-width:1024px) {
-  .elementor-175 .elementor-element-2e1e9bd > .e-con-inner { --tfc-proc-gap:30px; }
-}
+/* -- D1 (withdrawn, 2026-09-21) Round 31 rebuilt the home "Our process" module on the service pages' step
+      pattern (64px yellow badges, a straight dashed rail, the wave and its masks removed). The previous
+      design — blue badges on the dotted wave — was preferred, so the module is back to it exactly; the
+      rules were removed rather than overridden. -- */
 
 /* -- D2 The header stays with the reader. Pages run 1,650-9,600px and the navigation scrolled away at the
       top of every one of them; below 1025px the go-to-top button is hidden too, so a phone had no way back
@@ -2915,16 +2879,13 @@ html[dir="rtl"] .aux-offcanvas-menu .tfc-lang .tfc-lang-title { font-size:14px; 
    About hero lead     16px/1.56, 15px/1.67 on phones, against the home hero's 17px.
    Home "About us" text 18px/1.39 on desktop and 14px/1.79 on tablets and phones, where the four blurbs
                        beside it are 16px: the smallest body copy on the site, in its main paragraph.
-   Process captions    18px/1.39 on desktop, 15px at 1024 and 16px on phones — not even monotonic, and the
-                       service pages' step captions are 16px/1.6 at every width.
+   (The process step captions were on this list too; they went back to their previous sizes with the
+   previous process design.)
    Post list items     1.9 against their own paragraphs' 1.75. */
 .elementor-175 .elementor-element.elementor-element-e3d356c .aux-modern-heading-description p,
 .elementor-174 .elementor-element.elementor-element-5e7145b .aux-modern-heading-description p,
 .elementor-175 .elementor-element.elementor-element-e17972c .aux-modern-heading-description p {
   font-size:var(--tfc-t-prose); line-height:var(--tfc-lh-prose);
-}
-.elementor-175 .elementor-element.elementor-element-2e1e9bd .aux-modern-heading-description p {
-  font-size:var(--tfc-t-body); line-height:var(--tfc-lh-ui);
 }
 .single-post .hentry .entry-content li { line-height:var(--tfc-lh-prose); }
 .tfc-about .tfc-list li, .tfc-about .tfc-list li > span, .tfc-about .tfc-list li > strong { line-height:var(--tfc-lh-ui); }

@@ -739,3 +739,13 @@ RTL and Turkish headers, the process module's geometry at six widths, a clipping
 pages x 4 widths x 3 languages (0 flags), all 45 pages plus 404 at 200, all 5,628 local references, both
 scripts parsing, and the RTL mirror identical from the shared block on.
 Version: `site.css` / `rtl/site.css` `?v=20260920k`.
+
+### "Our process" back to the previous design (2026-09-21)
+Round 31's rebuild of the home "Our process" module (64px yellow badges on a straight dashed rail, taking the
+service pages' step pattern) is withdrawn: the previous design — the blue numbered badges on the dotted
+wave — was preferred. The round 31 rules were removed rather than overridden, and the step captions went
+back to their previous sizes with it, since round 32 had resized them only to match the rebuilt module.
+Checked against the pre-rebuild snapshot: every element in the section — position, size, colour, font,
+shadow, and the wave background — is identical in all three languages at 1440, 1024 and 390px, with no
+sideways scrolling. Everything else from rounds 28-32 is unchanged. Version: `site.css` / `rtl/site.css`
+`?v=20260921a`.
